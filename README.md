@@ -15,5 +15,5 @@
 ## Advertencia
 
 ```
-Actualmente la version v0.3.3 y la v0.3.4 son versiones distintas
+Actualmente la version v0.3.3 y la v0.3.4 son traducciones distintas
 ```
