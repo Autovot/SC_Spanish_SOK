@@ -20,4 +20,4 @@
 
 ## Advertencia
 
-> La version de latam esta menos pulida actualmente, usadla conmoderacion, cualquier cosa [Issue Council](https://github.com/Autovot/SC_Spanish_SOK/issues)
+> La version de latam esta menos pulida actualmente, usadla con moderacion, cualquier cosa [Issue Council](https://github.com/Autovot/SC_Spanish_SOK/issues)
