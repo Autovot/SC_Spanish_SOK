@@ -18,5 +18,5 @@ Ejemplo:
 **Imágenes**
 Inserta imágenes del fallo para facilitar la identificación de lo que hay que arreglar
 
-**Versión del juego**
-Agrega la versión que estas jugando actualmente (Ejemplo: 3.20 LIVE)
+**Versión del juego y idioma**
+Agrega la versión que estas jugando actualmente (Ejemplo: 3.20 LIVE spanish_(spain))
