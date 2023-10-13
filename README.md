@@ -17,3 +17,7 @@
 >Releases: cada día a las 18:00 GMT+2 (europe/madrid)
 
 >Pre-releases: cada cierto rato, cuando veamos que tenemos bastante codigo
+
+## Advertencia
+
+> La version de latam esta menos pulida actualmente, usadla conmoderacion, cualquier cosa [Issue Council](https://github.com/Autovot/SC_Spanish_SOK/issues)
