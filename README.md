@@ -17,9 +17,3 @@
 >Releases: cada día a las 18:00 GMT+2 (europe/madrid)
 
 >Pre-releases: cada cierto rato, cuando veamos que tenemos bastante codigo
-
-## Advertencia
-
-```md
-Actualmente la version v0.3.3 y la v0.3.4 son traducciones distintas
-```
