@@ -12,6 +12,12 @@
 * 𐒝órnacκ®
 * Autovot
 
+## Updates
+
+>Releases: cada día a las 18:00 GMT+2 (europe/madrid)
+
+>Pre-releases: cada cierto rato, cuando veamos que tenemos bastante codigo
+
 ## Advertencia
 
 ```md
