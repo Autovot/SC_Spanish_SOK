@@ -9,7 +9,7 @@
 
 * [Autovot](https://github.com/Autovot)
 * [JimmyVaras](https://github.com/JimmyVaras)
-* Jota_be
+* [Jota_be](https://www.twitch.tv/jota_be)
 * [Keiran](https://github.com/darkcidx)
 * 𐒝órnacκ®
 * [Sπeler](https://github.com/Spieler1ONE1)
