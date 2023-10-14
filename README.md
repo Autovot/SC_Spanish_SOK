@@ -7,10 +7,13 @@
 
 ## Colaboradores actuales
 
-* Sπeler
-* ZettaZ
+* [Autovot](https://github.com/Autovot)
+* [JimmyVaras](https://github.com/JimmyVaras)
+* Jota_be
+* [Keiran](https://github.com/darkcidx)
 * 𐒝órnacκ®
-* Autovot
+* [Sπeler](https://github.com/Spieler1ONE1)
+* [ZettaZ](https://github.com/zzettazz)
 
 ## Updates
 
