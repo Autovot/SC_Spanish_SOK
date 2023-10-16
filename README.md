@@ -11,7 +11,7 @@
 * [JimmyVaras](https://github.com/JimmyVaras)
 * [Jota_be](https://www.twitch.tv/jota_be)
 * [Keiran](https://github.com/darkcidx)
-* 𐒝órnacκ®
+* [𐒝órnacκ®](https://github.com/gauria)
 * [Sπeler](https://github.com/Spieler1ONE1)
 * [ZettaZ](https://github.com/zzettazz)
 
