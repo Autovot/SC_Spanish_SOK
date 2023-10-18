@@ -17,6 +17,4 @@
 
 ## Updates
 
->Releases: cada día a las 18:00 GMT+2 (europe/madrid)
-
->Pre-releases: cada cierto rato, cuando veamos que tenemos bastante codigo
+Informacion sobre las releases y la traduccion en [nuestro discord](https://discord.gg/aggMUUM4Xr)
