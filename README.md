@@ -12,7 +12,7 @@
 * [Jota_be](https://www.twitch.tv/jota_be)
 * [Keiran](https://github.com/darkcidx)
 * [𐒝órnacκ®](https://github.com/gauria)
-* [Sπeler](https://github.com/Spieler1ONE1)
+* [Sπeler](https://www.twitch.tv/spielerwan))
 * [ZettaZ](https://github.com/zzettazz)
 
 ## Updates
