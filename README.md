@@ -2,8 +2,9 @@
 
 ## Guia basica
 
-1) Descomprimir
-2) Colocar en carpeta de instalación del juego CARPETA LIVE (Ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`)
+1) Descargar la [ultima version](https://github.com/Autovot/SC_Spanish_SOK/releases)
+2) Descomprimir
+3) Colocar en carpeta de instalación del juego CARPETA LIVE (Ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`)
 
 ## Colaboradores actuales
 
