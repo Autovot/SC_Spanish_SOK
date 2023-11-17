@@ -26,7 +26,7 @@ REM Elimitar el archivo user.cfg
 IF EXIST user.cfg.new DEL /F user.cfg.new
 
 REM Se crea el archivo user.cfg con el idioma
-echo "g_language = spanish_(spain)" > ../user.cfg
+echo g_language=spanish_(spain) > ../user.cfg
 
 echo:
 echo Traduccion realizada. Bienvenido al Verso.
