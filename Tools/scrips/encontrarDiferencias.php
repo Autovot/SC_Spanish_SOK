@@ -1,9 +1,7 @@
 <?php
 $archivoOriginal = file(__DIR__ . "/../../data/Localization/english/global.ini");
 $archivoTraducido = file(__DIR__ . "/../../data/Localization/spanish_(spain)/global.ini");
-$archivo = fopen(__DIR__ . "/Tools/scrips/diferencias.txt", "a");
-fwrite($archivo, "---------------------------------------------\n");
-
+$archivo = fopen(__DIR__ . "/diferencias.txt", "a");
 foreach ($archivoOriginal as $numLinea => $contenidoLinea) {
     $partesOriginal = explode("=", $contenidoLinea);
     $partesTraducida = explode("=", $archivoTraducido[$numLinea]);
@@ -17,6 +15,7 @@ foreach ($archivoOriginal as $numLinea => $contenidoLinea) {
 
         // Guardammos (append) los cambios en un txt
 
+        fwrite($archivo, "---------------------------------------------\n");
         fwrite($archivo, "La línea " . ($numLinea + 1) . " no coincide\n");
         fwrite($archivo, "ORIGINAL     : " . $partesOriginal[0] . "\n");
         fwrite($archivo, "TRADUCCIÓN   : " . $partesTraducida[0]);
