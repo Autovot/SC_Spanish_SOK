@@ -11,6 +11,7 @@
 * [Autovot](https://github.com/Autovot)
 * [JimmyVaras](https://github.com/JimmyVaras)
 * [Jota_be](https://www.twitch.tv/jota_be)
+* [juancmontes](https://github.com/juancmontes)
 * [Keiran](https://github.com/darkcidx)
 * [𐒝órnacκ®](https://github.com/gauria)
 * [Sπeler](https://www.twitch.tv/spielerwan)
