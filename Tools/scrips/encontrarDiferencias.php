@@ -1,7 +1,7 @@
 <?php
-$archivoOriginal = file("../../data/Localization/english/global.ini");
-$archivoTraducido = file("../../data/Localization/spanish_(spain)/global.ini");
-$archivo = fopen("diferencias.txt", "a");
+$archivoOriginal = file(__DIR__ . "/../../data/Localization/english/global.ini");
+$archivoTraducido = file(__DIR__ . "/../../data/Localization/spanish_(spain)/global.ini");
+$archivo = fopen(__DIR__ . "/Tools/scrips/diferencias.txt", "a");
 fwrite($archivo, "---------------------------------------------\n");
 
 foreach ($archivoOriginal as $numLinea => $contenidoLinea) {
