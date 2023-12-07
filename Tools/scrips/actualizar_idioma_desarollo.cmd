@@ -37,5 +37,5 @@ REM Se crea el archivo user.cfg con el idioma
 echo g_language=spanish_(spain) > ../user.cfg
 
 echo:
-echo Traduccion realizada. Bienvenido al Verso.
+echo Traduccion en desarollo actualizada. Disfruta de la traduccion.
 pause
