@@ -35,6 +35,7 @@ IF EXIST user.cfg.new DEL /F user.cfg.new
 
 REM Se crea el archivo user.cfg con el idioma
 echo g_language=spanish_(spain) > ../user.cfg
+echo g_languageAudio=english >> ../user.cfg
 
 echo:
 echo Traduccion en desarollo actualizada. Disfruta de la traduccion.
