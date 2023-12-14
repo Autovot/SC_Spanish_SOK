@@ -22,10 +22,7 @@
 
 
 
-Stanton1_HRST_UGF_001
-Stanton1_HRST_UGF_002
-Stanton1_HRST_UGF_003
-Stanton1_HRST_UGF_004
+
 Stanton1_CVLC_UGF_002=Covalex Distribution Center S1DC04
 Stanton1_CVLC_UGF_004=Covalex Distribution Center S1DC10
 Stanton1_CVLC_UGF_005=Covalex Distribution Center S1DC11
