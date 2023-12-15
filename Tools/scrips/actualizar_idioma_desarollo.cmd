@@ -7,7 +7,6 @@ set BATCH_PATH=%BATCH_PATH:~0,-1%
 
 REM Verificar que estamos en LIVE, PTU, EPTU, TECH-PREWIEV
 
-
 echo %BATCH_PATH% | findstr /I /C:"\StarCitizen\LIVE\data" >nul
 if errorlevel 1 (
     echo %BATCH_PATH% | findstr /I /C:"\StarCitizen\PTU\data" >nul
