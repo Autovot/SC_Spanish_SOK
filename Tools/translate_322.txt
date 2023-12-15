@@ -245,8 +245,6 @@ item_Desc_rrs_specialist_light_legs_01_coramor_02
 item_NameMRCK_S03_XNAA_SanTokYai
 item_NameXNAA_SanTokYai_Mount_Gimbal
 net_dialog_server_error,P
-ui_pause_PopupExitingToMenu,P=Saliendo al menu...
-ui_pause_PopupQuittingGame,P=Cerrando el juego...
 ea_ui_frontend_ExperimentalModes
 ea_ui_frontend_ExperimentalModesActive
 ea_ui_frontend_ExperimentalModesReset
