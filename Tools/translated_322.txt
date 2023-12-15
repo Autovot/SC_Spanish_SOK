@@ -1,0 +1,4 @@
+scan_data_career
+scan_data_carrying
+scan_data_power_powered,P
+scan_data_power_unpowered,P
