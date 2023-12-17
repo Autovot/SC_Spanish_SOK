@@ -1,1 +1,3 @@
-Tools/scrips/diferencias.txt
+Tools/scripts/diferencias.txt
+Tools/scripts/release/*
+!Tools/scripts/release/create_release.py
