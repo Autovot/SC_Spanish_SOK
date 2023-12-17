@@ -1,4 +1,3 @@
-from json import tool
 import os
 import zipfile
 import shutil
