@@ -6,6 +6,12 @@
 - [ ] Hay que reemplazar librea/livery por diseño
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
 
+## Traducir
+
+```text
+item_Desc_clda_env_heavy_unified_01_iae2023_01
+```
+
 ## Revisar las siguientes variables
 
 ```text
