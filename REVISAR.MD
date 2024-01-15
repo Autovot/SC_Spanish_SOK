@@ -24,6 +24,7 @@ scan_data_power_unpowered,P
 shop_ui_dropdown_allOptions,P
 shop_ui_dropdown_subLocationHeaderBuy,P
 shop_ui_dropdown_subLocationHeaderSell,P
+ui_pregame_hangar_selfland_history
 ```
 
 ## Cosas sueltas
