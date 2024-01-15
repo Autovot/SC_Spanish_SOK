@@ -1,4 +1,8 @@
-# Traducción en Español de Star Citizen
+# [Traducción en Español de Star Citizen](https://discord.gg/aggMUUM4Xr)
+
+## Información
+
+Esta traducción para evitar problemas con las fuentes de texto, se ha decidido no usar acentos ni caracteres especiales.
 
 ## Guia basica
 
