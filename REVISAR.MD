@@ -5,6 +5,8 @@
 - [ ] Revisiones de descripciones de naves
 - [ ] Hay que reemplazar librea/livery por diseño
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
+- [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
+- [ ] Cambiar `multiherramienta` por `Multi-Tool`
 
 ## Traducir
 
