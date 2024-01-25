@@ -5,6 +5,14 @@
 - [ ] Revisiones de descripciones de naves
 - [ ] Hay que reemplazar librea/livery por diseño
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
+- [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
+- [ ] Cambiar `multiherramienta` por `Multi-Tool`
+
+## Traducir
+
+```text
+item_Desc_clda_env_heavy_unified_01_iae2023_01
+```
 
 ## Revisar las siguientes variables
 
@@ -16,6 +24,7 @@ scan_data_power_unpowered,P
 shop_ui_dropdown_allOptions,P
 shop_ui_dropdown_subLocationHeaderBuy,P
 shop_ui_dropdown_subLocationHeaderSell,P
+ui_pregame_hangar_selfland_history
 ```
 
 ## Cosas sueltas
