@@ -3,7 +3,7 @@
 ## Encontrar diferecnias
 
 ```shell
-php .\Tools\scrips\encontrarDiferencias.php
+php .\Tools\scripts\encontrarDiferencias.php
 ```
 
 ## Crear una release (pendiente de automazación con github actions)
