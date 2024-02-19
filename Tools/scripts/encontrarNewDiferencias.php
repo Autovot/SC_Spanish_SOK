@@ -6,7 +6,7 @@ foreach ($archivoOriginal as $numLinea => $contenidoLinea) {
         echo "\n---------------------------------------------";
         echo "\nLa línea " . ($numLinea + 1) . " no coincide\n";
         echo "ORIGINAL     : \033[0;31m" . $contenidoLinea . "\033[0m\n";
-        echo "TRADUCCIÓN   : \033[0;31m" . $$archivoNuevo[$numLinea] . "\033[0m";
+        echo "Nuevo   : \033[0;31m" . $archivoNuevo[$numLinea] . "\033[0m";
         echo "\n---------------------------------------------\n\n";
         break;
     }
