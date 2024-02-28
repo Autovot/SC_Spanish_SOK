@@ -2,4 +2,4 @@ Tools/scripts/diferencias.txt
 Tools/scripts/release/*
 !Tools/scripts/release/create_release.py
 # data/Localization/english/global.new.ini
-.vscode
+# .vscode
