@@ -2,3 +2,58 @@
 
 ARCC_UGF_desc_shared=Un parque industrial exclusivo de ArcCorp que maneja una variedad de necesidades de distribucion y procesamiento para la empresa.
 
+CRAS_UGF_desc_shared=This processing plant is a vital part of Cry-Astro's fuel network, helping to fuel your future.
+
+CRUS_UGF_desc_shared=One of the many facilities that Crusader Industries uses to manufacture their ships.
+
+CVLX_UGF_desc_shared=This distribution center is one of many facilities used by Covalex Shipping to sort and fulfill orders.
+
+Civilian_RepUI_Area,P=[PH] Area
+Civilian_RepUI_Description,P=[PH] Civilian Description
+Civilian_RepUI_Focus,P=[PH] Civilian Focus
+Civilian_RepUI_Founded,P=[PH] N/A
+Civilian_RepUI_Headquarters,P=[PH] Civilian Headquarters
+Civilian_RepUI_Leadership,P=[PH] Civilian Leadership
+
+Civilian_RepUI_Name,P=[PH] Civilian
+
+ClovusDarneely_RepUI_Location=Lorville, Hurston, Stanton System
+
+GRIN_UGF_desc_shared=Greycat Industrial produces many of its varied products at this underground production complex.
+
+HRST_UGF_desc_shared=This Hurston Dynamics Production Center is for authorized personnel only.
+
+MITE_UGF_desc_shared=microTech uses depots like this location to support their large catalogue of consumer electronics.
+
+SASU_UGF_desc_shared=Working to make each day better, this workcenter and its employees are proud to be part of the Sakura Sun family.
+
+Stanton1_CRAS_UGF_001=Cry-Astro Hurston Processing Plant 19-02
+Stanton1_CVLC_UGF_002=Covalex Distribution Center S1DC06
+Stanton1_CVLX_UGF_001=Covalex Distribution Center S1DC02
+
+Stanton1_DrugLab_001=Echo Isle
+Stanton1_DrugLab_001_Desc=They always come back.
+Stanton1_GRIN_UGF_001=Greycat Stanton I Production Complex-A
+Stanton1_GRIN_UGF_002=Greycat Stanton I Production Complex-B
+Stanton1_HRST_UGF_001=HDPC-Cassillo
+Stanton1_HRST_UGF_002=HDPC-Degland
+Stanton1_HRST_UGF_003=HDPC-Farnesway
+Stanton1_HRST_UGF_004=HDPC-Tiyago
+
+Stanton2b_CRUS_UGF_001=Crusader Industries Daymar Center B14
+
+Stanton3a_GRIN_UGF_001=Greycat Stanton 3a Production Complex-A
+
+Stanton3b_ARCC_UGF_001=ArcCorp Wala-1 Industrial Park
+Stanton3b_ArcCorp_001=ArcCorp Mining Area 045
+Stanton3b_ArcCorp_002=ArcCorp Mining Area 048
+Stanton3b_ArcCorp_003=ArcCorp Mining Area 056
+Stanton3b_ArcCorp_004=ArcCorp Mining Area 061
+Stanton3b_Desc=The low density of Wala is particularly susceptible to tidal forces which result in the moon being noticeably prolate.
+
+Stanton4_CRAS_UGF_001=Cry-Astro Processing Plant 34-12
+Stanton4_CVLX_UGF_001=Covalex Distribution Center S4DC05
+
+Stanton4_MITE_UGF_001=microTech Logistics Depot S4LD01
+
+Stanton4_SASU_UGF_001=Sakura Sun Goldenrod Workcenter
