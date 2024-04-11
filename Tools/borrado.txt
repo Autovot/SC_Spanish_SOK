@@ -1,0 +1,4 @@
+@ui_v_ifcs_esp_hold=ESP - Habilitar temporalmente (mantener)ç
+
+ARCC_UGF_desc_shared=Un parque industrial exclusivo de ArcCorp que maneja una variedad de necesidades de distribucion y procesamiento para la empresa.
+
