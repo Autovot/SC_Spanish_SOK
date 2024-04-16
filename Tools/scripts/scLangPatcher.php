@@ -12,6 +12,7 @@
 //---------------------------------------------------------------------------------------------------------------------
 
 
+// COMMAND : php scLangPatcher.php <LogCopyPasteFormat? true|false> <Generate Logs File Only? true|false>
 
 
 // CONFIG (ONLY TOUCH THIS)
