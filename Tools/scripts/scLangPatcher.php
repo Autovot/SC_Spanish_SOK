@@ -44,6 +44,8 @@ $debugLevel = 2;                    // DEBUG LEVEL = 1,2,3 (2 RECOMENDED FOR NOR
 // UNLES YOU KNOW WHAT YOU DOING
 // (VARIABLE LIST)
 
+$logCopyPasteFormat = false;
+
 $originalFile;
 $newFile;
 $finalFileAsociativeArray;
@@ -62,6 +64,8 @@ $finalContent;
 $counter;
 
 // DECLARATIONS
+if ((isset($argv[1])) && ((boolval(trim($argv[1])) == true) || (boolval(trim($argv[1])) == false)))
+    $logCopyPasteFormat = boolval(trim($argv[1]));
 
 if ($language != "es" && $language != "en") {
     echo ("Invalid language selected");
@@ -213,7 +217,11 @@ if ($crearLogs) {
     $logContent = $logContent . "--  " . getTranslation("new.lines.logs.title") . "  --\n";
     $logContent = $logContent . "---------------------\n\n";
     foreach ($newLines as $key => $value) {
-        $logContent = $logContent . $key . "=" . $value;
+        if ($logCopyPasteFormat) {
+            $logContent = $logContent . $key . "=" . $value;
+        } else {
+            $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+        }
     }
 }
 
@@ -249,7 +257,11 @@ if ($crearLogs) {
     $logContent = $logContent . "-- " . getTranslation("deleted.lines.logs.title") . " --\n";
     $logContent = $logContent . "-----------------------\n\n";
     foreach ($deletedLines as $key => $value) {
-        $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+        if ($logCopyPasteFormat) {
+            $logContent = $logContent . $key . "=" . $value;
+        } else {
+            $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+        }
     }
 }
 
@@ -295,7 +307,11 @@ if ($crearLogs) {
     $logContent = $logContent . "------------------------\n\n";
     foreach ($changedLines as $key => $value) {
         $tempValue = trim($value);
-        $logContent = $logContent . "[" . $key . "] => [" . $tempValue . "]\n";
+        if ($logCopyPasteFormat) {
+            $logContent = $logContent . $key . "=" . $tempValue;
+        } else {
+            $logContent = $logContent . "[" . $key . "] => " . $tempValue . "\n";
+        }
     }
 }
 
