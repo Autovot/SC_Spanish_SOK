@@ -213,7 +213,7 @@ if ($crearLogs) {
     $logContent = $logContent . "--  " . getTranslation("new.lines.logs.title") . "  --\n";
     $logContent = $logContent . "---------------------\n\n";
     foreach ($newLines as $key => $value) {
-        $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+        $logContent = $logContent . $key . "=" . $value;
     }
 }
 
