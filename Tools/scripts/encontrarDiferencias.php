@@ -1,5 +1,5 @@
 <?php
-$archivoOriginal = file(__DIR__ . "/../../data/Localization/english/global.ini");
+$archivoOriginal = file(__DIR__ . "/../../data/Localization/english/global.new.ini");
 $archivoTraducido = file(__DIR__ . "/../../data/Localization/spanish_(spain)/global.ini");
 $archivo = fopen(__DIR__ . "/diferencias.txt", "a");
 foreach ($archivoOriginal as $numLinea => $contenidoLinea) {
