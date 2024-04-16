@@ -21,9 +21,9 @@ $language = "en";
 
 $crearLogs = true;                  // CREATE LOGS FILE ¿?
 
-$archivoOriginal = "global.ini";    // ORIGINAL / OLD INI FILE
-$archivoNuevo = "global.new.ini";   // NEW PATCH INI FILE
-$archivoFinal = "global.final.ini"; // FINAL INI FILE (WITH ALL CHANGES)
+$archivoOriginal = "../../data/Localization/english/global.ini";    // ORIGINAL / OLD INI FILE
+$archivoNuevo = "../../data/Localization/english/global.new.ini";   // NEW PATCH INI FILE
+$archivoFinal = "../../data/Localization/english/global.final.ini"; // FINAL INI FILE (WITH ALL CHANGES)
 
 $archivoLog = "log.txt";            // LOG FILE NAME (.TXT RECOMENDED)
 $onlyLogs = false;                  // GENERATE ONLY LOG FILE? (LESS PROCESSING TIME)
@@ -291,7 +291,7 @@ if ($crearLogs)
     {
         $tempValue = trim($value);
         if ($logCopyPasteFormat == false) $logContent = $logContent."[".$key."] => [".$tempValue."]\n";
-        elseif ($logCopyPasteFormat == true) $logContent = $logContent.$key."=".$tempValue;
+        elseif ($logCopyPasteFormat == true) $logContent = $logContent.$key."=".$tempValue."\n";
     }
 }
 

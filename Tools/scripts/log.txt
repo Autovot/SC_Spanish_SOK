@@ -1,4 +1,4 @@
-16-04-2024 23:49:39
+17-04-2024 00:25:57
 
 ---------------------
 --  NEW LINES  --
@@ -1218,589 +1218,405 @@ xenothreat_defend_HH_VH_title_001=Halt Incoming Headhunter Incursion
 -- DELETED LINES --
 -----------------------
 
-[Hints_ADS1] => Use ~action(player|zoom) to aim down the weapon sights.
-
-[Hints_ADSContext01] => To hold breath use ~action(player|stabilize).\nTo zoom in and out use ~action(player|zoom_in) / ~action(player|zoom_out).
-
-[Mtps_killallcreatures_onetype_desc_01] => ABOUT THE JOB\nmicroTech Protection Services need a professional to bring the number of ~mission(creature) in the wild back to within acceptable parameters. Their population is increasing too quickly, and culling some of their numbers will help ensure the situation doesn’t spiral out of control.\n\nRESPONSIBILITIES\n• Provide own transportation.\n• Locate the ~mission(creature) on ~mission(Location).\n• Use force as necessary to eliminate the ~mission(creature).\n\nMINIMUM QUALIFICATIONS\n• 1 year of relevant mercenary and/or security experience.\n• Access to combat equipment.\n• Available for immediate deployment.\n\nPREFERRED QUALIFICATIONS\n• Experience with extermination
-
-[Mtps_killallcreatures_onetype_title_01] => Wildlife Control: ~mission(creature)
-
-[Tut03_Part03_Journal01_TraversingtheVerse_Content] => Congratulations!\n\nYou’ve completed the Star Citizen Tutorial and are ready to explore the universe! \n\nNow it’s up to you decide what your life in space will be like. The Contract Manager on your mobiGlas contains many different opportunities for you to pursue from simple delivery missions to dangerous criminal jobs. Work hard and you can build your reputation with different organizations to gain access to more rewarding contracts. Whether you choose to live a life of crime or hunt down bounties and enforce the law, it is up to you.\n\nHowever, if you’d rather forge your own path, feel free to use the StarMap in the mobiGlas and explore all the Stanton system has to offer. From the snowy wastelands of microTech to the floating city of Orison, there is still much for you to learn and discover. If you ever need further assistance, you can seek the guidance of experienced players through the Guide system on Spectrum (on the Roberts Space Industries website), read the helpful posts in the online Knowledge Base, or ask for a helping hand in chat. Your journal is also a valuable resource, containing entries that summarize and elaborate on everything covered in the tutorial.\n\nBut once you venture beyond the major cities and space stations, take care. Outside of these protected armistice zones you will encounter many dangers in the search for profit. Wherever your next steps take you, safe flying!\n\nPRACTICE MAKES PERFECT\nIf you’re interested in practicing flying or experiencing combat without risking your ship, Star Citizen features an arcade mode called ‘Arena Commander’ as an option in the game’s main menu.\n\nMOBIGLAS\nYour mobiGlas personal computer features a variety of functions and apps essential to life in the ‘verse.  Below is a list of all the apps, listed in the order they appear, that are accessible via the icons at the bottom of your mobiGlas.\n\n_______________________________________\nMOBIGLASS APPS\n\nHome – Displays information about your personal status including your health and how many credits you have to your name.\n\nCommlink – Shows chat channels, friends, and pending invites to the party system. Create a party, invite other players, or send friend requests here. You can also activate or deactivate proximity-based voice chat from this app.\n\nVehicle Loadout Manager – Customized the loadout, including components or paints, for any vehicle you own that are stored at your current local location. Components you wish to use must be in your local inventory.\n\nNikNax – Locate any assets you have stored across the 'verse. Selecting an asset will provide added details.\n\nSkyline – Access the StarMap set Quantum Travel routes by selecting a location and pressing the “Set As Destination” button. \n\nmo.Trader – Send aUEC to any player. Party members will be pinned to the top of the selection list.\n\nContracts Manager – View, accept, and manage contracts. The Contracts Manager is divided into the following tabs: General, Personal, Accepted, and History.\n• The General Tab displays local contracts certified to meet UEE and local law requirements. \n• The Personal Tab displays contracts sent specifically to your account, often from unknown sources that may violate local laws.\n• Once you accept an offer, contracts are moved to the Accepted Tab, and once a contract ends, either through successful completion or by other means, a record of it is kept in the History Tab.\n\nVehicle Maintenance Services – Repair, restock, and refuel your vehicles.\n\nJournal – A record of useful information and documents, including tutorial information.\n\nDelphi – Track your reputation with individual organizations or contacts.
-
-[area_name_ext_transit,P] => External Transit
-
-[area_name_foodcourt,P] => Foodcourt
-
-[area_name_galleria,P] => Galleria
-
-[area_name_int_transit,P] => Internal Transit
-
-[bounty_obj_long_02_target04] => Locate and neutralize ~mission(TargetName3) at ~mission(Location|Address).
-
-[destoryitems_item_03,P] => Server racks
-
-[destoryitems_item_04,P] => Vehicles
-
-[dfm_ac_ui_RulesTargetScore] => Target Score
-
-[dfm_ac_ui_RulesTimeLimit] => Time Limit
-
-[dfm_ui_Critical_BecameAce] => BECAME AN ACE
-
-[dfm_ui_Critical_OnFinalKill] => ON FINAL KILL
-
-[ea_ui_matchmaking_error_CancelledByServices] => Matchmaking cancelled by services.
-
-[flightHUD_Label_WrongOrientation,P] => Misaligned with Gravity
-
-[hud_darkwater_turnin_gold] => You have received a F8C rental for 1 day and can purchase the ship.
-
-[hud_darkwater_turnin_plat] => You have received an F8C with LTI. Relaunch your client.
-
-[hud_mining_asteroid_name_7] => Asteroid (Ice)
-
-[item_DescSTOR_opencontainer_1-8_SCU] => Designed by one of the most trusted names in cargo pods, the Stor*All Storage Box provides a convenient place to keep any small items. Its durable impact-resistant construction is sealed to survive the vacuum of space.
-
-[item_Desc_MYM_shirt_02_01_imperator] => A casual and comfortable grey long sleeve shirt that looks good whether you're out and about or just lounging at home. MuyMuy's exclusive Pathfinder edition of the Atavi steps up the style by including striking silver sleeves.\n\nWomen's sizes currently out of stock.
-
-[item_Desc_alb_jacket_04_01_01,P] => PH - alb_jacket_04_01_01
-
-[item_Desc_alb_jacket_05_01_04,P] => PH - alb_jacket_05_01_04
-
-[item_Desc_alb_jacket_05_01_16,P] => PH - alb_jacket_05_01_16
-
-[item_Desc_alb_jacket_05_01_18,P] => PH - alb_jacket_05_01_18
-
-[item_Desc_alb_jacket_05_01_20,P] => PH - alb_jacket_05_01_20
-
-[item_Desc_alb_pants_02_01_01,P] => PH - alb_pants_02_01_01
-
-[item_Desc_alb_pants_02_01_04,P] => PH - alb_pants_02_01_04
-
-[item_Desc_alb_pants_02_01_10,P] => PH - alb_pants_02_01_10
-
-[item_Desc_alb_pants_02_01_13,P] => PH - alb_pants_02_01_13
-
-[item_Desc_alb_pants_02_01_17,P] => PH - alb_pants_02_01_17
-
-[item_Desc_alb_shirt_05,P] => PH - alb_shirt_05
-
-[item_Desc_doom_light_armor_helmet_01] => 
-
-[item_Desc_gsb_boots_08_01_01,P] => PH - gsb_boots_08_01_01
-
-[item_Desc_gsb_pants_01,P] => PH - gsb_pants_01
-
-[item_Desc_hdh_boots_02,P] => PH - hdh_boots_02
-
-[item_Desc_hdh_hat_03_01_01,P] => PH - hdh_hat_03_01_01
-
-[item_Desc_hdh_jacket_07,P] => PH - hdh_jacket_07
-
-[item_Desc_hdh_jacket_08_01_01,P] => PH - hdh_jacket_08_01_01
-
-[item_Desc_hdh_jacket_09_01_01,P] => PH - hdh_jacket_09_01_01
-
-[item_Desc_hdh_pants_03,P] => PH - hdh_pants_03
-
-[item_Desc_hdh_pants_04_01_01,P] => PH - hdh_pants_04_01_01
-
-[item_Desc_hdh_shirt_01,P] => PH - hdh_shirt_01
-
-[item_Desc_hdh_shirt_02_01_01,P] => PH - hdh_shirt_02_01_01
-
-[item_Desc_hdh_shirt_03_01_01,P] => PH - hdh_shirt_03_01_01
-
-[item_Desc_r6p_shoes_03,P] => PH - r6p_shoes_03
-
-[item_Desc_rrs_specialist_light_legs_01_coramor_02] => Item Type: Light Armor\nDamage Reduction: 20%\nCarrying Capacity: 5K µSCU\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. The special Kismet edition of this armor features black and pink coloration in honor of the ship Yuri Ilyin flew in the classic vid 'Coramor' while he searched for his lost lover Corazon Tan.
-
-[item_Desc_scu_jacket_07,P] => PH - alb_shirt_05
-
-[item_Desc_scu_pants_05,P] => PH - scu_pants_05
-
-[item_NameSTOR_opencontainer_1-8_SCU] => Stor*All 1/8 SCU Storage Box
-
-[item_Name_alb_jacket_04_01_01,P] => PH - alb_jacket_04_01_01
-
-[item_Name_alb_jacket_04_01_04,P] => PH - alb_jacket_04_01_04
-
-[item_Name_alb_jacket_04_01_10,P] => PH - alb_jacket_04_01_10
-
-[item_Name_alb_jacket_04_01_13,P] => PH - alb_jacket_04_01_13
-
-[item_Name_alb_jacket_04_01_17,P] => PH - alb_jacket_04_01_17
-
-[item_Name_alb_jacket_05_01_04,P] => PH - alb_jacket_05_01_04
-
-[item_Name_alb_jacket_05_01_16,P] => PH - alb_jacket_05_01_16
-
-[item_Name_alb_jacket_05_01_18,P] => PH - alb_jacket_05_01_18
-
-[item_Name_alb_jacket_05_01_20,P] => PH - alb_jacket_05_01_20
-
-[item_Name_alb_pants_02_01_01,P] => PH - alb_pants_02_01_01
-
-[item_Name_alb_pants_02_01_04,P] => PH - alb_pants_02_01_04
-
-[item_Name_alb_pants_02_01_10,P] => PH - alb_pants_02_01_10
-
-[item_Name_alb_pants_02_01_13,P] => PH - alb_pants_02_01_13
-
-[item_Name_alb_pants_02_01_17,P] => PH - alb_pants_02_01_17
-
-[item_Name_alb_shirt_05_01_01,P] => PH - alb_shirt_05_01_01
-
-[item_Name_alb_shirt_05_01_03,P] => PH - alb_shirt_05_01_03
-
-[item_Name_alb_shirt_05_01_11,P] => PH - alb_shirt_05_01_11
-
-[item_Name_alb_shirt_05_01_15,P] => PH - alb_shirt_05_01_15
-
-[item_Name_alb_shirt_05_01_17,P] => PH - alb_shirt_05_01_17
-
-[item_Name_gsb_boots_08_01_01,P] => PH - gsb_boots_08_01_01
-
-[item_Name_gsb_boots_08_01_13,P] => PH - gsb_boots_08_01_13
-
-[item_Name_gsb_boots_08_01_15,P] => PH - gsb_boots_08_01_15
-
-[item_Name_gsb_boots_08_01_17,P] => PH - gsb_boots_08_01_17
-
-[item_Name_gsb_boots_08_01_20,P] => PH - gsb_boots_08_01_20
-
-[item_Name_gsb_pants_01_01_01,P] => PH - gsb_pants_01_01_01
-
-[item_Name_gsb_pants_01_01_03,P] => PH - gsb_pants_01_01_03
-
-[item_Name_gsb_pants_01_01_07,P] => PH - gsb_pants_01_01_07
-
-[item_Name_gsb_pants_01_01_10,P] => PH - gsb_pants_01_01_10
-
-[item_Name_gsb_pants_01_01_16,P] => PH - gsb_pants_01_01_16
-
-[item_Name_hdh_1x1x2_pouch_01_01_01,P] => Pouch - Small
-
-[item_Name_hdh_1x2x2_pouch_01_01_01,P] => Pouch - Medium
-
-[item_Name_hdh_1x3x2_pouch_01_01_01,P] => Pouch - Large
-
-[item_Name_hdh_boots_02_01_01,P] => PH - hdh_boots_02_01_01
-
-[item_Name_hdh_boots_02_01_13,P] => PH - hdh_boots_02_01_13
-
-[item_Name_hdh_boots_02_01_15,P] => PH - hdh_boots_02_01_15
-
-[item_Name_hdh_boots_02_01_16,P] => PH - hdh_boots_02_01_16
-
-[item_Name_hdh_boots_02_01_17,P] => PH - hdh_boots_02_01_17
-
-[item_Name_hdh_gloves_01_01_03,P] => PH - hdh_gloves_01_01_03
-
-[item_Name_hdh_gloves_01_01_07,P] => PH - hdh_gloves_01_01_07
-
-[item_Name_hdh_gloves_01_01_10,P] => PH - hdh_gloves_01_01_10
-
-[item_Name_hdh_gloves_01_01_16,P] => PH - hdh_gloves_01_01_16
-
-[item_Name_hdh_hat_03_01_01,P] => PH - hdh_hat_03_01_01
-
-[item_Name_hdh_hat_03_01_13,P] => PH - hdh_hat_03_01_13
-
-[item_Name_hdh_hat_03_01_15,P] => PH - hdh_hat_03_01_15
-
-[item_Name_hdh_hat_03_01_17,P] => PH - hdh_hat_03_01_17
-
-[item_Name_hdh_hat_03_01_20,P] => PH - hdh_hat_03_01_20
-
-[item_Name_hdh_jacket_07_01_01,P] => PH - hdh_jacket_07_01_01
-
-[item_Name_hdh_jacket_07_01_13,P] => PH - hdh_jacket_07_01_13
-
-[item_Name_hdh_jacket_07_01_15,P] => PH - hdh_jacket_07_01_15
-
-[item_Name_hdh_jacket_07_01_16,P] => PH - hdh_jacket_07_01_16
-
-[item_Name_hdh_jacket_07_01_17,P] => PH - hdh_jacket_07_01_17
-
-[item_Name_hdh_jacket_08_01_01,P] => PH - hdh_jacket_08_01_01
-
-[item_Name_hdh_jacket_08_01_03,P] => PH - hdh_jacket_08_01_03
-
-[item_Name_hdh_jacket_08_01_07,P] => PH - hdh_jacket_08_01_07
-
-[item_Name_hdh_jacket_08_01_10,P] => PH - hdh_jacket_08_01_10
-
-[item_Name_hdh_jacket_08_01_16,P] => PH - hdh_jacket_08_01_16
-
-[item_Name_hdh_jacket_09_01_01,P] => PH - hdh_jacket_09_01_01
-
-[item_Name_hdh_jacket_09_01_13,P] => PH - hdh_jacket_09_01_13
-
-[item_Name_hdh_jacket_09_01_15,P] => PH - hdh_jacket_09_01_15
-
-[item_Name_hdh_jacket_09_01_17,P] => PH - hdh_jacket_09_01_17
-
-[item_Name_hdh_jacket_09_01_20,P] => PH - hdh_jacket_09_01_20
-
-[item_Name_hdh_pants_03_01_01,P] => PH - hdh_pants_03_01_01
-
-[item_Name_hdh_pants_03_01_13,P] => PH - hdh_pants_03_01_13
-
-[item_Name_hdh_pants_03_01_15,P] => PH - hdh_pants_03_01_15
-
-[item_Name_hdh_pants_03_01_16,P] => PH - hdh_pants_03_01_16
-
-[item_Name_hdh_pants_03_01_17,P] => PH - hdh_pants_03_01_17
-
-[item_Name_hdh_pants_04_01_01,P] => PH - hdh_pants_04_01_01
-
-[item_Name_hdh_pants_04_01_13,P] => PH - hdh_pants_04_01_13
-
-[item_Name_hdh_pants_04_01_15,P] => PH - hdh_pants_04_01_15
-
-[item_Name_hdh_pants_04_01_17,P] => PH - hdh_pants_04_01_17
-
-[item_Name_hdh_pants_04_01_20,P] => PH - hdh_pants_04_01_20
-
-[item_Name_hdh_shirt_01_01_01,P] => PH - hdh_shirt_01_01_01
-
-[item_Name_hdh_shirt_01_01_13,P] => PH - hdh_shirt_01_01_13
-
-[item_Name_hdh_shirt_01_01_15,P] => PH - hdh_shirt_01_01_15
-
-[item_Name_hdh_shirt_01_01_16,P] => PH - hdh_shirt_01_01_16
-
-[item_Name_hdh_shirt_01_01_17,P] => PH - hdh_shirt_01_01_17
-
-[item_Name_hdh_shirt_02_01_01,P] => PH - hdh_shirt_02_01_01
-
-[item_Name_hdh_shirt_02_01_03,P] => PH - hdh_shirt_02_01_03
-
-[item_Name_hdh_shirt_02_01_07,P] => PH - hdh_shirt_02_01_07
-
-[item_Name_hdh_shirt_02_01_10,P] => PH - hdh_shirt_02_01_10
-
-[item_Name_hdh_shirt_02_01_16,P] => PH - hdh_shirt_02_01_16
-
-[item_Name_hdh_shirt_03_01_01,P] => PH - hdh_shirt_03_01_01
-
-[item_Name_hdh_shirt_03_01_04,P] => PH - hdh_shirt_03_01_04
-
-[item_Name_hdh_shirt_03_01_10,P] => PH - hdh_shirt_03_01_10
-
-[item_Name_hdh_shirt_03_01_13,P] => PH - hdh_shirt_03_01_13
-
-[item_Name_hdh_shirt_03_01_17,P] => PH - hdh_shirt_03_01_17
-
-[item_Name_r6p_shoes_03_01_01,P] => PH - r6p_shoes_03_01_01
-
-[item_Name_r6p_shoes_03_01_03,P] => PH - r6p_shoes_03_01_03
-
-[item_Name_r6p_shoes_03_01_11,P] => PH - r6p_shoes_03_01_11
-
-[item_Name_r6p_shoes_03_01_15,P] => PH - r6p_shoes_03_01_15
-
-[item_Name_r6p_shoes_03_01_17,P] => PH - r6p_shoes_03_01_17
-
-[item_Name_scu_jacket_07_01_01,P] => PH - scu_jacket_07_01_01
-
-[item_Name_scu_jacket_07_01_03,P] => PH - scu_jacket_07_01_03
-
-[item_Name_scu_jacket_07_01_11,P] => PH - scu_jacket_07_01_11
-
-[item_Name_scu_jacket_07_01_15,P] => PH - scu_jacket_07_01_15
-
-[item_Name_scu_jacket_07_01_17,P] => PH - scu_jacket_07_01_17
-
-[item_Name_scu_pants_05_01_01,P] => PH - scu_pants_05_01_01
-
-[item_Name_scu_pants_05_01_03,P] => PH - scu_pants_05_01_03
-
-[item_Name_scu_pants_05_01_11,P] => PH - scu_pants_05_01_11
-
-[item_Name_scu_pants_05_01_15,P] => PH - scu_pants_05_01_15
-
-[item_Name_scu_pants_05_01_17,P] => PH - scu_pants_05_01_17
-
-[item_displayType_Mine,P] => Mine
-
-[item_qt_status_towed,P] => TOWED
-
-[item_qt_status_towing_too_heavy,P] => TOWING MASS LIMIT
-
-[mG_ContractsMgr_AppSubTitle,P] => View, Accept and Create Contracts
-
-[mG_ContractsMgr_AppTitle,P] => Contracts Manager
-
-[mG_ContractsMgr_CreateNewBeacon,P] => Create New Beacon
-
-[mG_ContractsMgr_Distance,P] => Distance
-
-[mG_ContractsMgr_IllegalMode,P] => Illegal Mode
-
-[mG_ContractsMgr_MainTab_Accepted,P] => Accepted
-
-[mG_ContractsMgr_MainTab_Beacons,P] => Beacons
-
-[mG_ContractsMgr_MainTab_History,P] => History
-
-[mG_ContractsMgr_MainTab_Offers,P] => Offers
-
-[mG_ContractsMgr_QuickSort,P] => Quick Sort:
-
-[mG_ContractsMgr_Reward,P] => Reward
-
-[mG_ContractsMgr_SearchText,P] => Search for things like names or rewards
-
-[mobiGlas_ui_notification_SolarFlareHazard_DangerZone_0,P] => Solar Anomaly Detected. Proceed With Caution.
-
-[mobiGlas_ui_notification_SolarFlareHazard_DangerZone_1,P] => Coronal Mass Ejection Imminent. Take Cover.
-
-[mobiGlas_ui_notification_SolarFlareHazard_DangerZone_2,P] => Coronal Mass Ejection Detected
-
-[mobiGlas_ui_notification_SolarFlareHazard_Finished,P] => Solar Activity At Acceptable Levels.
-
-[mobiGlas_ui_notification_SolarFlareHazard_SafeZone,P] => Currently Shielded From Solar Flare.
-
-[p_protectandresupply_desc] => *FOR IMMEDIATE SYSTEM-WIDE RELEASE*\n\nAttention, XenoThreat forces started to ambush Naval convoy ships transporting vital supplies while en route to INS Jericho station in the Stanton System. The Navy has requested CDF forces to help recover these supplies from the wreckage and safely deliver them to Jericho station. All available CDF volunteers are encouraged to provide support.\n\nPlease note that the supplies are highly volatile if not handled correctly. Use caution while transporting these materials:\n* Zeta-Prolanide degrades over time until breaking down completely.\n* AcryliPlex Composite becomes explosively unstable if damaged.\n* Diluthermex releases a destructive energy pulse if exposed to quantum travel.\n\nAlso, XenoThreat hostiles might still be in the area so be careful. CDF volunteers with combat experience are also urged to contribute by securing these areas from lingering XenoThreat forces.\n\nSAIC Rowena Dulli from the Advocacy is the official attaché to the CDF and will be running the operation.
-
-[p_showdown_obj_display_03] => Repel XenoThreat
-
-[p_showdown_obj_long_03] => Repel XenoThreat by destroying their capital ships and support fighters.
-
-[p_showdown_obj_short_03] => Showdown with XenoThreat Forces
-
-[pyro_stationdecal_P5L2] => PYAM-FARSTAT-5-2
-
-[pyro_stationdecal_P5L4] => PYAM-FARSTAT-5-4
-
-[pyro_stationdecal_P5L5] => PYAM-FARSTAT-5-5
-
-[pyro_stationdecal_P6L4] => PYAM-FARSTAT-6-4
-
-[pyro_stationdecal_P6L5] => PYAM-FARSTAT-6-5
-
-[ui_controlhint_pc_choice:interaction_mode] => Interact
-
-[ui_controlhint_pc_choice:interaction_system] => Interact Mode
-
+Hints_ADS1=Use ~action(player|zoom) to aim down the weapon sights.
+Hints_ADSContext01=To hold breath use ~action(player|stabilize).\nTo zoom in and out use ~action(player|zoom_in) / ~action(player|zoom_out).
+Mtps_killallcreatures_onetype_desc_01=ABOUT THE JOB\nmicroTech Protection Services need a professional to bring the number of ~mission(creature) in the wild back to within acceptable parameters. Their population is increasing too quickly, and culling some of their numbers will help ensure the situation doesn’t spiral out of control.\n\nRESPONSIBILITIES\n• Provide own transportation.\n• Locate the ~mission(creature) on ~mission(Location).\n• Use force as necessary to eliminate the ~mission(creature).\n\nMINIMUM QUALIFICATIONS\n• 1 year of relevant mercenary and/or security experience.\n• Access to combat equipment.\n• Available for immediate deployment.\n\nPREFERRED QUALIFICATIONS\n• Experience with extermination
+Mtps_killallcreatures_onetype_title_01=Wildlife Control: ~mission(creature)
+Tut03_Part03_Journal01_TraversingtheVerse_Content=Congratulations!\n\nYou’ve completed the Star Citizen Tutorial and are ready to explore the universe! \n\nNow it’s up to you decide what your life in space will be like. The Contract Manager on your mobiGlas contains many different opportunities for you to pursue from simple delivery missions to dangerous criminal jobs. Work hard and you can build your reputation with different organizations to gain access to more rewarding contracts. Whether you choose to live a life of crime or hunt down bounties and enforce the law, it is up to you.\n\nHowever, if you’d rather forge your own path, feel free to use the StarMap in the mobiGlas and explore all the Stanton system has to offer. From the snowy wastelands of microTech to the floating city of Orison, there is still much for you to learn and discover. If you ever need further assistance, you can seek the guidance of experienced players through the Guide system on Spectrum (on the Roberts Space Industries website), read the helpful posts in the online Knowledge Base, or ask for a helping hand in chat. Your journal is also a valuable resource, containing entries that summarize and elaborate on everything covered in the tutorial.\n\nBut once you venture beyond the major cities and space stations, take care. Outside of these protected armistice zones you will encounter many dangers in the search for profit. Wherever your next steps take you, safe flying!\n\nPRACTICE MAKES PERFECT\nIf you’re interested in practicing flying or experiencing combat without risking your ship, Star Citizen features an arcade mode called ‘Arena Commander’ as an option in the game’s main menu.\n\nMOBIGLAS\nYour mobiGlas personal computer features a variety of functions and apps essential to life in the ‘verse.  Below is a list of all the apps, listed in the order they appear, that are accessible via the icons at the bottom of your mobiGlas.\n\n_______________________________________\nMOBIGLASS APPS\n\nHome – Displays information about your personal status including your health and how many credits you have to your name.\n\nCommlink – Shows chat channels, friends, and pending invites to the party system. Create a party, invite other players, or send friend requests here. You can also activate or deactivate proximity-based voice chat from this app.\n\nVehicle Loadout Manager – Customized the loadout, including components or paints, for any vehicle you own that are stored at your current local location. Components you wish to use must be in your local inventory.\n\nNikNax – Locate any assets you have stored across the 'verse. Selecting an asset will provide added details.\n\nSkyline – Access the StarMap set Quantum Travel routes by selecting a location and pressing the “Set As Destination” button. \n\nmo.Trader – Send aUEC to any player. Party members will be pinned to the top of the selection list.\n\nContracts Manager – View, accept, and manage contracts. The Contracts Manager is divided into the following tabs: General, Personal, Accepted, and History.\n• The General Tab displays local contracts certified to meet UEE and local law requirements. \n• The Personal Tab displays contracts sent specifically to your account, often from unknown sources that may violate local laws.\n• Once you accept an offer, contracts are moved to the Accepted Tab, and once a contract ends, either through successful completion or by other means, a record of it is kept in the History Tab.\n\nVehicle Maintenance Services – Repair, restock, and refuel your vehicles.\n\nJournal – A record of useful information and documents, including tutorial information.\n\nDelphi – Track your reputation with individual organizations or contacts.
+area_name_ext_transit,P=External Transit
+area_name_foodcourt,P=Foodcourt
+area_name_galleria,P=Galleria
+area_name_int_transit,P=Internal Transit
+bounty_obj_long_02_target04=Locate and neutralize ~mission(TargetName3) at ~mission(Location|Address).
+destoryitems_item_03,P=Server racks
+destoryitems_item_04,P=Vehicles
+dfm_ac_ui_RulesTargetScore=Target Score
+dfm_ac_ui_RulesTimeLimit=Time Limit
+dfm_ui_Critical_BecameAce=BECAME AN ACE
+dfm_ui_Critical_OnFinalKill=ON FINAL KILL
+ea_ui_matchmaking_error_CancelledByServices=Matchmaking cancelled by services.
+flightHUD_Label_WrongOrientation,P=Misaligned with Gravity
+hud_darkwater_turnin_gold=You have received a F8C rental for 1 day and can purchase the ship.
+hud_darkwater_turnin_plat=You have received an F8C with LTI. Relaunch your client.
+hud_mining_asteroid_name_7=Asteroid (Ice)
+item_DescSTOR_opencontainer_1-8_SCU=Designed by one of the most trusted names in cargo pods, the Stor*All Storage Box provides a convenient place to keep any small items. Its durable impact-resistant construction is sealed to survive the vacuum of space.
+item_Desc_MYM_shirt_02_01_imperator=A casual and comfortable grey long sleeve shirt that looks good whether you're out and about or just lounging at home. MuyMuy's exclusive Pathfinder edition of the Atavi steps up the style by including striking silver sleeves.\n\nWomen's sizes currently out of stock.
+item_Desc_alb_jacket_04_01_01,P=PH - alb_jacket_04_01_01
+item_Desc_alb_jacket_05_01_04,P=PH - alb_jacket_05_01_04
+item_Desc_alb_jacket_05_01_16,P=PH - alb_jacket_05_01_16
+item_Desc_alb_jacket_05_01_18,P=PH - alb_jacket_05_01_18
+item_Desc_alb_jacket_05_01_20,P=PH - alb_jacket_05_01_20
+item_Desc_alb_pants_02_01_01,P=PH - alb_pants_02_01_01
+item_Desc_alb_pants_02_01_04,P=PH - alb_pants_02_01_04
+item_Desc_alb_pants_02_01_10,P=PH - alb_pants_02_01_10
+item_Desc_alb_pants_02_01_13,P=PH - alb_pants_02_01_13
+item_Desc_alb_pants_02_01_17,P=PH - alb_pants_02_01_17
+item_Desc_alb_shirt_05,P=PH - alb_shirt_05
+item_Desc_doom_light_armor_helmet_01=
+item_Desc_gsb_boots_08_01_01,P=PH - gsb_boots_08_01_01
+item_Desc_gsb_pants_01,P=PH - gsb_pants_01
+item_Desc_hdh_boots_02,P=PH - hdh_boots_02
+item_Desc_hdh_hat_03_01_01,P=PH - hdh_hat_03_01_01
+item_Desc_hdh_jacket_07,P=PH - hdh_jacket_07
+item_Desc_hdh_jacket_08_01_01,P=PH - hdh_jacket_08_01_01
+item_Desc_hdh_jacket_09_01_01,P=PH - hdh_jacket_09_01_01
+item_Desc_hdh_pants_03,P=PH - hdh_pants_03
+item_Desc_hdh_pants_04_01_01,P=PH - hdh_pants_04_01_01
+item_Desc_hdh_shirt_01,P=PH - hdh_shirt_01
+item_Desc_hdh_shirt_02_01_01,P=PH - hdh_shirt_02_01_01
+item_Desc_hdh_shirt_03_01_01,P=PH - hdh_shirt_03_01_01
+item_Desc_r6p_shoes_03,P=PH - r6p_shoes_03
+item_Desc_rrs_specialist_light_legs_01_coramor_02=Item Type: Light Armor\nDamage Reduction: 20%\nCarrying Capacity: 5K µSCU\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. The special Kismet edition of this armor features black and pink coloration in honor of the ship Yuri Ilyin flew in the classic vid 'Coramor' while he searched for his lost lover Corazon Tan.
+item_Desc_scu_jacket_07,P=PH - alb_shirt_05
+item_Desc_scu_pants_05,P=PH - scu_pants_05
+item_NameSTOR_opencontainer_1-8_SCU=Stor*All 1/8 SCU Storage Box
+item_Name_alb_jacket_04_01_01,P=PH - alb_jacket_04_01_01
+item_Name_alb_jacket_04_01_04,P=PH - alb_jacket_04_01_04
+item_Name_alb_jacket_04_01_10,P=PH - alb_jacket_04_01_10
+item_Name_alb_jacket_04_01_13,P=PH - alb_jacket_04_01_13
+item_Name_alb_jacket_04_01_17,P=PH - alb_jacket_04_01_17
+item_Name_alb_jacket_05_01_04,P=PH - alb_jacket_05_01_04
+item_Name_alb_jacket_05_01_16,P=PH - alb_jacket_05_01_16
+item_Name_alb_jacket_05_01_18,P=PH - alb_jacket_05_01_18
+item_Name_alb_jacket_05_01_20,P=PH - alb_jacket_05_01_20
+item_Name_alb_pants_02_01_01,P=PH - alb_pants_02_01_01
+item_Name_alb_pants_02_01_04,P=PH - alb_pants_02_01_04
+item_Name_alb_pants_02_01_10,P=PH - alb_pants_02_01_10
+item_Name_alb_pants_02_01_13,P=PH - alb_pants_02_01_13
+item_Name_alb_pants_02_01_17,P=PH - alb_pants_02_01_17
+item_Name_alb_shirt_05_01_01,P=PH - alb_shirt_05_01_01
+item_Name_alb_shirt_05_01_03,P=PH - alb_shirt_05_01_03
+item_Name_alb_shirt_05_01_11,P=PH - alb_shirt_05_01_11
+item_Name_alb_shirt_05_01_15,P=PH - alb_shirt_05_01_15
+item_Name_alb_shirt_05_01_17,P=PH - alb_shirt_05_01_17
+item_Name_gsb_boots_08_01_01,P=PH - gsb_boots_08_01_01
+item_Name_gsb_boots_08_01_13,P=PH - gsb_boots_08_01_13
+item_Name_gsb_boots_08_01_15,P=PH - gsb_boots_08_01_15
+item_Name_gsb_boots_08_01_17,P=PH - gsb_boots_08_01_17
+item_Name_gsb_boots_08_01_20,P=PH - gsb_boots_08_01_20
+item_Name_gsb_pants_01_01_01,P=PH - gsb_pants_01_01_01
+item_Name_gsb_pants_01_01_03,P=PH - gsb_pants_01_01_03
+item_Name_gsb_pants_01_01_07,P=PH - gsb_pants_01_01_07
+item_Name_gsb_pants_01_01_10,P=PH - gsb_pants_01_01_10
+item_Name_gsb_pants_01_01_16,P=PH - gsb_pants_01_01_16
+item_Name_hdh_1x1x2_pouch_01_01_01,P=Pouch - Small
+item_Name_hdh_1x2x2_pouch_01_01_01,P=Pouch - Medium
+item_Name_hdh_1x3x2_pouch_01_01_01,P=Pouch - Large
+item_Name_hdh_boots_02_01_01,P=PH - hdh_boots_02_01_01
+item_Name_hdh_boots_02_01_13,P=PH - hdh_boots_02_01_13
+item_Name_hdh_boots_02_01_15,P=PH - hdh_boots_02_01_15
+item_Name_hdh_boots_02_01_16,P=PH - hdh_boots_02_01_16
+item_Name_hdh_boots_02_01_17,P=PH - hdh_boots_02_01_17
+item_Name_hdh_gloves_01_01_03,P=PH - hdh_gloves_01_01_03
+item_Name_hdh_gloves_01_01_07,P=PH - hdh_gloves_01_01_07
+item_Name_hdh_gloves_01_01_10,P=PH - hdh_gloves_01_01_10
+item_Name_hdh_gloves_01_01_16,P=PH - hdh_gloves_01_01_16
+item_Name_hdh_hat_03_01_01,P=PH - hdh_hat_03_01_01
+item_Name_hdh_hat_03_01_13,P=PH - hdh_hat_03_01_13
+item_Name_hdh_hat_03_01_15,P=PH - hdh_hat_03_01_15
+item_Name_hdh_hat_03_01_17,P=PH - hdh_hat_03_01_17
+item_Name_hdh_hat_03_01_20,P=PH - hdh_hat_03_01_20
+item_Name_hdh_jacket_07_01_01,P=PH - hdh_jacket_07_01_01
+item_Name_hdh_jacket_07_01_13,P=PH - hdh_jacket_07_01_13
+item_Name_hdh_jacket_07_01_15,P=PH - hdh_jacket_07_01_15
+item_Name_hdh_jacket_07_01_16,P=PH - hdh_jacket_07_01_16
+item_Name_hdh_jacket_07_01_17,P=PH - hdh_jacket_07_01_17
+item_Name_hdh_jacket_08_01_01,P=PH - hdh_jacket_08_01_01
+item_Name_hdh_jacket_08_01_03,P=PH - hdh_jacket_08_01_03
+item_Name_hdh_jacket_08_01_07,P=PH - hdh_jacket_08_01_07
+item_Name_hdh_jacket_08_01_10,P=PH - hdh_jacket_08_01_10
+item_Name_hdh_jacket_08_01_16,P=PH - hdh_jacket_08_01_16
+item_Name_hdh_jacket_09_01_01,P=PH - hdh_jacket_09_01_01
+item_Name_hdh_jacket_09_01_13,P=PH - hdh_jacket_09_01_13
+item_Name_hdh_jacket_09_01_15,P=PH - hdh_jacket_09_01_15
+item_Name_hdh_jacket_09_01_17,P=PH - hdh_jacket_09_01_17
+item_Name_hdh_jacket_09_01_20,P=PH - hdh_jacket_09_01_20
+item_Name_hdh_pants_03_01_01,P=PH - hdh_pants_03_01_01
+item_Name_hdh_pants_03_01_13,P=PH - hdh_pants_03_01_13
+item_Name_hdh_pants_03_01_15,P=PH - hdh_pants_03_01_15
+item_Name_hdh_pants_03_01_16,P=PH - hdh_pants_03_01_16
+item_Name_hdh_pants_03_01_17,P=PH - hdh_pants_03_01_17
+item_Name_hdh_pants_04_01_01,P=PH - hdh_pants_04_01_01
+item_Name_hdh_pants_04_01_13,P=PH - hdh_pants_04_01_13
+item_Name_hdh_pants_04_01_15,P=PH - hdh_pants_04_01_15
+item_Name_hdh_pants_04_01_17,P=PH - hdh_pants_04_01_17
+item_Name_hdh_pants_04_01_20,P=PH - hdh_pants_04_01_20
+item_Name_hdh_shirt_01_01_01,P=PH - hdh_shirt_01_01_01
+item_Name_hdh_shirt_01_01_13,P=PH - hdh_shirt_01_01_13
+item_Name_hdh_shirt_01_01_15,P=PH - hdh_shirt_01_01_15
+item_Name_hdh_shirt_01_01_16,P=PH - hdh_shirt_01_01_16
+item_Name_hdh_shirt_01_01_17,P=PH - hdh_shirt_01_01_17
+item_Name_hdh_shirt_02_01_01,P=PH - hdh_shirt_02_01_01
+item_Name_hdh_shirt_02_01_03,P=PH - hdh_shirt_02_01_03
+item_Name_hdh_shirt_02_01_07,P=PH - hdh_shirt_02_01_07
+item_Name_hdh_shirt_02_01_10,P=PH - hdh_shirt_02_01_10
+item_Name_hdh_shirt_02_01_16,P=PH - hdh_shirt_02_01_16
+item_Name_hdh_shirt_03_01_01,P=PH - hdh_shirt_03_01_01
+item_Name_hdh_shirt_03_01_04,P=PH - hdh_shirt_03_01_04
+item_Name_hdh_shirt_03_01_10,P=PH - hdh_shirt_03_01_10
+item_Name_hdh_shirt_03_01_13,P=PH - hdh_shirt_03_01_13
+item_Name_hdh_shirt_03_01_17,P=PH - hdh_shirt_03_01_17
+item_Name_r6p_shoes_03_01_01,P=PH - r6p_shoes_03_01_01
+item_Name_r6p_shoes_03_01_03,P=PH - r6p_shoes_03_01_03
+item_Name_r6p_shoes_03_01_11,P=PH - r6p_shoes_03_01_11
+item_Name_r6p_shoes_03_01_15,P=PH - r6p_shoes_03_01_15
+item_Name_r6p_shoes_03_01_17,P=PH - r6p_shoes_03_01_17
+item_Name_scu_jacket_07_01_01,P=PH - scu_jacket_07_01_01
+item_Name_scu_jacket_07_01_03,P=PH - scu_jacket_07_01_03
+item_Name_scu_jacket_07_01_11,P=PH - scu_jacket_07_01_11
+item_Name_scu_jacket_07_01_15,P=PH - scu_jacket_07_01_15
+item_Name_scu_jacket_07_01_17,P=PH - scu_jacket_07_01_17
+item_Name_scu_pants_05_01_01,P=PH - scu_pants_05_01_01
+item_Name_scu_pants_05_01_03,P=PH - scu_pants_05_01_03
+item_Name_scu_pants_05_01_11,P=PH - scu_pants_05_01_11
+item_Name_scu_pants_05_01_15,P=PH - scu_pants_05_01_15
+item_Name_scu_pants_05_01_17,P=PH - scu_pants_05_01_17
+item_displayType_Mine,P=Mine
+item_qt_status_towed,P=TOWED
+item_qt_status_towing_too_heavy,P=TOWING MASS LIMIT
+mG_ContractsMgr_AppSubTitle,P=View, Accept and Create Contracts
+mG_ContractsMgr_AppTitle,P=Contracts Manager
+mG_ContractsMgr_CreateNewBeacon,P=Create New Beacon
+mG_ContractsMgr_Distance,P=Distance
+mG_ContractsMgr_IllegalMode,P=Illegal Mode
+mG_ContractsMgr_MainTab_Accepted,P=Accepted
+mG_ContractsMgr_MainTab_Beacons,P=Beacons
+mG_ContractsMgr_MainTab_History,P=History
+mG_ContractsMgr_MainTab_Offers,P=Offers
+mG_ContractsMgr_QuickSort,P=Quick Sort:
+mG_ContractsMgr_Reward,P=Reward
+mG_ContractsMgr_SearchText,P=Search for things like names or rewards
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_0,P=Solar Anomaly Detected. Proceed With Caution.
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_1,P=Coronal Mass Ejection Imminent. Take Cover.
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_2,P=Coronal Mass Ejection Detected
+mobiGlas_ui_notification_SolarFlareHazard_Finished,P=Solar Activity At Acceptable Levels.
+mobiGlas_ui_notification_SolarFlareHazard_SafeZone,P=Currently Shielded From Solar Flare.
+p_protectandresupply_desc=*FOR IMMEDIATE SYSTEM-WIDE RELEASE*\n\nAttention, XenoThreat forces started to ambush Naval convoy ships transporting vital supplies while en route to INS Jericho station in the Stanton System. The Navy has requested CDF forces to help recover these supplies from the wreckage and safely deliver them to Jericho station. All available CDF volunteers are encouraged to provide support.\n\nPlease note that the supplies are highly volatile if not handled correctly. Use caution while transporting these materials:\n* Zeta-Prolanide degrades over time until breaking down completely.\n* AcryliPlex Composite becomes explosively unstable if damaged.\n* Diluthermex releases a destructive energy pulse if exposed to quantum travel.\n\nAlso, XenoThreat hostiles might still be in the area so be careful. CDF volunteers with combat experience are also urged to contribute by securing these areas from lingering XenoThreat forces.\n\nSAIC Rowena Dulli from the Advocacy is the official attaché to the CDF and will be running the operation.
+p_showdown_obj_display_03=Repel XenoThreat
+p_showdown_obj_long_03=Repel XenoThreat by destroying their capital ships and support fighters.
+p_showdown_obj_short_03=Showdown with XenoThreat Forces
+pyro_stationdecal_P5L2=PYAM-FARSTAT-5-2
+pyro_stationdecal_P5L4=PYAM-FARSTAT-5-4
+pyro_stationdecal_P5L5=PYAM-FARSTAT-5-5
+pyro_stationdecal_P6L4=PYAM-FARSTAT-6-4
+pyro_stationdecal_P6L5=PYAM-FARSTAT-6-5
+ui_controlhint_pc_choice:interaction_mode=Interact
+ui_controlhint_pc_choice:interaction_system=Interact Mode
 
 
 ------------------------
 -- MODIFIED LINES --
 ------------------------
 
-[Bitzeroes_destroygen_locked_dc_desc_001] => [I need your help on a job, but I can’t get too detailed about the specifics. If that doesn’t work for you, than don’t worry about it.\n\nYou’re going to head to ~mission(Location|Address) and blow up a power generator for us. Now, they keep the gen locked up, so you’ll have to hunt down the access codes first. Thankfully, they typically keep copies of the code on datapads. (Thinks it’ll keep ‘em safe from being hacked.)\n\nYou get that generator destroyed, and it’ll be your bank account blowin’ up next.\n\n- Bit Zeros\n]
-[Bitzeroes_theft_mines_dc_desc_001] => [I’m really hoping you’re going to agree to take this on since there doesn’t seem to be too many folks eager to take on a whole bunch of proximity mines. See, there’s a score that we’ve sourced to ~mission(Location|Address) but the physical security is proving more difficult than expected. \n\nIf you can find a way to navigate through the mines or possibly a way to trigger them remotely, it should be relatively easy to grab the goods and make your way out of there. You’ll get more than your fair cut of the credits for taking on the risk.\n\n-Bit Zeroes\n]
-[FreightElevator_8SCU,P] => [Location:]
-[Hints_ASOP1] => [Fleet Manager kiosks located in stations, spaceports and hangars, allow you to retrieve any of the vehicles you own or are currently renting.]
-[Hints_ASOP2] => [Pass through an Airlock to reach the landing pads. Follow the AR waypoint on your visor to locate your ship.]
-[Hints_ASOP3] => [While interacting with the Fleet Manager kiosk, select 'Retrieve' on the vehicle you wish to have brought to a hangar.]
-[Hints_ATC1] => [To receive a hangar assignment or permission to take-off, contact landing services via the Comms menu on your MFD or in your mobiGlas.]
-[Hints_ActorStatusBleeding_Title] => [Bleeding]
-[Hints_ActorStatusBuff_Title] => [Player Buffs & Debuffs]
-[Hints_ActorStatusClothingChanged] => [Some armor and clothing can protect against extreme temperatures as detailed in their descriptions.]
-[Hints_ActorStatusCorpseMarkerShown] => [Your previous body and any items on it can be found at the Corpse marker. To dismiss, open the Personal Inner Thought menu, and go to Actions, Player.]
-[Hints_ActorStatusDeadlyInjuryStarted] => [You have received a severe injury. Use medications to relieve symptoms, and a Tier 1 Medical Bed to fully treat any issues.]
-[Hints_ActorStatusDigestionAbsorptionEmpty] => [Eat and drink regularly to avoid negative effects as your Nutrition and Hydration levels decrease.]
-[Hints_ActorStatusDownedEnter] => [While incapacitated, ask others in your party, in chat, or through rescue service beacons to revive you before the 'Time to Death' timer expires.]
-[Hints_ActorStatusEating_Title] => [Eating & Drinking]
-[Hints_ActorStatusEffectArmsLockCannotClimbLadder] => [You cannot climb ladders while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockCannotMantle] => [You cannot mantle while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockCannotSteerShip] => [You cannot pilot ships while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockCannotTakeDown] => [You cannot perform a take down while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockCannotUseMountedGun] => [You cannot use a mounted gun while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockCannotUseTrolley] => [You cannot use a trolley while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockDropItem] => [You cannot carry heavy objects while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockLowerWeapon] => [You cannot raise weapons while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectArmsLockStart] => [You arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusEffectBleedStart] => [You are bleeding and will continue to lose health over time. Use a coagulant like Hemozal to reduce the effects.]
-[Hints_ActorStatusEffectProneLockStart] => [Your legs are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.]
-[Hints_ActorStatusFoodDrinkItemHeld] => [While equipped food can often be eaten in a single bite, beverages can be consumed in small sips or a long continuous drink until the meter is empty.]
-[Hints_ActorStatusFoodDrinkItemInInventory] => [Use your personal inventory menu to view consumables and equip or discard them.]
-[Hints_ActorStatusHospitalRoomReserved] => [For help navigating to your medical room, check nearby signs for directions. It may be on a different floor and require the use of an elevator.]
-[Hints_ActorStatusHungerThirstDamageStarted] => [When Nutrition and Hydration levels are too low, you will take damage and eventually become unconscious. Eat and drink to replenish your levels.]
-[Hints_ActorStatusHungerThirstDeath] => [Your depleted Nutrition and Hydration levels have rendered you unconscious. Remember to eat and drink to replenish them.]
-[Hints_ActorStatusHungerThirstFull] => [When Nutrition and Hydration levels are full, consuming items no longer grants the full effect. Consider saving them until you are hungry or thirsty.]
-[Hints_ActorStatusHungerThirstStatusStarted] => [You are suffering ill effects from low Nutrition and / or Hydration levels. Consume food and drinks as soon as possible to restore your levels.]
-[Hints_ActorStatusHunger_Title] => [Hunger & Thirst]
-[Hints_ActorStatusHyperthermiaDamageStarted] => [Your body temperature is too high and you're taking damage from hyperthermia. Seek shelter or equip clothing and armor able to withstand the heat.]
-[Hints_ActorStatusHyperthermiaStarted] => [You are too hot and hyperthermia is beginning to set in. Seek shelter or equip clothing and armor able to withstand the heat.]
-[Hints_ActorStatusHypothermiaDamageStarted] => [Your body temperature is too low and you are taking damage from hypothermia. Seek shelter or equip clothing and armor able to withstand the cold.]
-[Hints_ActorStatusHypothermiaStarted] => [You are too cold and hypothermia is beginning to set in. Seek shelter or equip clothing and armor able to withstand the cold.]
-[Hints_ActorStatusInjuryMinor_Title] => [Minor Injuries]
-[Hints_ActorStatusInjuryModerate_Title] => [Moderate Injuries]
-[Hints_ActorStatusInjurySevere_Title] => [Severe Injuries]
-[Hints_ActorStatusInjuryStarted] => [You have received a minor injury. Use medications to relieve symptoms, and a Tier 3 Medical Bed to fully treat any issues.]
-[Hints_ActorStatusIntoxicatedEnter] => [An elevated Blood Drug Level can cause feelings of intoxication, making getting around or piloting a vehicle difficult and potentially dangerous.]
-[Hints_ActorStatusMajorInjuryStarted] => [You have received a moderate injury. Use medications to relieve symptoms, and a Tier 2 Medical Bed to fully treat any issues.]
-[Hints_ActorStatusMedBedEnter] => [The bed has restored your health and reset your BDL. Use the Treatment tab to heal injuries (depending on tier), and the Medication tab for dosage.]
-[Hints_ActorStatusOverdoseEnter] => [A high Blood Drug Level (BDL) can make you stunned, losing health, and eventually incapacitated. BDL lowers naturally but a dose of Resurgia can help.]
-[Hints_ActorStatusPartialParalysis_Title] => [Partial Paralysis]
-[Hints_ActorStatusRespawnCriminal] => [Due to your current CrimeStat, you have been regenerated at the nearest facility outside of the UEE's jurisdiction.]
-[Hints_ActorStatusRespawnLocationSet] => [To reset your regen location to your primary residence, use a terminal at any medical bed or insurance office.]
-[Hints_ActorStatusRespawnMedBed] => [By default, you'll regen at your primary residence, but a new location can be selected via medical beds or at insurance offices.]
-[Hints_ActorStatusTemperatureAboveMaxResistance] => [You're experiencing high temperatures and are at risk of hyperthermia. Seek shelter or equip clothing and armor able to withstand the heat.]
-[Hints_ActorStatusTemperatureBelowMinResistance] => [You're experiencing low temperatures and are at risk of hypothermia. Seek shelter or equip clothing and armor able to withstand the cold.]
-[Hints_ActorStatusTemperatureDeath] => [To avoid negative effects and becoming unconscious, remember to equip clothing or armor rated for the temperature you are in.]
-[Hints_ActorStatusTemperature_Title] => [Player Temperature]
-[Hints_ActorStatusWeatherLocomotionEntered] => [Be aware that severe weather and strong winds can drop temperatures and make it difficult to move. Have equipment ready in case a storm breaks out.]
-[Hints_ActorStatus_PITMenuDrugs] => [The Personal Inner Thought menu displays all current injuries along with active medications, their duration, and what symptoms they're relieving.]
-[Hints_BodyDrag_DropBody] => [To let go, use Interaction Mode and select “Drop Body.” Actions like sprint, jump, crouch, or using two-handed items will automatically drop the body.]
-[Hints_BodyDrag_WhilstDragging] => [Move at a walking pace to drag the body along with you. You may use one-handed weapons without detaching from the body.]
-[Hints_Camera1] => [While piloting a vehicle, you have the option to cycle through multiple camera views.]
-[Hints_Cargo_Align] => [To transfer cargo, maintain alignment of your ship in the loading area. If your deck assignment is revoked, contact Cargo Services for a new one.]
-[Hints_Cargo_Collect] => [Ships like the Hull C require loading and unloading through the Cargo Transfer system. Contact Cargo Services to be assigned an open cargo deck.]
-[Hints_Cargo_Deliver] => [To transfer cargo with ships like the Hull C, contact Cargo Services to be assigned a cargo deck. Payment will be sent when the transfer is complete.]
-[Hints_Cargo_Forfeit] => [If you exit the area before finishing the transfer, contact Cargo Services to resume. Depart entirely and your remaining cargo lost.]
-[Hints_Cargo_Forfeit_Title] => [Cargo Transfer - Interrupted]
-[Hints_Cargo_Hail] => [To transfer cargo, contact Cargo Services from the Commlink in your mobiGlas or the Comm’s menu on your ship’s multi-function displays (MFDs).]
-[Hints_Cargo_Interrupt_Transfer] => [Cargo transfers can be halted by things like: moving or exiting your ship, retracting the cargo spindles, or an obstructed loading area.]
-[Hints_Cargo_Interrupt_Transfer_Title] => [Cargo Transfer - Halted]
-[Hurston_bounty_boss_dc_desc_001] => [HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: High Risk Target (Armed Support)\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). This bounty has proven extremely elusive so far, but intel reports have tracked the target and a cohort of their known associates to ~mission(Location|Address). \n\nHowever, there is a strong chance that ~mission(TargetName|Last) will not risk a confrontation unless absolutely forced to. It is our recommendation that you neutralize a significant portion of the criminal’s allies first in order to draw them out. The report indicates that a large party of these hostiles are currently near the ~mission(Location).\n\nPayment will be released only after the bounty has been deemed complete.\n\n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **]
-[Hurston_bounty_boss_dc_title_001] => [Elusive Bounty: ~mission(TargetName) (HRT)]
-[Hurston_bounty_multiboss_dc_desc_001] => [HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: Very High Risk Target (Armed Support)\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). This target and the large hostile force they are traveling with have just been reported raiding ~mission(Location|Address). \n\nHowever, if their MO holds true, ~mission(TargetName|Last) has typically remained hidden during attacks, preferring to direct their forces from afar. It is our recommendation that you focus on thinning out their allies first, and once their numbers have been significantly weakened, ~mission(TargetName|Last) will have no choice but to confront you directly. \n\nPayment will be released only after the bounty has been deemed complete.\n\n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n]
-[Hurston_bounty_multiboss_dc_title_001] => [Evasive Bounty: ~mission(TargetName) (VHRT)]
-[Hurston_eliminatespecifc_dc_desc_001] => [HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: T. Davik\nRISK ASSESSMENT: Moderate Risk Target\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). Intel reports have tracked the target to ~mission(Location|Address) where they were last seen near the ~mission(Location). \n\nBe prepared for them to resist apprehension and for the use of lethal force if required.\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n]
-[Hurston_eliminatespecifc_dc_title_001] => [Bounty Located: ~mission(TargetName) (MRT)]
-[Hurston_killcreatureslocation_onetype_onelocation_desc_01] => [ABOUT THE JOB\nmicroTech Protection Services need a mercenary to exterminate a nest of ~mission(Items) that have taken up residence inside ~mission(location|address). They have become an issue, and we need a professional to resolve the situation.\n\nRESPONSIBILITIES\n• Provide own transportation. \n• Use force as necessary to eliminate the ~mission(Items). \n\nMINIMUM QUALIFICATIONS\n• 1 year of relevant mercenary and/or security experience.\n• Access to combat equipment.\n• Available for immediate deployment.\n\nPREFERRED QUALIFICATIONS\n• Experience with extermination.]
-[Hurston_killcreatureslocation_onetype_onelocation_title_01] => [Nest Extermination: ~mission(Items)]
-[MTPS_eliminateboss_dc_title_001] => [Apprehend Bounty: ~mission(TargetName) (HRT)]
-[MTPS_eliminateboss_multi_dc_title_001] => [Secure Bounty: ~mission(TargetName) (VHRT)]
-[MTPS_eliminatespecific_dc_title_001] => [Active Bounty: ~mission(TargetName) (MRT)]
-[Maps_KeyHint_MyLocation,P] => [Go To Player]
-[Maps_KeyHint_SetMarker,P] => [Place Pin]
-[RAIN_killcollectcreatures_onetype_title_01,P] => [Research Material Needed: ~mission(Items)]
-[Tarpits_theft_mines_dc_desc_001] => [I was hopin’ you’d be interested in pulling a little job for us. Got some goods over at ~mission(Location|Address) that are just right for the taking. Only problem is – and it’s a big one – the bastards running the place have the whole area rigged with proximity mines. \n\nYou’ll need to find someway through, or if you can’t be bothered, someway to trigger the lot. Either way, just try not to blow yourself up. Then you just need to grab the stuff and take it over to ~mission(Destination|Address).\n\nIt won’t be easy to pull off, but if you do, I promise I’ll make it worth your while.\n]
-[Tut01_Journal02_TheBasics_Content] => [The universe of Star Citizen is a dynamic place, providing players with the ability to interact with much of the environment around them. The foundation of this ability is the game’s Interaction Mode. \n\nIf you are in range to interact with an object – like a door or item of food – a control hint will appear above it.  If you hold the interaction, a pop-up menu will open showing additional interaction options.\n\nWhen interacting with an interface, you can also scroll through the list of available options on the display. For example, you can scroll through the list of floor options while interacting with an elevator panel.\n\nFor all manners of interaction, you may prefer to use different keybinds. To view all the current keybinds or adjust them, use the Keybinding tab of the Options menu.]
-[Tut02_Journal01_Trading_Content] => [The universe of Star Citizen has many unique pieces of equipment and clothing for you to use. These items may be looted from adversaries but can also be purchased from the numerous stores around the ‘verse. Specialized stores at major landing zones tend to have the necessary stock to cover your basic needs, whereas quieter areas might have unique variants or niche equipment.\n\nTo buy an item on display, approach it and an information box will appear displaying the brand logo, item name, and price, as well as control hints to BUY, TRY ON, or INSPECT the item. If you like what you see and have the necessary funds, selecting the BUY option will complete the purchase.\n\nYou can also use Interaction Mode to browse the shopping kiosks. While these kiosks are not as hands-on, it is easier to buy goods in volume through the kiosk interfaces. Kiosks also give you the option to choose where the items will be delivered – either to your local storage or directly to your personal inventory.\n\nTo sell items, first make sure that they are in your personal inventory, local storage, or are cargo on a vehicle stored at that location. Then you can interact with a shopping kiosk at a store and use the “SELL” tab. From there you will be given options to select which items you wish to sell. Not all stores will purchase all items.\n\nPERSONAL INVENTORY\nYour Personal Inventory is the storage on your character. You can use this screen to arrange and organize your items, transferring them between your Personal Inventory and Local Storage or equipping them to your character. Take note that certain items have requirements for when they can be equipped, such as armor needing to be placed on an undersuit. All inventories have a capacity bar near the top that indicates how much they can store. \n\nLOCAL STORAGE\nYour Local Storage is unique to the current zone you are in. For example, if you are on microTech you will no longer have access to your Area18 storage. While Local Storages are significantly larger than Personal Inventories, they still have their own maximum capacity.\n\nAs you accumulate a high number of items, you can use the tabs at the top of the Local Inventory window to filter through specific categories of items and equipment.\n\nVehicles also have their own storage capacity. This inventory is not shared with any other players aboard and remains accessible to you while onboard the vehicle or while that vehicle is parked at your current landing zone.\n\nLOSING ITEMS\nRemember, when you get into dangerous situations out in the ‘verse you risk losing your items! Things in your personal inventory at the time of your death will remain on your corpse and will need to be retrieved. The same is true when a vehicle is destroyed. There is a chance that other players will find and claim your lost items before you can.\n\nAnything in storage at a major city landing zone is safe regardless of what happens to you or your vehicles.]
-[Tutorial01_Lorville_JournalToken] => [Currently, you are in Lorville, on Hurston, the first planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \n\n~mission(Location|Name) is the main commercial zone of the thriving city that is the heart of Hurston Dynamics corporate empire. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.]
-[Tutorial01_Orison_JournalToken] => [Currently, you are in Orison, above Crusader, the second planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \n\n~mission(Location|Name) is the main platform of the floating city that perches high in the clouds above the surface of Crusader. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.]
-[basesweep_additionaltargets] => [Additional Targets Detected]
-[crusader_bounty_fps_title_001] => [Bounty Extraction: ~mission(TargetName) (MRT)]
-[crusader_platform_EliminateSpecific_title] => [Nine Tails Enforcer Bounty (HRT)]
-[crusader_platform_MultiEliminateSpecific_title] => [Nine Tails Enforcer Bounties (VHRT)]
-[destroystash_obj_long_01] => [Destroy entirety of the designated ~mission(ItemsToDestroy) at ~mission(Location|Address).]
-[destroystash_subobj_long_01] => [Travel to ~mission(Location|Address) and locate the ~mission(ItemsToDestroy).]
-[dfm_ac_tut_message00] => [[DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)]]
-[dfm_ui_ItemFieldMultipleParam] => [�x%d]
-[dfm_ui_PlayerCommittedSuicide] => [�committed suicide!]
-[dfm_ui_TookTheEasyWay] => [�took the easy way out!]
-[dfm_ui_WarningOfflineThrusters] => [WARNING: Flight Systems Offline�]
-[dfm_ui_WarningOfflineWeapons] => [WARNING: Weapons Offline�]
-[dfm_ui_WarningOverheatingWeapons] => [WARNING: Weapons�Overheating]
-[dfm_ui_param_FracKilometres] => [%.*f� km]
-[ea_ui_BalancingTeams] => [Balancing Teams \n%d]
-[elevator_accessing] => [ACCESSING CENTRAL�TRANSPORT SYSTEM]
-[engineering_ui_tab_items,P] => [Item Control]
-[engineering_ui_tab_rooms,P] => [Room Control]
-[hud_mining_modifier_filter] => [Inert Material Filtering (~ItemModifierMethod(value)%)]
-[hurston_bounty_fps_UGF_bountyonly_desc_001] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: L. Paleski\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have identified the current whereabouts of the target to ~mission(Location|Address). \n\nPlease be aware that there will be other individuals at the site, but this contract specifically authorizes you to only engage ~mission(TargetName|Last). There must be no other casualties.  \n\nPayment will be released only after the bounty has been deemed complete.\n\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n]
-[hurston_bounty_fps_UGF_desc_001] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have tracked the  target to ~mission(Location|Address).  This site is known to be frequented by criminals who are most likely armed and hostile. Engage with them as you see fit, but your top priority is the neutralization of ~mission(TargetName|Last).\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n]
-[hurston_bounty_fps_UGF_nocivs_desc_001] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: L. Paleski\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have located the current whereabouts of the target to ~mission(Location|Address).  While you are clear to engage with any criminals at the site as you see fit, any civilians at the location are to be protected.\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n\n]
-[hurston_bounty_fps_desc_001] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nUnder the authority of Hurston Dynamics as granted by the UEE, a bounty has been issued for ~mission(TargetName) relating to crimes against the corporation. \n\nThe subject is believed to be recently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize ~mission(TargetName|Last). ~mission(Location|CaveSize)\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **]
-[hurston_bounty_fps_desc_first] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nAfter repeated and continual misdemeanor offenses, a bounty has been issued for the following individual - ~mission(TargetName).\n \nTo assess your potential in assisting in the capture of more elusive criminals, Hurston Dynamics will be evaluating your ability to locate and apprehend ~mission(TargetName|Last) by any means at your disposal. \n\nThe subject is believed to be currently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize the target. ~mission(Location|CaveSize)\n\nPayment will be released only after the bounty is dealt with. \n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **]
-[hurston_bounty_fps_desc_rehire] => [HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nOur department performs periodic reevaluations of past bounty hunters and have determined that you may be a suitable candidate for possible reinstatement.\n\nTo prove your current abilities, successfully apprehend the following wanted individual: \n~mission(TargetName).\n \nThe subject is believed to be currently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize the target. ~mission(Location|CaveSize)\n\nSuccessful completion of this bounty will result in reinstatement as a Hurston Dynamics bounty hunter and a transfer of payment.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **]
-[hurston_bounty_fps_title_001] => [Entrenched Bounty: ~mission(TargetName) (MRT)]
-[item_DescANVL_Hornet_F7A_Mk2_Nose_Turret] => [Item Type: Turret\nManufacturer: Anvil Aerospace\nSize: 3\n\nThis nose turret was designed specifically for Anvil's F7A Mk II Hornet to allow for mounting two Size-2 weapons and precise gimbaled tracking of targets.]
-[item_DescMRCK_S02_ORIG_400i_Octo_S01] => [Item Type: Missile Rack\nManufacturer: Behring\nSize: 1\nMissiles: 8xS1\n\nTo help defend the Origin 400i, Behring built the SNT-171 "Santoro", which can carry and deploy eight S1 missiles.]
-[item_Desc_ccc_combat_heavy_helmet_01,P] => [PH - ccc_combat_heavy_helmet_01\nVisor is AR crosshair compatible.]
-[item_Desc_ccc_heavy_armor_helmet_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -80 / 110 °C\n\nShow that you serve no master with the Neoni helmet. Drawing inspiration from monster myths and warrior cultures of old, this menacing visage courtesy of CC's Conversions features a dramatic paint job, fang-filled grin, and pointed holographic horns, providing protection and intimidation in one memorable helmet. Visor is AR crosshair compatible.]
-[item_Desc_ccc_medium_armor_helmet_01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings while perfectly fitting a Human head. Red highlights provide colorful and vibrant accents to the black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.]
-[item_Desc_ccc_medium_armor_helmet_01_01_shrike] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves Shrike helmet to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings with colorful blue and magenta accents on black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.]
-[item_Desc_ccc_medium_armor_helmet_01_01_talon] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves Talon helmet to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings with colorful green accents on black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.]
-[item_Desc_cds_combat_light_helmet_03] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -35 / 65 °C\n\nBased on CDS' FBL-8a combat armor, this set has been modified from its original form. This light armor will keep you fast on your feet with its strategic mix of protective plating and reinforced nano-weave fabrics. While the armor works with any undersuit, it was specifically designed to match the FBL-8u undersuit with special attention given to how the two fit together to make the set as streamlined and responsive as possible. Visor is AR crosshair compatible.]
-[item_Desc_cds_combat_light_helmet_04] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -35 / 65 °C\n\nBased on CDS' FBL-8a combat armor, this set has been modified from its original form. This light armor will keep you fast on your feet with its strategic mix of protective plating and reinforced nano-weave fabrics. While the armor works with any undersuit, it was specifically designed to match the FBL-8u undersuit with special attention given to how the two fit together to make the set as streamlined and responsive as possible. Visor is AR crosshair compatible.]
-[item_Desc_cds_combat_medium_helmet_03_01_01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 93 °C\n\nThis version of CDS' ORC-mkX combat armor has been modified from its original form. The mark X is part of CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology, maximizing protection against projectiles, explosives and the elements while minimizing operator agility. Visor is AR crosshair compatible.]
-[item_Desc_cds_combat_medium_helmet_04_01_01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 93 °C\n\nThis version of CDS' ORC-mkX combat armor has been modified from its original form. The mark X is part of CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology, maximizing protection against projectiles, explosives and the elements while minimizing operator agility. Visor is AR crosshair compatible.]
-[item_Desc_cds_legacy_armor_heavy_helmet_01_crus01_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -75 / 105 °C\n\nEvery piece of the Balor was designed by Clark Defense Systems to more evenly distribute damage. This spreads the force of an impact across the heavy helmet, helping it hold up when others would fail. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.]
-[item_Desc_cds_legacy_armor_light_helmet_01_crus01_01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -40 / 70 °C\n\nConstructed using a lightweight alloy that can withstand a fair share of damage, the CBH-3 is a field-tested combat helmet featuring a large single-piece molded faceplate to allow for an expansive field of view for increased situational awareness. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.]
-[item_Desc_cds_legacy_heavy_armor_01_helmet] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -75 / 105 °C\n\nEvery piece of the Balor was designed by Clark Defense Systems to more evenly distribute damage. This spreads the force of an impact across the heavy helmet, helping it hold up when others would fail. Visor is AR crosshair compatible.]
-[item_Desc_cds_legacy_light_armor_01_helmet] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -40 / 70 °C\n\nConstructed using a lightweight alloy that can withstand a fair share of damage, the CBH-3 is a field-tested combat helmet featuring a large single-piece molded faceplate to allow for an expansive field of view for increased situational awareness. Visor is AR crosshair compatible.]
-[item_Desc_cds_legacy_medium_armor_01_helmet] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -55 / 85 °C\n\nThe G-2 provides protection and an uninhibited field of view without being bulky. Clark Defense Systems designed the helmet to withstand a wide variety of impact types without compromising its integrity. Visor is AR crosshair compatible.]
-[item_Desc_cds_medium_armor_02_helmet] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -63 / 93 °C\n\nThe mark X is the latest in CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology that maximizes protection against projectiles, explosives and the elements without hindering the operator's agility. Visor is AR crosshair compatible.]
-[item_Desc_cds_undersuit_helmet_01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -30 / 60 °C\n\nThe A23 has been one of CDS' mainstay helmet systems for years. Built out of impact-resistant composite technology and a hardened laminate faceplate, the A23 is perfect for hazardous environment and basic EVA operations. Visor is AR crosshair compatible.]
-[item_Desc_doom_medium_armor_helmet_01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nBuilt using high quality scavenge with a molded faceplate, the Death's Head is built to take an absolute beating. Visor is AR crosshair compatible.]
-[item_Desc_doom_medium_armor_helmet_02] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nBe the reaper with this terrifying battle helmet molded after some kind of animal. We aren't a vet, it just looked cool. All we know is that it'll withstand some serious punishment and look bad ass doing it. Visor is AR crosshair compatible.]
-[item_Desc_doom_medium_armor_helmet_02_holiday] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nCelebrate the season with the festive Holiday Butcher helmet. Doomsday designed this twisted bit of armor to withstand a firefight, raucous holiday party, and everything in between. The snout's custom armor plating provides protection while remaining lightweight, and the synthetic spiral horns are more durable than the real deal. The Holiday Butcher adds to Doomsday's reputation as the universe's premiere engineer of warped gear. Visor is AR crosshair compatible.]
-[item_Desc_outlaw_legacy_armor_light_helmet_01_04_9tails] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -31 / 61 °C\n\nThis version of Kastak Arms' Oracle helmet has been modified from its original form. Kastak Arms' Oracle provides an enclosed reinforced plating helmet with integrated diamond laminate over the eyes. It allows for maximum situational awareness while keeping the wearer safe in space and on the battlefield. Visor is AR crosshair compatible.]
-[item_Desc_outlaw_legacy_armor_medium_helmet_01_01_9tails01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -56 / 86 °C\n\nThis version of Kastak Arms' Morningstar helmet has been modified from its original form. Show no weakness while wearing the Morningstar. This fully-enclosed combat helmet is tailored to endure a variety of combat situations and provides protection against an array of threats from ballistic to concussive to energy. Visor is AR crosshair compatible.]
-[item_Desc_outlaw_legacy_heavy_armor_helmet_neoni] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -80 / 110 °C\n\nShow that you serve no master with the Neoni modification for the Fortifier helmet. Drawing inspiration from the myths of old, this menacing variant of the Kastak Arms Fortifier features a devilish paint job, fang-filled grin, and pointed horns. Providing protection and intimidation in one memorable helmet. Visor is AR crosshair compatible.]
-[item_Desc_outlaw_legacy_light_armor_helmet] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -31 / 61 °C\n\nKastak Arms' Oracle provides an enclosed reinforced plating helmet with integrated diamond laminate over the eyes. It allows for maximum situational awareness while keeping the wearer safe in space and on the battlefield. Visor is AR crosshair compatible.]
-[item_Desc_outlaw_legacy_medium_armor_helmet] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -56 / 86 °C\n\nShow no weakness while wearing the Morningstar. This fully-enclosed combat helmet is tailored to endure a variety of combat situations and provides protection against an array of threats from ballistic to concussive to energy. Visor is AR crosshair compatible.]
-[item_Desc_qrt_specialist_medium_helmet_01] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 91 °C\n\nBlending durability and a striking style, the Artimex armor exemplifies the Quirinus aesthetic. This intricately detailed armor considers both form and function, especially when paired with the fully enclosed helmet that features a neon ocular flourish. The armor also comes with a unique cowl that fans over the helmet and a knee length fitted cape. Visor is AR crosshair compatible.]
-[item_Desc_qrt_specialist_medium_helmet_02] => [Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 91 °C\n\nBlending durability and a striking style, the Artimex armor exemplifies the Quirinus aesthetic. This intricately detailed armor considers both form and function, especially when paired with the fully enclosed helmet that features a neon ocular flourish. The armor also comes with a unique cowl that fans over the helmet and a knee length fitted cape. The Hurston Dynamics edition was made specifically for the company's Executive Security team. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining based on their recommendation; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_02] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -95 / 120 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_03] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -97 / 121 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_03_crus01_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -97 / 121 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_04_01_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -70 / 100 °C\n\nFeaturing the same fortified armor plating, special anti-rip protective padding and ample storage, as the Morozov SH, the SH-I industrial variant was designed by RRS to protect workers employed in hostile zones while ensuring they had the full range of motion required to perform their duties. The Pyrotechnic Amalgamated Edition was made specifically for the company's mining efforts in Pyro during the 26th century. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_heavy_helmet_04_02_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -70 / 100 °C\n\nFeaturing the same fortified armor plating, special anti-rip protective padding and ample storage, as the Morozov SH, the SH-I industrial variant was designed by RRS to protect workers employed in hostile zones while ensuring they had the full range of motion required to perform their duties. The Gold Horizon Edition was made specifically for the company's operations in Pyro during the 26th century. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_light_helmet_01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_light_helmet_01_01_9tails01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nThis version of Roussimoff Rehabilitation Systems' Arden-SL helmet has been modified from its original form. With its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_light_helmet_01_coramor_01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. The special Coramor Fate edition been updated with vibrant pink and light grey coloring. Visor is AR crosshair compatible.]
-[item_Desc_rrs_specialist_light_helmet_01_coramor_02] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. The special Kismet edition of this armor features black and pink coloration in honor of the ship Yuri Ilyin flew in the classic vid 'Coramor' while he searched for his lost lover Corazon Tan. Visor is AR crosshair compatible.]
-[item_Desc_sasu_combat_heavy_helmet_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nEmbrace your inner beast by equipping the Voidripper helmet. Layers of heavy armor plating provide premium protection and an unforgettable visage featuring a heavy brow and piercing turquoise eyes. Sakura Sun designers complimented this striking form with supreme function, including a state of the art sensor suite attached to the helmet's right side. Visor is AR crosshair compatible.]
-[item_Desc_sasu_combat_heavy_helmet_01_01_9tails01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nThis version of Sakura Sun's Voidripper helmet has been modified from its original form. Embrace your inner beast by equipping the Voidripper helmet. Layers of heavy armor plating provide premium protection and an unforgettable visage featuring a heavy brow and piercing turquoise eyes. Sakura Sun designers complimented this striking form with supreme function, including a state of the art sensor suite attached to the helmet's right side. Visor is AR crosshair compatible.]
-[item_Desc_slaver_armor_heavy_helmet_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -72 / 102 °C\n\nThe Defiance features a fully enclosed battle helmet constructed with two layers of composite weaves underneath armor plating, providing you maximum protection against penetrating and concussive attacks. Visor is AR crosshair compatible.]
-[item_Desc_slaver_armor_heavy_helmet_01_01_9tails01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -72 / 102 °C\n\nThis version of CDS's Defiance helmet has been modified from its original form. The Defiance features a fully enclosed battle helmet constructed with two layers of composite weaves underneath armor plating, providing you maximum protection against penetrating and concussive attacks. Visor is AR crosshair compatible.]
-[item_Desc_slaver_light_armor_helmet_02] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -39 / 69 °C\n\nKastak Arm's Renegade combat helmet is a light but durable infantry helmet designed for added protection and impact-reduction during in-atmosphere operations. Visor is AR crosshair compatible.]
-[item_Desc_slaver_medium_armor_helmet_01_starkitty] => [Item Type: Medium Armor\nDamage Reduction: 30%\n\nCelebrate your love of the timeless Star Kitten cartoon with this commemorative variant of Kastak Arms' classic DustUp helmet. Sure to be a collectible, this custom molding also features embedded lighting to create a stunning silhouette without sacrificing any of the defensive capabilities of this medium helmet. Visor is AR crosshair compatible.]
-[item_Desc_srvl_heavy_helmet_01] => [Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -77 / 107 °C\n\nRemain fully protected and anonymous without feeling a great weight on your head. The Overlord helmet delivers heavy armor protection while using a special lightweight composite plating that makes it feel like nothing's there. Repurposed ocular sensors normally found on ships keep you attuned to your surroundings and, when worn with the full Overlord suit, the high neck collar provides the helmet extra support and protection. Visor is AR crosshair compatible.]
-[item_Desc_thp_light_helmet_01] => [Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -32 / 64 °C\n\nFear no frontier while wearing the Aztalan armor. This mixture of armor plating and reinforced fabrics will keep you safe yet swift on your feet. Tehachapi's masterful design gives the armor a subtle yet unmistakable frontier style that also providing ample storage. Suitable for everything from sand dunes to bustling backstreets, the Aztalan is the ideal choice for your next adventure. Visor is AR crosshair compatible.]
-[item_Mining_MiningLaser_Thermyte_2_S2_Desc] => [Manufacturer: Thermyte Concern\nItem Type: Mining Laser \nSize: 2\n\nOptimal Range: 30m\nMaximum Range: 90m\n\nMining Laser Power: 1020 - 4080\nExtraction Laser Power: 2590\n\nModule Slots: 3\n\nResistance: -30%\nInert Material Level: -40%\n\nOptimal Charge Window Size: -40%\n\nTo some, the effective use of the Helix II has become a sign of a true mining professional. Thermyte Concern gave the laser impressive power that can bypass a deposit's resistance but also requires precision handling to hit the optimal charge window. Best deployed at close range, Helix II features three module slots so miners can tailor the laser to their liking.]
-[item_Name_cbd_hat_03_drake_dec] => [Drake Hat Yellow Logo]
-[item_Name_eld_shirt_04_drake_dec] => [Drake T-Shirt Yellow Logo]
-[mg_miles_groupbounty_desc_001] => [CONTRACT TYPE: Group Warrant\nCONTRACTOR STATUS: Independent\nApproval code: = ~mission(Contractor|ApprovalCode)\n\nFOR IMMEDIATE PROCESSING\n\nIn relation to a jointly committed crime, a group warrant has been issued for:\n     ~mission(Target1)\n     ~mission(Target2)\n     ~mission(Target3)\n\nIt is currently believed that they are no longer traveling together in order to evade capture, and may soon flee the system.  You should strongly consider recruiting additional help in order to execute all the warrants in the limited time frame. \n\nYou are authorized to use whatever force is necessary to neutralize the targets. \n\nPayment will be issued upon successful completion of contract when all targets have been dealt with in the allotted time.\n\nThis contract is non-negotiable.\n\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.]
-[mission_location_pyro_061q] => [Maintenance Area-01 inside Endgame at the L3 Lagrange of Pyro VI]
-[mission_location_stanton_757] => [Covalex Distribution Center S1DC06]
-[mission_location_stanton_758] => [Covalex Distribution Center S1DC06 on Hurston]
-[mission_location_stanton_759] => [HDPC-Cassillo]
-[mission_location_stanton_760] => [HDPC-Cassillo on Hurston]
-[mission_location_stanton_761] => [HDPC-Farnesway]
-[mission_location_stanton_762] => [HDPC-Farnesway on Hurston]
-[mission_location_stanton_763] => [Sakura Sun Magnolia Workcenter]
-[mission_location_stanton_764] => [Sakura Sun Magnolia Workcenter on Hurston]
-[mission_location_stanton_769] => [Cry-Astro Processing Plant 19-02]
-[mission_location_stanton_770] => [Cry-Astro Processing Plant 19-02 on microTech]
-[mission_location_stanton_773] => [Cry-Astro Processing Plant 34-12]
-[mission_location_stanton_774] => [Cry-Astro Processing Plant 34-12 on microTech]
-[mission_location_stanton_775] => [microTech Logistics Depot S4LD01]
-[mission_location_stanton_776] => [microTech Logistics Depot S4LD01 on Stanton IV]
-[mission_location_stanton_777] => [microTech Logistics Depot S4LD13]
-[mission_location_stanton_778] => [microTech Logistics Depot S4LD13 on Stanton IV]
-[mission_location_stanton_787] => [Sakura Sun Goldenrod Workcenter]
-[mission_location_stanton_788] => [Sakura Sun Goldenrod Workcenter on microTech]
-[mobiGlas_Reputation_Tab_Organizations] => [Factions]
-[mobiGlas_ui_CrimeStatLabel] => [CrimeStat]
-[mtps_bounty_fps_title_001] => [Active Bounty: ~mission(TargetName) (MRT)]
-[northrock_bounty_fps_title_001] => [Bounty Assignment: ~mission(TargetName) (HRT)]
-[operatorMode_QuantumNavigation_Short] => [QTM]
-[pause_options_head_tracking_tobii_profile0_eye_head_tracking_ratio] => [Head Tracking - Tobii - Seat - Input Mix (0: Gaze, 1: Head)]
-[pause_options_head_tracking_tobii_profile0_gaze_responsiveness] => [Head Tracking - Tobii - Seat - Input Mix Gaze Responsiveness]
-[pause_options_head_tracking_tobii_profile0_head_center_stabilization] => [Head Tracking - Tobii - Seat - Center Stabilization]
-[pause_options_head_tracking_tobii_profile0_head_sensitivity_pitch] => [Head Tracking - Tobii - Seat - Head Sensitivity Pitch]
-[pause_options_head_tracking_tobii_profile0_head_sensitivity_roll] => [Head Tracking - Tobii - Seat - Head Sensitivity Roll]
-[pause_options_head_tracking_tobii_profile0_head_sensitivity_yaw] => [Head Tracking - Tobii - Seat - Head Sensitivity Yaw]
-[pause_options_head_tracking_tobii_profile0_head_view_auto_center] => [Head Tracking - Tobii - Seat - Auto Center Enabled]
-[pause_options_head_tracking_tobii_profile1_gaze_responsiveness] => [Head Tracking - Tobii - FPS - Input Mix Gaze Responsiveness]
-[ui_InventoryCannotAcceptItemFromPlayers] => [Item Not Accepted]
-[ui_Inventory_ContainerType_Armor_Legs] => [Leg Armor Storage]
-[ui_Inventory_ContainerType_Armor_Torso] => [Core Armor Storage]
-[ui_mission_reward_max] => [Up to]
-[vehicle_DescANVL_Hornet_F7A] => [Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nThe UEE Navy's premier carrier-based fighter craft, the F7A Hornet Mk I is the front-line attack ship for military combat missions. While not outfitted for long range runs, the Hornet can take her share of hits and dish out a powerful response.]
-[vehicle_DescANVL_Hornet_F7C] => [Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nTo the enemy, it is a weapon never to be underestimated. To allies, it's a savior. The F7C Hornet Mk I is the same dependable and resilient multi-purpose fighter that has become the face of the UEE Navy. The F7C is the foundation to build on and meet whatever requirements you have in mind.]
-[vehicle_DescANVL_Hornet_F7CM] => [Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nThe closest to the Military load-out as is legally possible for a Civilian model, the F7C-M Super Hornet Mk I reattaches the ball turret and offers near milspec parts under the hood. Proving that two heads are better than one, a second seat has been added to split the logistic and combat duty, making the Super Hornet a truly terrifying mark to engage.]
-[vehicle_DescANVL_Hornet_F7CM_Heartseeker] => [Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nDesigned for pilots whose true love is the pulse-pounding thrill of a harrowing dogfight, the limited-edition F7C-M Heartseeker Mk I is 'the one' for true combat die-hards. Loaded with top-of-the-line components and outfitted with four imposing Behring laser cannons, this fierce eradicator hones the legendary combat proficiency of the Super Hornet to give you the ultimate edge in space combat.]
-[vehicle_DescANVL_Hornet_F7CR] => [Manufacturer: Anvil Aerospace\nFocus: Pathfinder\n\nIf the Ghost is made to hide, the Tracker is made to seek. The F7C-R Hornet Tracker Mk I boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&C ships for their squadrons.]
-[vehicle_DescANVL_Hornet_F7CS] => [Manufacturer: Anvil Aerospace\nFocus: Stealth Fighter\n\nThrough a combination of low-emission drives, low-draw weapons, and Void Armor technology capable of diffusing scans, the F7C-S Hornet Ghost Mk I is built for the pilot who wants to keep a low profile. The Ghost is capable of slipping past the most ardent of observers to accomplish whatever goal you need to accomplish. Don't worry, we won't ask.]
-[vehicle_DescANVL_Hornet_F7C_Wildfire] => [Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nCreated as part of the ‘Masters of Flight’ series in conjunction with the flight-sim Arena Commander, the Wildfire pays tribute to famed pilot Aria Reilly for her distinguished service with the legendary Squadron 42. This F7C Hornet Mk I comes equipped with her own personally selected loadout preferences and a custom special edition livery honoring her iconic ship.]
-[vehicle_NameANVL_Hornet_F7A] => [Anvil F7A Hornet Mk I]
-[vehicle_NameANVL_Hornet_F7C] => [Anvil F7C Hornet Mk I]
-[vehicle_NameANVL_Hornet_F7CM] => [Anvil F7C-M Super Hornet Mk I]
-[vehicle_NameANVL_Hornet_F7CM_Heartseeker] => [Anvil F7C-M Hornet Heartseeker Mk I]
-[vehicle_NameANVL_Hornet_F7CR] => [Anvil F7C-R Hornet Tracker Mk I]
-[vehicle_NameANVL_Hornet_F7CS] => [Anvil F7C-S Hornet Ghost Mk I]
-[vehicle_NameANVL_Hornet_F7C_Wildfire] => [Anvil F7C Hornet Wildfire Mk I]
+Bitzeroes_destroygen_locked_dc_desc_001=I need your help on a job, but I can’t get too detailed about the specifics. If that doesn’t work for you, than don’t worry about it.\n\nYou’re going to head to ~mission(Location|Address) and blow up a power generator for us. Now, they keep the gen locked up, so you’ll have to hunt down the access codes first. Thankfully, they typically keep copies of the code on datapads. (Thinks it’ll keep ‘em safe from being hacked.)\n\nYou get that generator destroyed, and it’ll be your bank account blowin’ up next.\n\n- Bit Zeros\n
+Bitzeroes_theft_mines_dc_desc_001=I’m really hoping you’re going to agree to take this on since there doesn’t seem to be too many folks eager to take on a whole bunch of proximity mines. See, there’s a score that we’ve sourced to ~mission(Location|Address) but the physical security is proving more difficult than expected. \n\nIf you can find a way to navigate through the mines or possibly a way to trigger them remotely, it should be relatively easy to grab the goods and make your way out of there. You’ll get more than your fair cut of the credits for taking on the risk.\n\n-Bit Zeroes\n
+FreightElevator_8SCU,P=Location:
+Hints_ASOP1=Fleet Manager kiosks located in stations, spaceports and hangars, allow you to retrieve any of the vehicles you own or are currently renting.
+Hints_ASOP2=Pass through an Airlock to reach the landing pads. Follow the AR waypoint on your visor to locate your ship.
+Hints_ASOP3=While interacting with the Fleet Manager kiosk, select 'Retrieve' on the vehicle you wish to have brought to a hangar.
+Hints_ATC1=To receive a hangar assignment or permission to take-off, contact landing services via the Comms menu on your MFD or in your mobiGlas.
+Hints_ActorStatusBleeding_Title=Bleeding
+Hints_ActorStatusBuff_Title=Player Buffs & Debuffs
+Hints_ActorStatusClothingChanged=Some armor and clothing can protect against extreme temperatures as detailed in their descriptions.
+Hints_ActorStatusCorpseMarkerShown=Your previous body and any items on it can be found at the Corpse marker. To dismiss, open the Personal Inner Thought menu, and go to Actions, Player.
+Hints_ActorStatusDeadlyInjuryStarted=You have received a severe injury. Use medications to relieve symptoms, and a Tier 1 Medical Bed to fully treat any issues.
+Hints_ActorStatusDigestionAbsorptionEmpty=Eat and drink regularly to avoid negative effects as your Nutrition and Hydration levels decrease.
+Hints_ActorStatusDownedEnter=While incapacitated, ask others in your party, in chat, or through rescue service beacons to revive you before the 'Time to Death' timer expires.
+Hints_ActorStatusEating_Title=Eating & Drinking
+Hints_ActorStatusEffectArmsLockCannotClimbLadder=You cannot climb ladders while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockCannotMantle=You cannot mantle while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockCannotSteerShip=You cannot pilot ships while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockCannotTakeDown=You cannot perform a take down while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockCannotUseMountedGun=You cannot use a mounted gun while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockCannotUseTrolley=You cannot use a trolley while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockDropItem=You cannot carry heavy objects while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockLowerWeapon=You cannot raise weapons while your arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectArmsLockStart=You arms are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusEffectBleedStart=You are bleeding and will continue to lose health over time. Use a coagulant like Hemozal to reduce the effects.
+Hints_ActorStatusEffectProneLockStart=Your legs are experiencing Partial Paralysis. Treat with an Opioid like Roxaphen to temporarily regain function.
+Hints_ActorStatusFoodDrinkItemHeld=While equipped food can often be eaten in a single bite, beverages can be consumed in small sips or a long continuous drink until the meter is empty.
+Hints_ActorStatusFoodDrinkItemInInventory=Use your personal inventory menu to view consumables and equip or discard them.
+Hints_ActorStatusHospitalRoomReserved=For help navigating to your medical room, check nearby signs for directions. It may be on a different floor and require the use of an elevator.
+Hints_ActorStatusHungerThirstDamageStarted=When Nutrition and Hydration levels are too low, you will take damage and eventually become unconscious. Eat and drink to replenish your levels.
+Hints_ActorStatusHungerThirstDeath=Your depleted Nutrition and Hydration levels have rendered you unconscious. Remember to eat and drink to replenish them.
+Hints_ActorStatusHungerThirstFull=When Nutrition and Hydration levels are full, consuming items no longer grants the full effect. Consider saving them until you are hungry or thirsty.
+Hints_ActorStatusHungerThirstStatusStarted=You are suffering ill effects from low Nutrition and / or Hydration levels. Consume food and drinks as soon as possible to restore your levels.
+Hints_ActorStatusHunger_Title=Hunger & Thirst
+Hints_ActorStatusHyperthermiaDamageStarted=Your body temperature is too high and you're taking damage from hyperthermia. Seek shelter or equip clothing and armor able to withstand the heat.
+Hints_ActorStatusHyperthermiaStarted=You are too hot and hyperthermia is beginning to set in. Seek shelter or equip clothing and armor able to withstand the heat.
+Hints_ActorStatusHypothermiaDamageStarted=Your body temperature is too low and you are taking damage from hypothermia. Seek shelter or equip clothing and armor able to withstand the cold.
+Hints_ActorStatusHypothermiaStarted=You are too cold and hypothermia is beginning to set in. Seek shelter or equip clothing and armor able to withstand the cold.
+Hints_ActorStatusInjuryMinor_Title=Minor Injuries
+Hints_ActorStatusInjuryModerate_Title=Moderate Injuries
+Hints_ActorStatusInjurySevere_Title=Severe Injuries
+Hints_ActorStatusInjuryStarted=You have received a minor injury. Use medications to relieve symptoms, and a Tier 3 Medical Bed to fully treat any issues.
+Hints_ActorStatusIntoxicatedEnter=An elevated Blood Drug Level can cause feelings of intoxication, making getting around or piloting a vehicle difficult and potentially dangerous.
+Hints_ActorStatusMajorInjuryStarted=You have received a moderate injury. Use medications to relieve symptoms, and a Tier 2 Medical Bed to fully treat any issues.
+Hints_ActorStatusMedBedEnter=The bed has restored your health and reset your BDL. Use the Treatment tab to heal injuries (depending on tier), and the Medication tab for dosage.
+Hints_ActorStatusOverdoseEnter=A high Blood Drug Level (BDL) can make you stunned, losing health, and eventually incapacitated. BDL lowers naturally but a dose of Resurgia can help.
+Hints_ActorStatusPartialParalysis_Title=Partial Paralysis
+Hints_ActorStatusRespawnCriminal=Due to your current CrimeStat, you have been regenerated at the nearest facility outside of the UEE's jurisdiction.
+Hints_ActorStatusRespawnLocationSet=To reset your regen location to your primary residence, use a terminal at any medical bed or insurance office.
+Hints_ActorStatusRespawnMedBed=By default, you'll regen at your primary residence, but a new location can be selected via medical beds or at insurance offices.
+Hints_ActorStatusTemperatureAboveMaxResistance=You're experiencing high temperatures and are at risk of hyperthermia. Seek shelter or equip clothing and armor able to withstand the heat.
+Hints_ActorStatusTemperatureBelowMinResistance=You're experiencing low temperatures and are at risk of hypothermia. Seek shelter or equip clothing and armor able to withstand the cold.
+Hints_ActorStatusTemperatureDeath=To avoid negative effects and becoming unconscious, remember to equip clothing or armor rated for the temperature you are in.
+Hints_ActorStatusTemperature_Title=Player Temperature
+Hints_ActorStatusWeatherLocomotionEntered=Be aware that severe weather and strong winds can drop temperatures and make it difficult to move. Have equipment ready in case a storm breaks out.
+Hints_ActorStatus_PITMenuDrugs=The Personal Inner Thought menu displays all current injuries along with active medications, their duration, and what symptoms they're relieving.
+Hints_BodyDrag_DropBody=To let go, use Interaction Mode and select “Drop Body.” Actions like sprint, jump, crouch, or using two-handed items will automatically drop the body.
+Hints_BodyDrag_WhilstDragging=Move at a walking pace to drag the body along with you. You may use one-handed weapons without detaching from the body.
+Hints_Camera1=While piloting a vehicle, you have the option to cycle through multiple camera views.
+Hints_Cargo_Align=To transfer cargo, maintain alignment of your ship in the loading area. If your deck assignment is revoked, contact Cargo Services for a new one.
+Hints_Cargo_Collect=Ships like the Hull C require loading and unloading through the Cargo Transfer system. Contact Cargo Services to be assigned an open cargo deck.
+Hints_Cargo_Deliver=To transfer cargo with ships like the Hull C, contact Cargo Services to be assigned a cargo deck. Payment will be sent when the transfer is complete.
+Hints_Cargo_Forfeit=If you exit the area before finishing the transfer, contact Cargo Services to resume. Depart entirely and your remaining cargo lost.
+Hints_Cargo_Forfeit_Title=Cargo Transfer - Interrupted
+Hints_Cargo_Hail=To transfer cargo, contact Cargo Services from the Commlink in your mobiGlas or the Comm’s menu on your ship’s multi-function displays (MFDs).
+Hints_Cargo_Interrupt_Transfer=Cargo transfers can be halted by things like: moving or exiting your ship, retracting the cargo spindles, or an obstructed loading area.
+Hints_Cargo_Interrupt_Transfer_Title=Cargo Transfer - Halted
+Hurston_bounty_boss_dc_desc_001=HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: High Risk Target (Armed Support)\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). This bounty has proven extremely elusive so far, but intel reports have tracked the target and a cohort of their known associates to ~mission(Location|Address). \n\nHowever, there is a strong chance that ~mission(TargetName|Last) will not risk a confrontation unless absolutely forced to. It is our recommendation that you neutralize a significant portion of the criminal’s allies first in order to draw them out. The report indicates that a large party of these hostiles are currently near the ~mission(Location).\n\nPayment will be released only after the bounty has been deemed complete.\n\n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **
+Hurston_bounty_boss_dc_title_001=Elusive Bounty: ~mission(TargetName) (HRT)
+Hurston_bounty_multiboss_dc_desc_001=HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: Very High Risk Target (Armed Support)\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). This target and the large hostile force they are traveling with have just been reported raiding ~mission(Location|Address). \n\nHowever, if their MO holds true, ~mission(TargetName|Last) has typically remained hidden during attacks, preferring to direct their forces from afar. It is our recommendation that you focus on thinning out their allies first, and once their numbers have been significantly weakened, ~mission(TargetName|Last) will have no choice but to confront you directly. \n\nPayment will be released only after the bounty has been deemed complete.\n\n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n
+Hurston_bounty_multiboss_dc_title_001=Evasive Bounty: ~mission(TargetName) (VHRT)
+Hurston_eliminatespecifc_dc_desc_001=HURSTON DYNAMICS OUTSOURCING\nCONTRACT: Bounty Collection\nOUTSOURCE MANAGER: T. Davik\nRISK ASSESSMENT: Moderate Risk Target\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). Intel reports have tracked the target to ~mission(Location|Address) where they were last seen near the ~mission(Location). \n\nBe prepared for them to resist apprehension and for the use of lethal force if required.\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n\n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n
+Hurston_eliminatespecifc_dc_title_001=Bounty Located: ~mission(TargetName) (MRT)
+Hurston_killcreatureslocation_onetype_onelocation_desc_01=ABOUT THE JOB\nmicroTech Protection Services need a mercenary to exterminate a nest of ~mission(Items) that have taken up residence inside ~mission(location|address). They have become an issue, and we need a professional to resolve the situation.\n\nRESPONSIBILITIES\n• Provide own transportation. \n• Use force as necessary to eliminate the ~mission(Items). \n\nMINIMUM QUALIFICATIONS\n• 1 year of relevant mercenary and/or security experience.\n• Access to combat equipment.\n• Available for immediate deployment.\n\nPREFERRED QUALIFICATIONS\n• Experience with extermination.
+Hurston_killcreatureslocation_onetype_onelocation_title_01=Nest Extermination: ~mission(Items)
+MTPS_eliminateboss_dc_title_001=Apprehend Bounty: ~mission(TargetName) (HRT)
+MTPS_eliminateboss_multi_dc_title_001=Secure Bounty: ~mission(TargetName) (VHRT)
+MTPS_eliminatespecific_dc_title_001=Active Bounty: ~mission(TargetName) (MRT)
+Maps_KeyHint_MyLocation,P=Go To Player
+Maps_KeyHint_SetMarker,P=Place Pin
+RAIN_killcollectcreatures_onetype_title_01,P=Research Material Needed: ~mission(Items)
+Tarpits_theft_mines_dc_desc_001=I was hopin’ you’d be interested in pulling a little job for us. Got some goods over at ~mission(Location|Address) that are just right for the taking. Only problem is – and it’s a big one – the bastards running the place have the whole area rigged with proximity mines. \n\nYou’ll need to find someway through, or if you can’t be bothered, someway to trigger the lot. Either way, just try not to blow yourself up. Then you just need to grab the stuff and take it over to ~mission(Destination|Address).\n\nIt won’t be easy to pull off, but if you do, I promise I’ll make it worth your while.\n
+Tut01_Journal02_TheBasics_Content=The universe of Star Citizen is a dynamic place, providing players with the ability to interact with much of the environment around them. The foundation of this ability is the game’s Interaction Mode. \n\nIf you are in range to interact with an object – like a door or item of food – a control hint will appear above it.  If you hold the interaction, a pop-up menu will open showing additional interaction options.\n\nWhen interacting with an interface, you can also scroll through the list of available options on the display. For example, you can scroll through the list of floor options while interacting with an elevator panel.\n\nFor all manners of interaction, you may prefer to use different keybinds. To view all the current keybinds or adjust them, use the Keybinding tab of the Options menu.
+Tut02_Journal01_Trading_Content=The universe of Star Citizen has many unique pieces of equipment and clothing for you to use. These items may be looted from adversaries but can also be purchased from the numerous stores around the ‘verse. Specialized stores at major landing zones tend to have the necessary stock to cover your basic needs, whereas quieter areas might have unique variants or niche equipment.\n\nTo buy an item on display, approach it and an information box will appear displaying the brand logo, item name, and price, as well as control hints to BUY, TRY ON, or INSPECT the item. If you like what you see and have the necessary funds, selecting the BUY option will complete the purchase.\n\nYou can also use Interaction Mode to browse the shopping kiosks. While these kiosks are not as hands-on, it is easier to buy goods in volume through the kiosk interfaces. Kiosks also give you the option to choose where the items will be delivered – either to your local storage or directly to your personal inventory.\n\nTo sell items, first make sure that they are in your personal inventory, local storage, or are cargo on a vehicle stored at that location. Then you can interact with a shopping kiosk at a store and use the “SELL” tab. From there you will be given options to select which items you wish to sell. Not all stores will purchase all items.\n\nPERSONAL INVENTORY\nYour Personal Inventory is the storage on your character. You can use this screen to arrange and organize your items, transferring them between your Personal Inventory and Local Storage or equipping them to your character. Take note that certain items have requirements for when they can be equipped, such as armor needing to be placed on an undersuit. All inventories have a capacity bar near the top that indicates how much they can store. \n\nLOCAL STORAGE\nYour Local Storage is unique to the current zone you are in. For example, if you are on microTech you will no longer have access to your Area18 storage. While Local Storages are significantly larger than Personal Inventories, they still have their own maximum capacity.\n\nAs you accumulate a high number of items, you can use the tabs at the top of the Local Inventory window to filter through specific categories of items and equipment.\n\nVehicles also have their own storage capacity. This inventory is not shared with any other players aboard and remains accessible to you while onboard the vehicle or while that vehicle is parked at your current landing zone.\n\nLOSING ITEMS\nRemember, when you get into dangerous situations out in the ‘verse you risk losing your items! Things in your personal inventory at the time of your death will remain on your corpse and will need to be retrieved. The same is true when a vehicle is destroyed. There is a chance that other players will find and claim your lost items before you can.\n\nAnything in storage at a major city landing zone is safe regardless of what happens to you or your vehicles.
+Tutorial01_Lorville_JournalToken=Currently, you are in Lorville, on Hurston, the first planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \n\n~mission(Location|Name) is the main commercial zone of the thriving city that is the heart of Hurston Dynamics corporate empire. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.
+Tutorial01_Orison_JournalToken=Currently, you are in Orison, above Crusader, the second planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \n\n~mission(Location|Name) is the main platform of the floating city that perches high in the clouds above the surface of Crusader. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.
+basesweep_additionaltargets=Additional Targets Detected
+crusader_bounty_fps_title_001=Bounty Extraction: ~mission(TargetName) (MRT)
+crusader_platform_EliminateSpecific_title=Nine Tails Enforcer Bounty (HRT)
+crusader_platform_MultiEliminateSpecific_title=Nine Tails Enforcer Bounties (VHRT)
+destroystash_obj_long_01=Destroy entirety of the designated ~mission(ItemsToDestroy) at ~mission(Location|Address).
+destroystash_subobj_long_01=Travel to ~mission(Location|Address) and locate the ~mission(ItemsToDestroy).
+dfm_ac_tut_message00=[DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)]
+dfm_ui_ItemFieldMultipleParam=�x%d
+dfm_ui_PlayerCommittedSuicide=�committed suicide!
+dfm_ui_TookTheEasyWay=�took the easy way out!
+dfm_ui_WarningOfflineThrusters=WARNING: Flight Systems Offline�
+dfm_ui_WarningOfflineWeapons=WARNING: Weapons Offline�
+dfm_ui_WarningOverheatingWeapons=WARNING: Weapons�Overheating
+dfm_ui_param_FracKilometres=%.*f� km
+ea_ui_BalancingTeams=Balancing Teams \n%d
+elevator_accessing=ACCESSING CENTRAL�TRANSPORT SYSTEM
+engineering_ui_tab_items,P=Item Control
+engineering_ui_tab_rooms,P=Room Control
+hud_mining_modifier_filter=Inert Material Filtering (~ItemModifierMethod(value)%)
+hurston_bounty_fps_UGF_bountyonly_desc_001=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: L. Paleski\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have identified the current whereabouts of the target to ~mission(Location|Address). \n\nPlease be aware that there will be other individuals at the site, but this contract specifically authorizes you to only engage ~mission(TargetName|Last). There must be no other casualties.  \n\nPayment will be released only after the bounty has been deemed complete.\n\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n
+hurston_bounty_fps_UGF_desc_001=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: I. Takao\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have tracked the  target to ~mission(Location|Address).  This site is known to be frequented by criminals who are most likely armed and hostile. Engage with them as you see fit, but your top priority is the neutralization of ~mission(TargetName|Last).\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n
+hurston_bounty_fps_UGF_nocivs_desc_001=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: L. Paleski\nRISK ASSESSMENT: Moderate Risk Target (Likely Armed Support)\nRUSH CONTRACT: No\n\nHurston Dynamics is seeking a contractor to complete a bounty for ~mission(TargetName). \n\nIntel reports have located the current whereabouts of the target to ~mission(Location|Address).  While you are clear to engage with any criminals at the site as you see fit, any civilians at the location are to be protected.\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **\n\n
+hurston_bounty_fps_desc_001=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nUnder the authority of Hurston Dynamics as granted by the UEE, a bounty has been issued for ~mission(TargetName) relating to crimes against the corporation. \n\nThe subject is believed to be recently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize ~mission(TargetName|Last). ~mission(Location|CaveSize)\n\nPayment will be released only after the bounty has been deemed complete.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **
+hurston_bounty_fps_desc_first=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nAfter repeated and continual misdemeanor offenses, a bounty has been issued for the following individual - ~mission(TargetName).\n \nTo assess your potential in assisting in the capture of more elusive criminals, Hurston Dynamics will be evaluating your ability to locate and apprehend ~mission(TargetName|Last) by any means at your disposal. \n\nThe subject is believed to be currently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize the target. ~mission(Location|CaveSize)\n\nPayment will be released only after the bounty is dealt with. \n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **
+hurston_bounty_fps_desc_rehire=HURSTON DYNAMICS\nOUTSOURCING DEPARTMENT\n\nCONTRACT: Bounty Collection\nCONTRACTOR AFFILIATION: Independent\nOUTSOURCE MANAGER: ~mission(Contractor|Auth)\nRISK ASSESSMENT: Moderate Risk Target (Possible Armed Support)\nRUSH CONTRACT: ~mission(Contractor|BountyTimed)\n\nOur department performs periodic reevaluations of past bounty hunters and have determined that you may be a suitable candidate for possible reinstatement.\n\nTo prove your current abilities, successfully apprehend the following wanted individual: \n~mission(TargetName).\n \nThe subject is believed to be currently located at ~mission(Location|Address), potentially with several allies. Force may be required to gain access to the site and neutralize the target. ~mission(Location|CaveSize)\n\nSuccessful completion of this bounty will result in reinstatement as a Hurston Dynamics bounty hunter and a transfer of payment.\n \n\n** The information transmitted may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of or taking action in reliance upon this information by persons or entities other than the intended recipient is prohibited. **
+hurston_bounty_fps_title_001=Entrenched Bounty: ~mission(TargetName) (MRT)
+item_DescANVL_Hornet_F7A_Mk2_Nose_Turret=Item Type: Turret\nManufacturer: Anvil Aerospace\nSize: 3\n\nThis nose turret was designed specifically for Anvil's F7A Mk II Hornet to allow for mounting two Size-2 weapons and precise gimbaled tracking of targets.
+item_DescMRCK_S02_ORIG_400i_Octo_S01=Item Type: Missile Rack\nManufacturer: Behring\nSize: 1\nMissiles: 8xS1\n\nTo help defend the Origin 400i, Behring built the SNT-171 "Santoro", which can carry and deploy eight S1 missiles.
+item_Desc_ccc_combat_heavy_helmet_01,P=PH - ccc_combat_heavy_helmet_01\nVisor is AR crosshair compatible.
+item_Desc_ccc_heavy_armor_helmet_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -80 / 110 °C\n\nShow that you serve no master with the Neoni helmet. Drawing inspiration from monster myths and warrior cultures of old, this menacing visage courtesy of CC's Conversions features a dramatic paint job, fang-filled grin, and pointed holographic horns, providing protection and intimidation in one memorable helmet. Visor is AR crosshair compatible.
+item_Desc_ccc_medium_armor_helmet_01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings while perfectly fitting a Human head. Red highlights provide colorful and vibrant accents to the black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.
+item_Desc_ccc_medium_armor_helmet_01_01_shrike=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves Shrike helmet to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings with colorful blue and magenta accents on black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.
+item_Desc_ccc_medium_armor_helmet_01_01_talon=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -60 / 90 °C\n\nCC's Conversions is proud to release the Aves Talon helmet to celebrate the beautiful and unique history of the Tevarin culture. This medium helmet honors traditional stylings with colorful green accents on black and white plating, giving the helmet a bold and dynamic feel worthy of this great species. Visor is AR crosshair compatible.
+item_Desc_cds_combat_light_helmet_03=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -35 / 65 °C\n\nBased on CDS' FBL-8a combat armor, this set has been modified from its original form. This light armor will keep you fast on your feet with its strategic mix of protective plating and reinforced nano-weave fabrics. While the armor works with any undersuit, it was specifically designed to match the FBL-8u undersuit with special attention given to how the two fit together to make the set as streamlined and responsive as possible. Visor is AR crosshair compatible.
+item_Desc_cds_combat_light_helmet_04=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -35 / 65 °C\n\nBased on CDS' FBL-8a combat armor, this set has been modified from its original form. This light armor will keep you fast on your feet with its strategic mix of protective plating and reinforced nano-weave fabrics. While the armor works with any undersuit, it was specifically designed to match the FBL-8u undersuit with special attention given to how the two fit together to make the set as streamlined and responsive as possible. Visor is AR crosshair compatible.
+item_Desc_cds_combat_medium_helmet_03_01_01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 93 °C\n\nThis version of CDS' ORC-mkX combat armor has been modified from its original form. The mark X is part of CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology, maximizing protection against projectiles, explosives and the elements while minimizing operator agility. Visor is AR crosshair compatible.
+item_Desc_cds_combat_medium_helmet_04_01_01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 93 °C\n\nThis version of CDS' ORC-mkX combat armor has been modified from its original form. The mark X is part of CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology, maximizing protection against projectiles, explosives and the elements while minimizing operator agility. Visor is AR crosshair compatible.
+item_Desc_cds_legacy_armor_heavy_helmet_01_crus01_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -75 / 105 °C\n\nEvery piece of the Balor was designed by Clark Defense Systems to more evenly distribute damage. This spreads the force of an impact across the heavy helmet, helping it hold up when others would fail. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.
+item_Desc_cds_legacy_armor_light_helmet_01_crus01_01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -40 / 70 °C\n\nConstructed using a lightweight alloy that can withstand a fair share of damage, the CBH-3 is a field-tested combat helmet featuring a large single-piece molded faceplate to allow for an expansive field of view for increased situational awareness. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.
+item_Desc_cds_legacy_heavy_armor_01_helmet=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -75 / 105 °C\n\nEvery piece of the Balor was designed by Clark Defense Systems to more evenly distribute damage. This spreads the force of an impact across the heavy helmet, helping it hold up when others would fail. Visor is AR crosshair compatible.
+item_Desc_cds_legacy_light_armor_01_helmet=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -40 / 70 °C\n\nConstructed using a lightweight alloy that can withstand a fair share of damage, the CBH-3 is a field-tested combat helmet featuring a large single-piece molded faceplate to allow for an expansive field of view for increased situational awareness. Visor is AR crosshair compatible.
+item_Desc_cds_legacy_medium_armor_01_helmet=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -55 / 85 °C\n\nThe G-2 provides protection and an uninhibited field of view without being bulky. Clark Defense Systems designed the helmet to withstand a wide variety of impact types without compromising its integrity. Visor is AR crosshair compatible.
+item_Desc_cds_medium_armor_02_helmet=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -63 / 93 °C\n\nThe mark X is the latest in CDS’ award-winning Omni-Role Combat armor series. This EVA-rated suit features new EdgeCore composite weave technology that maximizes protection against projectiles, explosives and the elements without hindering the operator's agility. Visor is AR crosshair compatible.
+item_Desc_cds_undersuit_helmet_01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -30 / 60 °C\n\nThe A23 has been one of CDS' mainstay helmet systems for years. Built out of impact-resistant composite technology and a hardened laminate faceplate, the A23 is perfect for hazardous environment and basic EVA operations. Visor is AR crosshair compatible.
+item_Desc_doom_medium_armor_helmet_01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nBuilt using high quality scavenge with a molded faceplate, the Death's Head is built to take an absolute beating. Visor is AR crosshair compatible.
+item_Desc_doom_medium_armor_helmet_02=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nBe the reaper with this terrifying battle helmet molded after some kind of animal. We aren't a vet, it just looked cool. All we know is that it'll withstand some serious punishment and look bad ass doing it. Visor is AR crosshair compatible.
+item_Desc_doom_medium_armor_helmet_02_holiday=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -52 / 82 °C\n\nCelebrate the season with the festive Holiday Butcher helmet. Doomsday designed this twisted bit of armor to withstand a firefight, raucous holiday party, and everything in between. The snout's custom armor plating provides protection while remaining lightweight, and the synthetic spiral horns are more durable than the real deal. The Holiday Butcher adds to Doomsday's reputation as the universe's premiere engineer of warped gear. Visor is AR crosshair compatible.
+item_Desc_outlaw_legacy_armor_light_helmet_01_04_9tails=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -31 / 61 °C\n\nThis version of Kastak Arms' Oracle helmet has been modified from its original form. Kastak Arms' Oracle provides an enclosed reinforced plating helmet with integrated diamond laminate over the eyes. It allows for maximum situational awareness while keeping the wearer safe in space and on the battlefield. Visor is AR crosshair compatible.
+item_Desc_outlaw_legacy_armor_medium_helmet_01_01_9tails01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -56 / 86 °C\n\nThis version of Kastak Arms' Morningstar helmet has been modified from its original form. Show no weakness while wearing the Morningstar. This fully-enclosed combat helmet is tailored to endure a variety of combat situations and provides protection against an array of threats from ballistic to concussive to energy. Visor is AR crosshair compatible.
+item_Desc_outlaw_legacy_heavy_armor_helmet_neoni=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -80 / 110 °C\n\nShow that you serve no master with the Neoni modification for the Fortifier helmet. Drawing inspiration from the myths of old, this menacing variant of the Kastak Arms Fortifier features a devilish paint job, fang-filled grin, and pointed horns. Providing protection and intimidation in one memorable helmet. Visor is AR crosshair compatible.
+item_Desc_outlaw_legacy_light_armor_helmet=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -31 / 61 °C\n\nKastak Arms' Oracle provides an enclosed reinforced plating helmet with integrated diamond laminate over the eyes. It allows for maximum situational awareness while keeping the wearer safe in space and on the battlefield. Visor is AR crosshair compatible.
+item_Desc_outlaw_legacy_medium_armor_helmet=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -56 / 86 °C\n\nShow no weakness while wearing the Morningstar. This fully-enclosed combat helmet is tailored to endure a variety of combat situations and provides protection against an array of threats from ballistic to concussive to energy. Visor is AR crosshair compatible.
+item_Desc_qrt_specialist_medium_helmet_01=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 91 °C\n\nBlending durability and a striking style, the Artimex armor exemplifies the Quirinus aesthetic. This intricately detailed armor considers both form and function, especially when paired with the fully enclosed helmet that features a neon ocular flourish. The armor also comes with a unique cowl that fans over the helmet and a knee length fitted cape. Visor is AR crosshair compatible.
+item_Desc_qrt_specialist_medium_helmet_02=Item Type: Medium Armor\nDamage Reduction: 30%\nTemp. Rating: -61 / 91 °C\n\nBlending durability and a striking style, the Artimex armor exemplifies the Quirinus aesthetic. This intricately detailed armor considers both form and function, especially when paired with the fully enclosed helmet that features a neon ocular flourish. The armor also comes with a unique cowl that fans over the helmet and a knee length fitted cape. The Hurston Dynamics edition was made specifically for the company's Executive Security team. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining based on their recommendation; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_02=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -95 / 120 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_03=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -97 / 121 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_03_crus01_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -97 / 121 °C\n\nFeaturing fortified armor plating, special anti-rip protective padding and ample storage, the Morozov-SH is ready to overcome all kinds of adversity. After consulting with security professionals, RRS added a unique high protective collar and a lightweight inner lining; making the Morozov-SH both comfortable and a battlefield stalwart. The Crusader Edition was made specifically for the company's security services. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_04_01_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -70 / 100 °C\n\nFeaturing the same fortified armor plating, special anti-rip protective padding and ample storage, as the Morozov SH, the SH-I industrial variant was designed by RRS to protect workers employed in hostile zones while ensuring they had the full range of motion required to perform their duties. The Pyrotechnic Amalgamated Edition was made specifically for the company's mining efforts in Pyro during the 26th century. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_heavy_helmet_04_02_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -70 / 100 °C\n\nFeaturing the same fortified armor plating, special anti-rip protective padding and ample storage, as the Morozov SH, the SH-I industrial variant was designed by RRS to protect workers employed in hostile zones while ensuring they had the full range of motion required to perform their duties. The Gold Horizon Edition was made specifically for the company's operations in Pyro during the 26th century. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_light_helmet_01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_light_helmet_01_01_9tails01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nThis version of Roussimoff Rehabilitation Systems' Arden-SL helmet has been modified from its original form. With its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_light_helmet_01_coramor_01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. The special Coramor Fate edition been updated with vibrant pink and light grey coloring. Visor is AR crosshair compatible.
+item_Desc_rrs_specialist_light_helmet_01_coramor_02=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -38 / 68 °C\n\nWith its excellent design and eye-catching style, the Arden-SL armor exemplifies why security specialists love Roussimoff Rehabilitation Systems. This versatile armor set lets the wearer stay agile but safe thanks to the precise placement of special composite armor plating and fabrics. It also features a fully enclosed helmet with an integrated cowl. The special Kismet edition of this armor features black and pink coloration in honor of the ship Yuri Ilyin flew in the classic vid 'Coramor' while he searched for his lost lover Corazon Tan. Visor is AR crosshair compatible.
+item_Desc_sasu_combat_heavy_helmet_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nEmbrace your inner beast by equipping the Voidripper helmet. Layers of heavy armor plating provide premium protection and an unforgettable visage featuring a heavy brow and piercing turquoise eyes. Sakura Sun designers complimented this striking form with supreme function, including a state of the art sensor suite attached to the helmet's right side. Visor is AR crosshair compatible.
+item_Desc_sasu_combat_heavy_helmet_01_01_9tails01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -90 / 115 °C\n\nThis version of Sakura Sun's Voidripper helmet has been modified from its original form. Embrace your inner beast by equipping the Voidripper helmet. Layers of heavy armor plating provide premium protection and an unforgettable visage featuring a heavy brow and piercing turquoise eyes. Sakura Sun designers complimented this striking form with supreme function, including a state of the art sensor suite attached to the helmet's right side. Visor is AR crosshair compatible.
+item_Desc_slaver_armor_heavy_helmet_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -72 / 102 °C\n\nThe Defiance features a fully enclosed battle helmet constructed with two layers of composite weaves underneath armor plating, providing you maximum protection against penetrating and concussive attacks. Visor is AR crosshair compatible.
+item_Desc_slaver_armor_heavy_helmet_01_01_9tails01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -72 / 102 °C\n\nThis version of CDS's Defiance helmet has been modified from its original form. The Defiance features a fully enclosed battle helmet constructed with two layers of composite weaves underneath armor plating, providing you maximum protection against penetrating and concussive attacks. Visor is AR crosshair compatible.
+item_Desc_slaver_light_armor_helmet_02=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -39 / 69 °C\n\nKastak Arm's Renegade combat helmet is a light but durable infantry helmet designed for added protection and impact-reduction during in-atmosphere operations. Visor is AR crosshair compatible.
+item_Desc_slaver_medium_armor_helmet_01_starkitty=Item Type: Medium Armor\nDamage Reduction: 30%\n\nCelebrate your love of the timeless Star Kitten cartoon with this commemorative variant of Kastak Arms' classic DustUp helmet. Sure to be a collectible, this custom molding also features embedded lighting to create a stunning silhouette without sacrificing any of the defensive capabilities of this medium helmet. Visor is AR crosshair compatible.
+item_Desc_srvl_heavy_helmet_01=Item Type: Heavy Armor\nDamage Reduction: 40%\nTemp. Rating: -77 / 107 °C\n\nRemain fully protected and anonymous without feeling a great weight on your head. The Overlord helmet delivers heavy armor protection while using a special lightweight composite plating that makes it feel like nothing's there. Repurposed ocular sensors normally found on ships keep you attuned to your surroundings and, when worn with the full Overlord suit, the high neck collar provides the helmet extra support and protection. Visor is AR crosshair compatible.
+item_Desc_thp_light_helmet_01=Item Type: Light Armor\nDamage Reduction: 20%\nTemp. Rating: -32 / 64 °C\n\nFear no frontier while wearing the Aztalan armor. This mixture of armor plating and reinforced fabrics will keep you safe yet swift on your feet. Tehachapi's masterful design gives the armor a subtle yet unmistakable frontier style that also providing ample storage. Suitable for everything from sand dunes to bustling backstreets, the Aztalan is the ideal choice for your next adventure. Visor is AR crosshair compatible.
+item_Mining_MiningLaser_Thermyte_2_S2_Desc=Manufacturer: Thermyte Concern\nItem Type: Mining Laser \nSize: 2\n\nOptimal Range: 30m\nMaximum Range: 90m\n\nMining Laser Power: 1020 - 4080\nExtraction Laser Power: 2590\n\nModule Slots: 3\n\nResistance: -30%\nInert Material Level: -40%\n\nOptimal Charge Window Size: -40%\n\nTo some, the effective use of the Helix II has become a sign of a true mining professional. Thermyte Concern gave the laser impressive power that can bypass a deposit's resistance but also requires precision handling to hit the optimal charge window. Best deployed at close range, Helix II features three module slots so miners can tailor the laser to their liking.
+item_Name_cbd_hat_03_drake_dec=Drake Hat Yellow Logo
+item_Name_eld_shirt_04_drake_dec=Drake T-Shirt Yellow Logo
+mg_miles_groupbounty_desc_001=CONTRACT TYPE: Group Warrant\nCONTRACTOR STATUS: Independent\nApproval code: = ~mission(Contractor|ApprovalCode)\n\nFOR IMMEDIATE PROCESSING\n\nIn relation to a jointly committed crime, a group warrant has been issued for:\n     ~mission(Target1)\n     ~mission(Target2)\n     ~mission(Target3)\n\nIt is currently believed that they are no longer traveling together in order to evade capture, and may soon flee the system.  You should strongly consider recruiting additional help in order to execute all the warrants in the limited time frame. \n\nYou are authorized to use whatever force is necessary to neutralize the targets. \n\nPayment will be issued upon successful completion of contract when all targets have been dealt with in the allotted time.\n\nThis contract is non-negotiable.\n\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.
+mission_location_pyro_061q=Maintenance Area-01 inside Endgame at the L3 Lagrange of Pyro VI
+mission_location_stanton_757=Covalex Distribution Center S1DC06
+mission_location_stanton_758=Covalex Distribution Center S1DC06 on Hurston
+mission_location_stanton_759=HDPC-Cassillo
+mission_location_stanton_760=HDPC-Cassillo on Hurston
+mission_location_stanton_761=HDPC-Farnesway
+mission_location_stanton_762=HDPC-Farnesway on Hurston
+mission_location_stanton_763=Sakura Sun Magnolia Workcenter
+mission_location_stanton_764=Sakura Sun Magnolia Workcenter on Hurston
+mission_location_stanton_769=Cry-Astro Processing Plant 19-02
+mission_location_stanton_770=Cry-Astro Processing Plant 19-02 on microTech
+mission_location_stanton_773=Cry-Astro Processing Plant 34-12
+mission_location_stanton_774=Cry-Astro Processing Plant 34-12 on microTech
+mission_location_stanton_775=microTech Logistics Depot S4LD01
+mission_location_stanton_776=microTech Logistics Depot S4LD01 on Stanton IV
+mission_location_stanton_777=microTech Logistics Depot S4LD13
+mission_location_stanton_778=microTech Logistics Depot S4LD13 on Stanton IV
+mission_location_stanton_787=Sakura Sun Goldenrod Workcenter
+mission_location_stanton_788=Sakura Sun Goldenrod Workcenter on microTech
+mobiGlas_Reputation_Tab_Organizations=Factions
+mobiGlas_ui_CrimeStatLabel=CrimeStat
+mtps_bounty_fps_title_001=Active Bounty: ~mission(TargetName) (MRT)
+northrock_bounty_fps_title_001=Bounty Assignment: ~mission(TargetName) (HRT)
+operatorMode_QuantumNavigation_Short=QTM
+pause_options_head_tracking_tobii_profile0_eye_head_tracking_ratio=Head Tracking - Tobii - Seat - Input Mix (0: Gaze, 1: Head)
+pause_options_head_tracking_tobii_profile0_gaze_responsiveness=Head Tracking - Tobii - Seat - Input Mix Gaze Responsiveness
+pause_options_head_tracking_tobii_profile0_head_center_stabilization=Head Tracking - Tobii - Seat - Center Stabilization
+pause_options_head_tracking_tobii_profile0_head_sensitivity_pitch=Head Tracking - Tobii - Seat - Head Sensitivity Pitch
+pause_options_head_tracking_tobii_profile0_head_sensitivity_roll=Head Tracking - Tobii - Seat - Head Sensitivity Roll
+pause_options_head_tracking_tobii_profile0_head_sensitivity_yaw=Head Tracking - Tobii - Seat - Head Sensitivity Yaw
+pause_options_head_tracking_tobii_profile0_head_view_auto_center=Head Tracking - Tobii - Seat - Auto Center Enabled
+pause_options_head_tracking_tobii_profile1_gaze_responsiveness=Head Tracking - Tobii - FPS - Input Mix Gaze Responsiveness
+ui_InventoryCannotAcceptItemFromPlayers=Item Not Accepted
+ui_Inventory_ContainerType_Armor_Legs=Leg Armor Storage
+ui_Inventory_ContainerType_Armor_Torso=Core Armor Storage
+ui_mission_reward_max=Up to
+vehicle_DescANVL_Hornet_F7A=Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nThe UEE Navy's premier carrier-based fighter craft, the F7A Hornet Mk I is the front-line attack ship for military combat missions. While not outfitted for long range runs, the Hornet can take her share of hits and dish out a powerful response.
+vehicle_DescANVL_Hornet_F7C=Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nTo the enemy, it is a weapon never to be underestimated. To allies, it's a savior. The F7C Hornet Mk I is the same dependable and resilient multi-purpose fighter that has become the face of the UEE Navy. The F7C is the foundation to build on and meet whatever requirements you have in mind.
+vehicle_DescANVL_Hornet_F7CM=Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nThe closest to the Military load-out as is legally possible for a Civilian model, the F7C-M Super Hornet Mk I reattaches the ball turret and offers near milspec parts under the hood. Proving that two heads are better than one, a second seat has been added to split the logistic and combat duty, making the Super Hornet a truly terrifying mark to engage.
+vehicle_DescANVL_Hornet_F7CM_Heartseeker=Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nDesigned for pilots whose true love is the pulse-pounding thrill of a harrowing dogfight, the limited-edition F7C-M Heartseeker Mk I is 'the one' for true combat die-hards. Loaded with top-of-the-line components and outfitted with four imposing Behring laser cannons, this fierce eradicator hones the legendary combat proficiency of the Super Hornet to give you the ultimate edge in space combat.
+vehicle_DescANVL_Hornet_F7CR=Manufacturer: Anvil Aerospace\nFocus: Pathfinder\n\nIf the Ghost is made to hide, the Tracker is made to seek. The F7C-R Hornet Tracker Mk I boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&C ships for their squadrons.
+vehicle_DescANVL_Hornet_F7CS=Manufacturer: Anvil Aerospace\nFocus: Stealth Fighter\n\nThrough a combination of low-emission drives, low-draw weapons, and Void Armor technology capable of diffusing scans, the F7C-S Hornet Ghost Mk I is built for the pilot who wants to keep a low profile. The Ghost is capable of slipping past the most ardent of observers to accomplish whatever goal you need to accomplish. Don't worry, we won't ask.
+vehicle_DescANVL_Hornet_F7C_Wildfire=Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nCreated as part of the ‘Masters of Flight’ series in conjunction with the flight-sim Arena Commander, the Wildfire pays tribute to famed pilot Aria Reilly for her distinguished service with the legendary Squadron 42. This F7C Hornet Mk I comes equipped with her own personally selected loadout preferences and a custom special edition livery honoring her iconic ship.
+vehicle_NameANVL_Hornet_F7A=Anvil F7A Hornet Mk I
+vehicle_NameANVL_Hornet_F7C=Anvil F7C Hornet Mk I
+vehicle_NameANVL_Hornet_F7CM=Anvil F7C-M Super Hornet Mk I
+vehicle_NameANVL_Hornet_F7CM_Heartseeker=Anvil F7C-M Hornet Heartseeker Mk I
+vehicle_NameANVL_Hornet_F7CR=Anvil F7C-R Hornet Tracker Mk I
+vehicle_NameANVL_Hornet_F7CS=Anvil F7C-S Hornet Ghost Mk I
+vehicle_NameANVL_Hornet_F7C_Wildfire=Anvil F7C Hornet Wildfire Mk I
