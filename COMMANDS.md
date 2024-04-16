@@ -1,5 +1,18 @@
 # Lista de comandos de los scripts
 
+
+## Ordenar alfabeticamente los .ini
+
+```shell
+php .\Tools\scripts\ordenarAlfabeticamente.php
+```
+
+## SC Patcher .ini
+
+```shell
+php .\Tools\scripts\scLangPatcher.php
+```
+
 ## Encontrar diferecnias
 
 ```shell
