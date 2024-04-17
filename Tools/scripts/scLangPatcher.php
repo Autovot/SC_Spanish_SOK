@@ -26,7 +26,9 @@ $archivoOriginal = "../../data/Localization/english/global.ini";    // ORIGINAL 
 $archivoNuevo = "../../data/Localization/english/global.new.ini";   // NEW PATCH INI FILE
 $archivoFinal = "../../data/Localization/english/global.final.ini"; // FINAL INI FILE (WITH ALL CHANGES)
 
-$archivoLog = "log.txt";            // LOG FILE NAME (.TXT RECOMENDED)
+$archivoNewLinesLog = "newLines.txt";
+$archivoDeletedLinesLog = "deletedLines.txt";
+$archivoModifiedLinesLog = "modifiedLines.txt";
 $onlyLogs = false;                  // GENERATE ONLY LOG FILE? (LESS PROCESSING TIME)
 $logCopyPasteFormat = false;         // TRUE IF WANT "VARIABLE=VALUE", FALSE IF WANT "[VARIABLE] => VALUE"
 // YOU CAN LEAVE IT BLANK IF $crearLogs = false
@@ -52,8 +54,13 @@ $finalFileAsociativeArray;
 $newLines;
 $deletedLines;
 $changedLines;
-$logFile;
-$logContent;
+$logNewFile;
+$logDeleteFile;
+$logModifiedFile;
+
+$logNewContent;
+$logDeletedContent;
+$logModifiedContent;
 
 $newFileAsociativeArray;
 $originalFileAsociativeArray;
@@ -84,15 +91,15 @@ if ($language != "es" && $language != "en") {
 $json_string = file_get_contents(__DIR__ . "/lang/" . $language . ".json");
 $translate = json_decode($json_string, true);
 
-if (
-    ($archivoOriginal == $archivoNuevo || $archivoOriginal == $archivoLog || $archivoOriginal == $archivoFinal) ||
-    ($archivoNuevo == $archivoOriginal || $archivoNuevo == $archivoLog || $archivoNuevo == $archivoFinal) ||
-    ($archivoLog == $archivoNuevo || $archivoLog == $archivoOriginal || $archivoLog == $archivoFinal) ||
-    ($archivoFinal == $archivoNuevo || $archivoFinal == $archivoOriginal || $archivoFinal == $archivoLog)
-) {
-    echo (getTranslation("name.cant.be.same"));
-    die();
-}
+// if (
+//     ($archivoOriginal == $archivoNuevo || $archivoOriginal == $archivoLog || $archivoOriginal == $archivoFinal) ||
+//     ($archivoNuevo == $archivoOriginal || $archivoNuevo == $archivoLog || $archivoNuevo == $archivoFinal) ||
+//     ($archivoLog == $archivoNuevo || $archivoLog == $archivoOriginal || $archivoLog == $archivoFinal) ||
+//     ($archivoFinal == $archivoNuevo || $archivoFinal == $archivoOriginal || $archivoFinal == $archivoLog)
+// ) {
+//     echo (getTranslation("name.cant.be.same"));
+//     die();
+// }
 
 if (trim($archivoOriginal) == "") {
     echo (getTranslation("original.file.name.blank"));
@@ -106,10 +113,10 @@ if (trim($archivoFinal) == "") {
     echo (getTranslation("final.file.name.blank"));
     die();
 }
-if ($crearLogs == true && trim($archivoLog) == "") {
-    echo (getTranslation("log.file.name.blank"));
-    die();
-}
+// if ($crearLogs == true && trim($archivoLog) == "") {
+//     echo (getTranslation("log.file.name.blank"));
+//     die();
+// }
 if ($debugLevel != 1 && $debugLevel != 2 && $debugLevel != 3 && $debugLevel != 4) {
     echo (getTranslation("debug.level.invalid"));
     die();
@@ -135,12 +142,31 @@ try {
     die();
 }
 
-try {
-    $logFile = (__DIR__ . "/" . $archivoLog);
-} catch (Exception) {
-    echo (getTranslation("log.file.not.detected"));
-    if ($crearLogs == true)
-        die();
+if ($crearLogs == true)
+{
+    $dir = (__DIR__ . "/logs");
+    try {
+        if (!file_exists($dir))
+        {
+            mkdir($dir);
+        }
+    }
+    catch (Exception) {
+        echo "Error Creando directorio LOG";
+    }
+}
+
+if ($crearLogs == true)
+{
+    try {
+        $logNewFile = (__DIR__ . "/logs/" . $archivoNewLinesLog);
+        $logDeleteFile = (__DIR__ . "/logs/" . $archivoDeletedLinesLog);
+        $logModifiedFile = (__DIR__ . "/logs/" . $archivoModifiedLinesLog);
+    } catch (Exception) {
+        echo (getTranslation("log.file.not.detected"));
+        if ($crearLogs == true)
+            die();
+    }
 }
 
 try {
@@ -150,7 +176,9 @@ try {
     die();
 }
 
-$logContent = date("d-m-Y H:i:s");
+$logNewContent = date("d-m-Y H:i:s");
+$logDeletedContent = date("d-m-Y H:i:s");
+$logModifiedContent = date("d-m-Y H:i:s");
 $counter = 0;
 $finalContent = "";
 $finalFileAsociativeArray = [];
@@ -222,14 +250,14 @@ if ($debugLevel == 3 && $crearLogs == true)
     echo ("\n" . getTranslation("creating.new.line.logs"));
 
 if ($crearLogs) {
-    $logContent = $logContent . "\n\n---------------------\n";
-    $logContent = $logContent . "--  " . getTranslation("new.lines.logs.title") . "  --\n";
-    $logContent = $logContent . "---------------------\n\n";
+    $logNewContent = $logNewContent . "\n\n---------------------\n";
+    $logNewContent = $logNewContent . "--  " . getTranslation("new.lines.logs.title") . "  --\n";
+    $logNewContent = $logNewContent . "---------------------\n\n";
     foreach ($newLines as $key => $value) {
         if ($logCopyPasteFormat == false)
-            $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+            $logNewContent = $logNewContent . "[" . $key . "] => " . $value . "\n";
         elseif ($logCopyPasteFormat == true)
-            $logContent = $logContent . $key . "=" . $value;
+            $logNewContent = $logNewContent . $key . "=" . $value;
     }
 }
 
@@ -261,14 +289,14 @@ if ($debugLevel == 3 && $crearLogs == true)
     echo ("\n" . getTranslation("creating.deleted.line.logs"));
 
 if ($crearLogs) {
-    $logContent = $logContent . "\n\n-----------------------\n";
-    $logContent = $logContent . "-- " . getTranslation("deleted.lines.logs.title") . " --\n";
-    $logContent = $logContent . "-----------------------\n\n";
+    $logDeletedContent = $logDeletedContent . "\n\n-----------------------\n";
+    $logDeletedContent = $logDeletedContent . "-- " . getTranslation("deleted.lines.logs.title") . " --\n";
+    $logDeletedContent = $logDeletedContent . "-----------------------\n\n";
     foreach ($deletedLines as $key => $value) {
         if ($logCopyPasteFormat == false)
-            $logContent = $logContent . "[" . $key . "] => " . $value . "\n";
+            $logDeletedContent = $logDeletedContent . "[" . $key . "] => " . $value . "\n";
         elseif ($logCopyPasteFormat == true)
-            $logContent = $logContent . $key . "=" . $value;
+            $logDeletedContent = $logDeletedContent . $key . "=" . $value;
     }
 }
 
@@ -309,15 +337,15 @@ if ($debugLevel == 3 && $crearLogs == true)
     echo ("\n" . getTranslation("creating.modified.lines.logs"));
 
 if ($crearLogs) {
-    $logContent = $logContent . "\n\n------------------------\n";
-    $logContent = $logContent . "-- " . getTranslation("modified.lines.logs.title") . " --\n";
-    $logContent = $logContent . "------------------------\n\n";
+    $logModifiedContent = $logModifiedContent . "\n\n------------------------\n";
+    $logModifiedContent = $logModifiedContent . "-- " . getTranslation("modified.lines.logs.title") . " --\n";
+    $logModifiedContent = $logModifiedContent . "------------------------\n\n";
     foreach ($changedLines as $key => $value) {
         $tempValue = trim($value);
         if ($logCopyPasteFormat == false)
-            $logContent = $logContent . "[" . $key . "] => [" . $tempValue . "]\n";
+            $logModifiedContent = $logModifiedContent . "[" . $key . "] => [" . $tempValue . "]\n";
         elseif ($logCopyPasteFormat == true)
-            $logContent = $logContent . $key . "=" . $tempValue . "\n";
+            $logModifiedContent = $logModifiedContent . $key . "=" . $tempValue . "\n";
     }
 }
 
@@ -328,7 +356,11 @@ if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4
     echo "\n" . getTranslation("modified.lines.search.completed") . "\n";
 
 if ($crearLogs)
-    file_put_contents($logFile, $logContent);
+{
+    file_put_contents($logNewFile, $logNewContent);
+    file_put_contents($logDeleteFile, $logDeletedContent);
+    file_put_contents($logModifiedFile, $logModifiedContent);
+}
 
 if ($debugLevel == 3)
     echo ("\n" . getTranslation("logs.file.generated"));
