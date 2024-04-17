@@ -28,7 +28,7 @@ $archivoFinal = "../../data/Localization/english/global.final.ini"; // FINAL INI
 
 $archivoLog = "log.txt";            // LOG FILE NAME (.TXT RECOMENDED)
 $onlyLogs = false;                  // GENERATE ONLY LOG FILE? (LESS PROCESSING TIME)
-$logCopyPasteFormat = true;         // TRUE IF WANT "VARIABLE=VALUE", FALSE IF WANT "[VARIABLE] => VALUE"
+$logCopyPasteFormat = false;         // TRUE IF WANT "VARIABLE=VALUE", FALSE IF WANT "[VARIABLE] => VALUE"
 // YOU CAN LEAVE IT BLANK IF $crearLogs = false
 
 
@@ -64,10 +64,17 @@ $counter;
 
 // DECLARATIONS
 
-if ((isset($argv[1])) && ((boolval(trim($argv[1])) == true) || (boolval(trim($argv[1])) == false)))
-    $logCopyPasteFormat = boolval(trim($argv[1]));
-if ((isset($argv[2])) && ((boolval(trim($argv[2])) == true) || (boolval(trim($argv[2])) == false)))
-    $onlyLogs = boolval(trim($argv[2]));
+if (isset($argv[1]))
+{
+    if (strtoupper(trim($argv[1])) == "TRUE") $logCopyPasteFormat = true;
+    elseif (strtoupper((trim($argv[1])) == "FALSE")) $logCopyPasteFormat = false;
+}
+
+if (isset($argv[2]))
+{
+    if (strtoupper(trim($argv[2])) == "TRUE") $onlyLogs = true;
+    elseif (strtoupper((trim($argv[2])) == "FALSE")) $onlyLogs = false;
+}
 
 if ($language != "es" && $language != "en") {
     echo ("Invalid language selected");
