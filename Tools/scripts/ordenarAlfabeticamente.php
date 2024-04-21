@@ -11,6 +11,6 @@ sort($archivoOriginal);
 sort($archivoNuevo);
 sort($archivoTraducido);
 
-file_put_contents($rutaCarpetaEN . "/global.ini", $archivoOriginal);
-file_put_contents($rutaCarpetaEN . "/global.new.ini", $archivoNuevo);
-file_put_contents($rutaCarpetaES . "/global.ini", $archivoTraducido);
+// file_put_contents($rutaCarpetaEN . "/global.ini", $archivoOriginal);
+// file_put_contents($rutaCarpetaEN . "/global.new.ini", $archivoNuevo);
+// file_put_contents($rutaCarpetaES . "/global.ini", $archivoTraducido);

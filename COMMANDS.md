@@ -1,7 +1,7 @@
 # Lista de comandos de los scripts
 
 
-## Ordenar alfabeticamente los .ini
+## Ordenar alfabeticamente los .ini (Script desactivado)
 
 ```shell
 php .\Tools\scripts\ordenarAlfabeticamente.php
