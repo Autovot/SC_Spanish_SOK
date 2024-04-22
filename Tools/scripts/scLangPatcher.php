@@ -1,456 +1,316 @@
 <?php
 
-//---------------------------------------------------------------------------------------------------------------------
-//--     _____  _____        _               _   _  _____         _____     _______ _____ _    _ ______ _____        --
-//--    / ____|/ ____|      | |        /\   | \ | |/ ____|       |  __ \ /\|__   __/ ____| |  | |  ____|  __ \       --
-//--    | (___| |           | |       /  \  |  \| | |  __        | |__) /  \  | | | |    | |__| | |__  | |__) |      --
-//--    \___ \| |           | |      / /\ \ | . ` | | |_ |       |  ___/ /\ \ | | | |    |  __  |  __| |  _  /       --
-//--    ____) | |____       | |____ / ____ \| |\  | |__| |       | |  / ____ \| | | |____| |  | | |____| | \ \       --
-//--    |_____/ \_____|     |______/_/    \_\_| \_|\_____|       |_| /_/    \_\_|  \_____|_|  |_|______|_|  \_\      --
-//--                                                                                                                 --
-//--                                            By ZZETTAZZ & AUTOVOT                                                --
-//---------------------------------------------------------------------------------------------------------------------
+$yourTranslatedPatchFileName = "global_es.ini";     // THE NAME OF YOUR TRANSLATED FILE (Example: global_spanish.ini)
+$newOriginalPatchFileName = "global.new.ini";       // THE NAME OF YOUR NEW PATCH FILE (Example: global_3.23.ini)
+$oldOriginalPatchFileName = "global_en.ini";        // THE NAME OF YOUR OLD PATCH FILE (Example: global_3.22.ini)
+$finalResultFileName = "global.final.ini";          // THE NAME OF FINAL FILE (Example: global_final.ini)
+$logFileName = "log.txt";                           // THE NAME OF LOGS FILE (Example: logs.txt)
 
+$runTests = true;                                   // RUN FINAL FILE INTEGRITY TESTS?  ******STRONGLY RECOMENDED****** (true = RUN TESTS / false = DONT RUN TESTS)
 
-// COMMAND : php scLangPatcher.php <LogCopyPasteFormat? true|false> <Generate Logs File Only? true|false>
+$debug = false;                                      // SET TO TRUE IF WANT CONSOLE LOGS
 
+// -------------------------------------------
+// --      DONT TOUCH THE CODE BELOW        --
+// --   UNLESS YOU KNOW WHAT YOU ARE DOING  --
+// -------------------------------------------
 
-// CONFIG (ONLY TOUCH THIS)
+$time_start = microtime(true);
 
-// ES (Spanish) || EN (English)
-$language = "en";
+$translatedPatchArray = file(__DIR__ . "/" . $yourTranslatedPatchFileName);
+$oldOriginalPatchArray = file(__DIR__ . "/" . $oldOriginalPatchFileName);
+$newOriginalPatchArray = file(__DIR__ . "/" . $newOriginalPatchFileName);
 
-$crearLogs = true;                  // CREATE LOGS FILE ¿?
+$translatedPatchAsociativeArray;
+$oldOriginalPatchAsociativeArray;
+$newOriginalPatchAsociativeArray;
+$finalAsociativeArray;
 
-$archivoOriginal = "../../data/Localization/english/global.ini";    // ORIGINAL / OLD INI FILE
-$archivoNuevo = "../../data/Localization/english/global.new.ini";   // NEW PATCH INI FILE
-$archivoFinal = "../../data/Localization/english/global.final.ini"; // FINAL INI FILE (WITH ALL CHANGES)
+$logContent = "";
 
-$archivoNewLinesLog = "newLines.txt";
-$archivoDeletedLinesLog = "deletedLines.txt";
-$archivoModifiedLinesLog = "modifiedLines.txt";
-$onlyLogs = false;                  // GENERATE ONLY LOG FILE? (LESS PROCESSING TIME)
-$logCopyPasteFormat = false;         // TRUE IF WANT "VARIABLE=VALUE", FALSE IF WANT "[VARIABLE] => VALUE"
-// YOU CAN LEAVE IT BLANK IF $crearLogs = false
+// -----------------------------------
+// --   CREATE ASOCIATIVE ARRAYS    --
+// -----------------------------------
 
+if ($debug == true) echo "\nINICIANDO...";
 
-$debugLevel = 2;                    // DEBUG LEVEL = 1,2,3 (2 RECOMENDED FOR NORMAL USE)
-// LEVEL 1 = ONLY NECESARY CONSOLE LINES
-// LEVEL 2 = MORE LINES (ONLY USE IF SOMETHING NOT WORKING)
-// LEVEL 3 = CRAZY (LOT OF LOGS (RECOMENDED FOR DEVELOPING))
-// LEVEL 4 = SICK DEBUG (USE DONT RECOMENDED)
+// CREATE TRANSLATED PATCH ASOCIATIVE ARRAY
 
-// VARIABLE DECLARATION
-// -----------------------------
-// --  DONT TOUCH BELOW HERE  --
-// -----------------------------
-// UNLES YOU KNOW WHAT YOU DOING
-// (VARIABLE LIST)
+if ($debug == true) echo "\nCREANDO ARRAY ASOCIATIVO DEL ARCHIVO TRADUCIDO";
 
-$originalFile;
-$newFile;
-$finalFileAsociativeArray;
-
-$newLines;
-$deletedLines;
-$changedLines;
-$logNewFile;
-$logDeleteFile;
-$logModifiedFile;
-
-$logNewContent;
-$logDeletedContent;
-$logModifiedContent;
-
-$newFileAsociativeArray;
-$originalFileAsociativeArray;
-
-$finalFile;
-$finalContent;
-$counter;
-
-// DECLARATIONS
-
-if (isset($argv[1]))
+foreach ($translatedPatchArray as $lineNum => $lineContent)
 {
-    if (strtoupper(trim($argv[1])) == "TRUE") $logCopyPasteFormat = true;
-    elseif (strtoupper((trim($argv[1])) == "FALSE")) $logCopyPasteFormat = false;
-}
-
-if (isset($argv[2]))
-{
-    if (strtoupper(trim($argv[2])) == "TRUE") $onlyLogs = true;
-    elseif (strtoupper((trim($argv[2])) == "FALSE")) $onlyLogs = false;
-}
-
-if ($language != "es" && $language != "en") {
-    echo ("Invalid language selected");
-    die();
-}
-
-$json_string = file_get_contents(__DIR__ . "/lang/" . $language . ".json");
-$translate = json_decode($json_string, true);
-
-// if (
-//     ($archivoOriginal == $archivoNuevo || $archivoOriginal == $archivoLog || $archivoOriginal == $archivoFinal) ||
-//     ($archivoNuevo == $archivoOriginal || $archivoNuevo == $archivoLog || $archivoNuevo == $archivoFinal) ||
-//     ($archivoLog == $archivoNuevo || $archivoLog == $archivoOriginal || $archivoLog == $archivoFinal) ||
-//     ($archivoFinal == $archivoNuevo || $archivoFinal == $archivoOriginal || $archivoFinal == $archivoLog)
-// ) {
-//     echo (getTranslation("name.cant.be.same"));
-//     die();
-// }
-
-if (trim($archivoOriginal) == "") {
-    echo (getTranslation("original.file.name.blank"));
-    die();
-}
-if (trim($archivoNuevo) == "") {
-    echo (getTranslation("new.file.name.blank"));
-    die();
-}
-if (trim($archivoFinal) == "") {
-    echo (getTranslation("final.file.name.blank"));
-    die();
-}
-// if ($crearLogs == true && trim($archivoLog) == "") {
-//     echo (getTranslation("log.file.name.blank"));
-//     die();
-// }
-if ($debugLevel != 1 && $debugLevel != 2 && $debugLevel != 3 && $debugLevel != 4) {
-    echo (getTranslation("debug.level.invalid"));
-    die();
-}
-
-try {
-    if (!file_exists(__DIR__ . "/" . $archivoOriginal))
-        throw new Exception;
-    $originalFile = file(__DIR__ . "/" . $archivoOriginal);
-    sort($originalFile);
-} catch (Exception) {
-    echo (getTranslation("original.file.not.detected"));
-    die();
-}
-
-try {
-    if (!file_exists(__DIR__ . "/" . $archivoNuevo))
-        throw new Exception;
-    $newFile = file(__DIR__ . "/" . $archivoNuevo);
-    sort($newFile);
-} catch (Exception) {
-    echo (getTranslation("new.file.not.detected"));
-    die();
-}
-
-if ($crearLogs == true)
-{
-    $dir = (__DIR__ . "/logs");
-    try {
-        if (!file_exists($dir))
+    if (strpos($lineContent , "=") === false)
+    {
+        echo "Line ".($lineNum+1)." error (NO VARIABLE FOUND)";
+        die();
+    }
+    else
+    {
+        $content = explode("=",$lineContent);
+        if (sizeof($content) == 2)
         {
-            mkdir($dir);
+            $key = $content[0];
+            $value = $content[1];
+
+            $translatedPatchAsociativeArray[$key] = $value;
+        }
+        elseif (sizeof($content) > 2)
+        {
+            $key = $content[0];
+            unset($content[0]);
+
+            $value = implode("=",$content);
+
+            $translatedPatchAsociativeArray[$key] = $value;
         }
     }
-    catch (Exception) {
-        echo "Error Creando directorio LOG";
-    }
 }
 
-if ($crearLogs == true)
+if ($debug == true) echo "\nARRAY ASOCIATIVO DEL ARCHIVO TRADUCIDO CREADO";
+
+// CREATE OLD PATCH ASOCIATIVE ARRAY
+
+if ($debug == true) echo "\nCREANDO ARRAY ASOCIATIVO DEL PARCHE ANTIGUO";
+
+foreach ($oldOriginalPatchArray as $lineNum => $lineContent)
 {
-    try {
-        $logNewFile = (__DIR__ . "/logs/" . $archivoNewLinesLog);
-        $logDeleteFile = (__DIR__ . "/logs/" . $archivoDeletedLinesLog);
-        $logModifiedFile = (__DIR__ . "/logs/" . $archivoModifiedLinesLog);
-    } catch (Exception) {
-        echo (getTranslation("log.file.not.detected"));
-        if ($crearLogs == true)
-            die();
+    if (strpos($lineContent , "=") === false)
+    {
+        echo "Line ".($lineNum+1)." error (NO VARIABLE FOUND)";
+        die();
+    }
+    else
+    {
+        $content = explode("=",$lineContent);
+        if (sizeof($content) == 2)
+        {
+            $key = $content[0];
+            $value = $content[1];
+
+            $oldOriginalPatchAsociativeArray[$key] = $value;
+        }
+        elseif (sizeof($content) > 2)
+        {
+            $key = $content[0];
+            unset($content[0]);
+
+            $value = implode("=",$content);
+
+            $oldOriginalPatchAsociativeArray[$key] = $value;
+        }
     }
 }
 
-try {
-    $finalFile = (__DIR__ . "/" . $archivoFinal);
-} catch (Exception) {
-    echo (getTranslation("final.file.not.detected"));
-    die();
+if ($debug == true) echo "\nARRAY ASOCIATIVO DEL PARCHE ANTIGUO CREADO";
+
+// CREATE NEW PATCH ASOCIATIVE ARRAY
+
+if ($debug == true) echo "\nCREANDO ARRAY ASOCIATIVO DEL NUEVO PARCHE";
+
+foreach ($newOriginalPatchArray as $lineNum => $lineContent)
+{
+    if (strpos($lineContent , "=") === false)
+    {
+        echo "Line ".($lineNum+1)." error (NO VARIABLE FOUND)";
+        die();
+    }
+    else
+    {
+        $content = explode("=",$lineContent);
+        if (sizeof($content) == 2)
+        {
+            $key = $content[0];
+            $value = $content[1];
+
+            $newOriginalPatchAsociativeArray[$key] = $value;
+        }
+        elseif (sizeof($content) > 2)
+        {
+            $key = $content[0];
+            unset($content[0]);
+
+            $value = implode("=",$content);
+
+            $newOriginalPatchAsociativeArray[$key] = $value;
+        }
+    }
 }
 
-$logNewContent = date("d-m-Y H:i:s");
-$logDeletedContent = date("d-m-Y H:i:s");
-$logModifiedContent = date("d-m-Y H:i:s");
-$counter = 0;
+if ($debug == true) echo "\nARRAY ASOCIATIVO DEL NUEVO PARCHE CREADO";
+
+$finalAsociativeArray = $newOriginalPatchAsociativeArray;
+
+if ($debug == true) echo "\nARRAY ASOCIATIVO DEL ARCHIVO FINAL CREADO";
+
+// ---------------------
+// --   LOG CONTENT   --
+// ---------------------
+
+if ($debug == true) echo "\nGENERANDO LOGS";
+
+// NEW LINES
+
+if ($debug == true) echo "\nGENERANDO LOGS DE NUEVAS LÍNEAS";
+
+$logContent .= "\n\n\n--------------------";
+$logContent .= "\n--    NEW LINES   --";
+$logContent .= "\n--------------------";
+
+$tempKeys = array_keys($newOriginalPatchAsociativeArray);
+
+foreach ($newOriginalPatchAsociativeArray as $key => $value)
+{
+    if (!isset($oldOriginalPatchAsociativeArray[$key]))
+    {
+        $logContent .= ("\n[".$key."] => ".$value."(LINE: ".(array_search($key,$tempKeys)+1).")");
+    }
+}
+
+if ($debug == true) echo "\nLOGS DE NUEVAS LÍNEAS GENERADOS";
+
+// DELETED LINES
+
+if ($debug == true) echo "\nGENERANDO LOGS DE LÍNEAS ELIMINADAS";
+
+$logContent .= "\n\n\n------------------------";
+$logContent .= "\n--    DELETED LINES   --";
+$logContent .= "\n------------------------";
+
+$tempKeys = array_keys($oldOriginalPatchAsociativeArray);
+
+foreach ($oldOriginalPatchAsociativeArray as $key => $value)
+{
+    if (!isset($newOriginalPatchAsociativeArray[$key]))
+    {
+        $logContent .= ("\n[".$key."] => ".$value."(LINE: ".(array_search($key,$tempKeys)+1).")");
+    }
+}
+
+if ($debug == true) echo "\nLOGS DE LÍNEAS ELIMINADAS GENERADOS";
+
+// MODIFIED LINES
+
+if ($debug == true) echo "\nGENERANDO LOGS DE LÍNEAS MODIFICADAS";
+
+$logContent .= "\n\n\n-------------------------";
+$logContent .= "\n--    MODIFIED LINES   --";
+$logContent .= "\n-------------------------";
+
+$tempKeys = array_keys($newOriginalPatchAsociativeArray);
+
+foreach ($newOriginalPatchAsociativeArray as $key => $value)
+{
+    if ( isset($oldOriginalPatchAsociativeArray[$key]) && (strcmp(trim($oldOriginalPatchAsociativeArray[$key]),trim($value)) == true) )
+    {
+        $logContent .= ("\nNEW: [".$key."] => ".$value);
+        $logContent .= ("OLD: [".$key."] => ".$oldOriginalPatchAsociativeArray[$key]);
+        $logContent .= ("(LINE: ".(array_search($key,$tempKeys)+1).")\n");
+    }
+}
+
+if ($debug == true) echo "\nLOGS DE LÍNEAS MODIFICADAS GENERADOS";
+
+
+file_put_contents((__DIR__ . "/" . $logFileName) , $logContent);
+
+if ($debug == true) echo "\nARCHIVO DE LOGS CREADO";
+
+
+
+// -----------------------------
+// --   GENERATE FINAL FILE   --
+// -----------------------------
+
+if ($debug == true) echo "\nGENERANDO ARCHIVO FINAL";
+
+// REPLACE NEW VALUES FOR OLD VALUES IN EXISTING KEYS
+// SO FINAL FILE WILL HAVE YOUR TRANSLATION IN OLD VARIABLES
+// AND NEW VARIABLES WILL BE BY DEFAULT
+// WATCH LOGS FOR TRANSLATING IT
+
+foreach ($finalAsociativeArray as $key => $value)
+{
+    if (isset($translatedPatchAsociativeArray[$key]))
+    {
+        $finalAsociativeArray[$key] = $translatedPatchAsociativeArray[$key];
+    }
+}
+
 $finalContent = "";
-$finalFileAsociativeArray = [];
-$newLines = [];
-$deletedLines = [];
-$changedLines = [];
-$newFileAsociativeArray = [];
-$originalFileAsociativeArray = [];
 
-// ----------------------
-// -  REORGANIZE ARRAY  -
-// ----------------------
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("organizating.array.into.asociatives"));
-
-foreach ($originalFile as $numLinea => $linea) {
-    $contentArray = explode("=", $linea);
-    $key = $contentArray[0];
-    $value = "";
-    if (sizeof($contentArray) > 2) {
-        unset($contentArray[0]);
-        $value = implode("=", $contentArray);
-    } else
-        $value = $contentArray[1];
-
-    $originalFileAsociativeArray[$key] = $value;
+foreach ($finalAsociativeArray as $key => $value)
+{
+    $finalContent .= $key."=".$value;
 }
 
-foreach ($newFile as $numLinea => $linea) {
-    $contentArray = explode("=", $linea);
-    $key = $contentArray[0];
-    $value = "";
-    if (sizeof($contentArray) > 2) {
-        unset($contentArray[0]);
-        $value = implode("=", $contentArray);
-    } else
-        $value = $contentArray[1];
+file_put_contents((__DIR__ . "/" . $finalResultFileName) , $finalContent);
 
-    $newFileAsociativeArray[$key] = $value;
-}
+if ($debug == true) echo "\nARCHIVO FINAL CREADO";
 
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("organization.completed"));
 
-$finalFileAsociativeArray = $originalFileAsociativeArray;
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("final.array.clone.completed"));
-
-// --------------------------
-// -  SEARCH FOR NEW LINES  -
-// --------------------------
-
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("searching.new.lines") . "\n";
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("introducing.new.lines.into.array"));
-
-foreach ($newFileAsociativeArray as $key => $value) {
-    $existe = isset($originalFileAsociativeArray[$key]);
-    if ($existe == false)
-        $newLines[$key] = $value;
-}
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("new.lines.array.completed"));
-if ($debugLevel == 3 && $crearLogs == true)
-    echo ("\n" . getTranslation("creating.new.line.logs"));
-
-if ($crearLogs) {
-    $logNewContent = $logNewContent . "\n\n---------------------\n";
-    $logNewContent = $logNewContent . "--  " . getTranslation("new.lines.logs.title") . "  --\n";
-    $logNewContent = $logNewContent . "---------------------\n\n";
-    foreach ($newLines as $key => $value) {
-        if ($logCopyPasteFormat == false)
-            $logNewContent = $logNewContent . "[" . $key . "] => " . $value . "\n";
-        elseif ($logCopyPasteFormat == true)
-            $logNewContent = $logNewContent . $key . "=" . $value;
-    }
-}
-
-if ($debugLevel == 3 && $crearLogs == true)
-    echo ("\n" . getTranslation("new.lines.logs.completed"));
-
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("new.lines.search.completed") . "\n";
-
-// ------------------------------
-// -  SEARCH FOR DELETED LINES  -
-// ------------------------------
-
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("searching.deleted.lines") . "\n";
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("introducing.deleted.lines.into.array"));
-
-foreach ($originalFileAsociativeArray as $key => $value) {
-    $existe = isset($newFileAsociativeArray[$key]);
-    if ($existe == false)
-        $deletedLines[$key] = $value;
-}
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("deleted.lines.array.completed"));
-if ($debugLevel == 3 && $crearLogs == true)
-    echo ("\n" . getTranslation("creating.deleted.line.logs"));
-
-if ($crearLogs) {
-    $logDeletedContent = $logDeletedContent . "\n\n-----------------------\n";
-    $logDeletedContent = $logDeletedContent . "-- " . getTranslation("deleted.lines.logs.title") . " --\n";
-    $logDeletedContent = $logDeletedContent . "-----------------------\n\n";
-    foreach ($deletedLines as $key => $value) {
-        if ($logCopyPasteFormat == false)
-            $logDeletedContent = $logDeletedContent . "[" . $key . "] => " . $value . "\n";
-        elseif ($logCopyPasteFormat == true)
-            $logDeletedContent = $logDeletedContent . $key . "=" . $value;
-    }
-}
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("deleted.lines.logs.completed"));
-
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("deleted.lines.search.completed") . "\n";
 
 // ---------------------------------
-// --  SEARCH FOR MODIFIED LINES  --
+// --   RUN FINAL COMPROBATIONS   --
+// --       ONLY IF WANTED        --
 // ---------------------------------
 
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("searching.modified.lines") . "\n";
+if ($debug == true) echo "\nEJECUTANDO TEST DE INTEGRIDAD";
 
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("introducing.modified.lines.into.array"));
+if ($runTests == true)
+{
+    $finalExistingFile = file(__DIR__ . "/" . $finalResultFileName);
+    $newPatchFile = file(__DIR__ . "/" . $newOriginalPatchFileName);
 
-foreach ($newFileAsociativeArray as $key => $value) {
-    $existe = isset($originalFileAsociativeArray[$key]);
+    // CHECK TOTAL LENGTH (TOTAL LINE NUMBER)
+    if (sizeof($finalExistingFile) == sizeof($newPatchFile))
+    {
+        foreach ($finalExistingFile as $lineNum => $lineContent)
+        {
+            // CHECK IF VARIABLE IS MISSING
+            if (strpos($lineContent, "=") === false)
+            {
+                echo "\nERROR EN TEST DE INTEGRIDAD DE LINEA";
+                die();
+            }
+            else
+            {
+                $finalVariable = (explode("=" , $finalExistingFile[$lineNum])[0]);
+                $newPatchVariable = (explode("=" , $newPatchFile[$lineNum])[0]);
 
-    $mismoContenido = false;
-
-    if ($existe == true) {
-        $newContent = trim($newFileAsociativeArray[$key]);
-        $originalContent = trim($originalFileAsociativeArray[$key]);
-
-        if (strcmp($newContent, $originalContent) == true) {
-            $changedLines[$key] = $newFileAsociativeArray[$key];
+                // COMPARE FINAL FILE VARIABLE TO NEW PATCH FILE VARIABLE AT SAME LINE
+                if (strcmp($finalVariable, $newPatchVariable) == true)
+                {
+                    echo "\nERROR EN TEST DE VARIABLES";
+                    die();
+                }
+            }
         }
     }
-}
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("modified.lines.array.completed"));
-if ($debugLevel == 3 && $crearLogs == true)
-    echo ("\n" . getTranslation("creating.modified.lines.logs"));
-
-if ($crearLogs) {
-    $logModifiedContent = $logModifiedContent . "\n\n------------------------\n";
-    $logModifiedContent = $logModifiedContent . "-- " . getTranslation("modified.lines.logs.title") . " --\n";
-    $logModifiedContent = $logModifiedContent . "------------------------\n\n";
-    foreach ($changedLines as $key => $value) {
-        $tempValue = trim($value);
-        if ($logCopyPasteFormat == false)
-            $logModifiedContent = $logModifiedContent . "[" . $key . "] => [" . $tempValue . "]\n";
-        elseif ($logCopyPasteFormat == true)
-            $logModifiedContent = $logModifiedContent . $key . "=" . $tempValue . "\n";
+    else
+    {
+        echo "\nERROR EN TEST DE LOGITUD";
+        die();
     }
 }
 
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("modified.lines.logs.completed"));
+$time_end = microtime(true);
 
-if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-    echo "\n" . getTranslation("modified.lines.search.completed") . "\n";
+$time_total = $time_end - $time_start;
 
-if ($crearLogs)
+echo ("\n\n---------------------------------");
+echo ("\nFINALIZADO - ".getTime());
+echo ("\n---------------------------------");
+
+function getTime()
 {
-    file_put_contents($logNewFile, $logNewContent);
-    file_put_contents($logDeleteFile, $logDeletedContent);
-    file_put_contents($logModifiedFile, $logModifiedContent);
+    global $time_total;
+
+    if ($time_total > 60)
+    {
+        $minutes = floor($time_total / 60);
+        $seconds = round($time_total % 60);
+        return ($minutes."min ".$seconds." sec");
+    }
+    else return (round($time_total, 2)." sec");
 }
-
-if ($debugLevel == 3)
-    echo ("\n" . getTranslation("logs.file.generated"));
-
-// ONLY CREATE FINAL FILE IF onlyLogs = FALSE
-if ($onlyLogs == false) {
-    // ---------------------
-    // --  APPLY CHANGES  --
-    // ---------------------
-
-    if ($debugLevel == 3)
-        echo ("\n" . getTranslation("applying.changes"));
-
-    // NEW LINES
-    foreach ($newLines as $key => $value) {
-        $finalFileAsociativeArray[$key] = $value;
-    }
-
-    if ($debugLevel == 3)
-        echo ("\n" . getTranslation("new.line.changes.log.generated"));
-
-    // DELETED LINES
-    foreach ($deletedLines as $key => $value) {
-        unset($finalFileAsociativeArray[$key]);
-    }
-
-    if ($debugLevel == 3)
-        echo ("\n" . getTranslation("deleted.line.changes.log.generated"));
-
-    // MODIFIED LINES
-    foreach ($changedLines as $key => $value) {
-        $finalFileAsociativeArray[$key] = $changedLines[$key];
-    }
-
-    // FINAL FILE GENERATION ONLY IF ONLYLOGS = FALSE
-
-    if ($debugLevel == 3)
-        echo ("\n" . getTranslation("modified.line.changes.log.generated"));
-
-    if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-        echo ("\n" . getTranslation("generating.final.file") . " (" . $archivoFinal . ")");
-
-
-    foreach ($finalFileAsociativeArray as $key => $value) {
-        $counter++;
-        if ($debugLevel == 2 || $debugLevel == 3)
-            getLineInterval();
-        elseif ($debugLevel == 4)
-            echo ("\n" . getTranslation("generating.line") . ": " . $counter);
-        // $tempValue = str_replace("\n", "\\n", $value);
-        $finalContent = $finalContent . $key . "=" . $value;
-    }
-
-    file_put_contents($finalFile, $finalContent);
-
-    if ($debugLevel == 1 || $debugLevel == 2 || $debugLevel == 3 || $debugLevel == 4)
-        echo ("\n" . getTranslation("final.file.generated") . " (" . $archivoFinal . ")");
-}
-
-// FUNCTIONS
-
-function getLineInterval()
-{
-    global $counter;
-
-    $firstNumber = (strval($counter)[0]);
-
-    if ($counter == 1) {
-        echo ("\n" . getTranslation("generating.lines") . " (   1   - 10.000)");
-    } elseif (sizeof(str_split(strval($counter))) == 5) {
-        $numbers = str_split(strval($counter));
-        unset($numbers[0]);
-        if (strval(implode("", $numbers)) == "0000")
-            echo ("\n" . getTranslation("generating.lines") . " (" . (str_split(strval($counter))[0]) . "0.001 - " . (intval(str_split(strval($counter))[0]) + 1) . "0.000)");
-    }
-
-}
-
-function getTranslation($key)
-{
-    global $translate;
-
-    $translation = "";
-    try {
-        $translation = $translate[$key];
-    } catch (Exception) {
-        $translation = ("ERR - KEY [" . $key . "] NOT DETECTED IN LANG FILE SELECTED");
-    }
-
-    return $translation;
-}
-
-?>
