@@ -4,92 +4,27 @@
 --------------------
 --    NEW LINES   --
 --------------------
-[ATC_Covalex_DC] => Covalex Landing Services
-(LINE: 23)
-[ATC_CryAstro_DC] => Cry-Astro Landing Services
-(LINE: 25)
-[ATC_Dupree_DC] => Dupree Landing Services
-(LINE: 26)
-[ATC_Greycat_DC] => Greycat Landing Services
-(LINE: 27)
-[ATC_Hurston_DC] => HDPC Landing Services
-(LINE: 29)
-[ATC_Sakura_DC] => Sakura Sun Landing Services
-(LINE: 47)
-[ATC_microTech_DC] => Logistics Depot Landing Services
-(LINE: 48)
-[Advocacy_RepUI_Area] => UEE
-(LINE: 84)
-[Advocacy_RepUI_Description] => he Advocacy is an inter-system police force overseeing law enforcement in the UEE. Advocacy agents are authorized pursue crimes across jurisdictions within the empire, and often coordinate large scale investigations targeting some of Humanity's worst offenders.
-(LINE: 85)
-[Advocacy_RepUI_Focus] => Policing
-(LINE: 86)
-[Advocacy_RepUI_Founded] => 2523
-(LINE: 87)
-[Advocacy_RepUI_Headquarters] => New York, Earth, Sol System
-(LINE: 88)
-[Advocacy_RepUI_Leadership] => Thomas D. Carmody, Director
-(LINE: 89)
-[Advocacy_RepUI_Name] => UEE Advocacy
-(LINE: 90)
-[ArcCorp_RepUI_Area] => Stanton III
-(LINE: 108)
-[ArcCorp_RepUI_Description] => ArcCorp was previously known as the manufacturer of immensely popular quantum drives and thrusters, however, since their purchase of Stanton III from the UEE, their dedication to the creation of a privately-owned manufacturing world has overshadowed the company’s other accomplishments.
-(LINE: 109)
-[ArcCorp_RepUI_Focus] => Ship Components
-(LINE: 110)
-[ArcCorp_RepUI_Founded] => 2687
-(LINE: 111)
-[ArcCorp_RepUI_Headquarters] => Area01, ArcCorp
-(LINE: 112)
-[ArcCorp_RepUI_Leadership] => Bert Astacio, CEO
-(LINE: 113)
-[ArcCorp_RepUI_Name] => ArcCorp
-(LINE: 114)
-[Bitzeroes_bombingrun_dc_desc_001] => We’ve been trying to access some sensitive data over at ~mission(Location|Address) but there seems to only be one backdoor we can use. The issue is we need someone onsite to trigger it. And I really do mean trigger it.\n\nIf you can head over there and destroy part of their infrastructure, the emergency back up systems will kick online and we should be able to access everything we want. \n\nWish I could see the surprise look on the faces of the lowlifes running the place when it happens.\n\n-Bit Zeros\n
-(LINE: 242)
-[Bitzeroes_bombingrun_dc_title_001] => Up in Smoke
-(LINE: 243)
-[Bitzeroes_destroygen_locked_dc_desc_001] => I need your help on a job, but I can’t get too detailed about the specifics. If that doesn’t work for you, than don’t worry about it.\n\nYou’re going to head to ~mission(Location|Address) and blow up a power generator for us. Now, they keep the gen locked up, so you’ll have to hunt down the access codes first. Thankfully, they typically keep copies of the code on datapads. (Thinks it’ll keep ‘em safe from being hacked.)\n\nYou get that generator destroyed, and it’ll be your bank account blowin’ up next.\n\n- Bit Zeros\n
-(LINE: 244)
-[Bitzeroes_destroygen_locked_dc_title_001] => Mandatory Black Out
-(LINE: 245)
-[Bitzeroes_destroyitem_dc_desc_001] => I won’t go into the whole long boring story of why, but there are a few bits of ~mission(Location|Address) that we need destroyed. The important part is that I want to pay you a hefty chunk of credits to do it. I almost feel like you should be paying us for this because of how fun it’s going to be.\n\nDon’t even care how you get it done. Grenades, rocket launcher, day old Torpedo Burrito, it’s all the same to us.\n\n-Bit Zeros \n
-(LINE: 246)
-[Bitzeroes_destroyitem_dc_title_001] => Major Malfunction
-(LINE: 247)
-[Bitzeroes_destroyservers_locked_dc_desc_001] => Hey,\n\nGot a problem we could use your help on. One of our former new-recruits did a complete crap job on a hack and wound up leaving a digital footprint so messy that it might as well be a full confession. \n\nA remote deletion’s not going to be good enough so I want you to go to ~mission(Location|Address) and make sure their data servers are wiped from existence.\n\nAs if this wasn’t a big enough of a mess already, the access codes to the locked server room door are only stored physically on site. That means you’re going to have to liberate a datapad with the code on it first before you can even get close to them.\n\nDon’t worry though. I’ll make sure the creds are worth all the hassle.  \n\n- Bit Zeros\n
-(LINE: 248)
-[Bitzeroes_destroyservers_locked_dc_title_001] => Server Not Found
-(LINE: 249)
-[Bitzeroes_destroystash_dc_desc_001] => The muckers over at ~mission(Location|Address) decided that it would be a good idea to interfere with our business, and now we need to let them know unequivocally that they were mistaken. \n\nA little bit of sniffin’ through their data and we were able to sus out where the idiots keep their stash. Now all we need you to do is head over there and destroy every last bit of it. \n\nFigure that should drive the point home.\n\n- Bit Zeros\n
-(LINE: 250)
-[Bitzeroes_destroystash_dc_title_001] => Hit 'Em Where it Hurts
-(LINE: 251)
-[Bitzeroes_eliminateall_dc_desc_001] => The slimy little cretins over at ~mission(Location|Address) have been selling us trash data all while trying to double deal. Can’t let it stand.\n\nWe want you to go teach them one final lesson and wipe out all the cowards you can find. Last I heard is they were holed up over near the ~mission(Location). \n\nSpill their blood, and we’ll fill your wallet. \n\n-Bit Zeros\n
-(LINE: 252)
-[Bitzeroes_eliminateall_dc_title_001] => Permanently Delete
-(LINE: 253)
-[Bitzeroes_heist_buyin_dc_desc_001] => I’m looking at an inventory transfer record right now that is bursting at the seams with a whole lot of very valuable cargo that is practically begging to be stolen. Sure there’s probably a few people there guarding the goods, but the harder the fight the sweeter the loot, right?\n\nNormally, we’d be all over a job like this, but we got another target in our sights right now and I’d hate for info this good to rot.  \n\nWhat do you say? You wanna crack at it? Send me a few creds and the location is all yours.\n\n-Bit Zeros\n
-(LINE: 254)
-[Bitzeroes_heist_buyin_dc_title_001] => Spend Cred to Make Cred
-(LINE: 255)
-[Bitzeroes_theft_dc_desc_001] => Alright,\n\nOver at ~mission(Location|Address) there a few certain things they have in their possession that need to be liberated. Sure there may be a few guards or concerned individuals you’ll have to deal with, but for the most part it’s a relatively straight forward transaction – grab the stuff from the ~mission(Location) and take it to us at ~mission(Destination|Address). \n\nSometimes simple is best.\n\n-Bit Zeros \n
-(LINE: 256)
-[Bitzeroes_theft_dc_title_001] => Ownership Reassignment
-(LINE: 257)
-[Bitzeroes_theft_mines_dc_desc_001] => I’m really hoping you’re going to agree to do this since there doesn’t seem to be too many folks eager to take on a whole bunch of proximity mines. See, there’s a score that we’ve sourced at ~mission(Location|Address) but the physical security is proving more difficult than expected. \n\nIf you can find a way to navigate through the mines or possibly a way to trigger them remotely, it should be relatively easy to grab the goods and make your way out of there. Drop them off at ~mission(Destination|Address) and you’ll get more than your fair cut of the credits for taking on the risk.\n\n-Bit Zeros\n
-(LINE: 258)
-[Bitzeroes_theft_mines_dc_title_001] => Delicate Dealings
-(LINE: 259)
-[CharacterCustomizer_Randomize,P] => Randomize
-(LINE: 428)
-[CharacterCustomizer_RandomizeAll,P] => RandomizeAll
-(LINE: 429)
-[CharacterCustomizer_Redo,P] => Redo
-(LINE: 430)
-[CharacterCustomizer_Reset,P] => Reset
-(LINE: 431)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [CharacterCustomizer_Undo,P] => Undo
 (LINE: 432)
 [ClovusDarneely_RepUI_Area] => Hurston
@@ -5628,35 +5563,35 @@ NEW: [destroystash_subobj_long_01] => Travel to ~mission(Location|Address) and l
 OLD: [destroystash_subobj_long_01] => Travel to ~mission(Location|Address) and locate ~mission(ItemsToDestroy) stash.
 (LINE: 44225)
 
-NEW: [dfm_ac_tut_message00] => [DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)]
+NEW: [dfm_ac_tut_message00] => [DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)]
 OLD: [dfm_ac_tut_message00] => [DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)]
 (LINE: 44237)
 
-NEW: [dfm_ui_ItemFieldMultipleParam] => �x%d
+NEW: [dfm_ui_ItemFieldMultipleParam] => �x%d
 OLD: [dfm_ui_ItemFieldMultipleParam] => �x%d
 (LINE: 44550)
 
-NEW: [dfm_ui_PlayerCommittedSuicide] => �committed suicide!
+NEW: [dfm_ui_PlayerCommittedSuicide] => �committed suicide!
 OLD: [dfm_ui_PlayerCommittedSuicide] => �committed suicide!
 (LINE: 44620)
 
-NEW: [dfm_ui_TookTheEasyWay] => �took the easy way out!
+NEW: [dfm_ui_TookTheEasyWay] => �took the easy way out!
 OLD: [dfm_ui_TookTheEasyWay] => �took the easy way out!
 (LINE: 44755)
 
-NEW: [dfm_ui_WarningOfflineThrusters] => WARNING: Flight Systems Offline�
+NEW: [dfm_ui_WarningOfflineThrusters] => WARNING: Flight Systems Offline�
 OLD: [dfm_ui_WarningOfflineThrusters] => WARNING: Flight Systems Offline�
 (LINE: 44801)
 
-NEW: [dfm_ui_WarningOfflineWeapons] => WARNING: Weapons Offline�
+NEW: [dfm_ui_WarningOfflineWeapons] => WARNING: Weapons Offline�
 OLD: [dfm_ui_WarningOfflineWeapons] => WARNING: Weapons Offline�
 (LINE: 44802)
 
-NEW: [dfm_ui_WarningOverheatingWeapons] => WARNING: Weapons�Overheating
+NEW: [dfm_ui_WarningOverheatingWeapons] => WARNING: Weapons�Overheating
 OLD: [dfm_ui_WarningOverheatingWeapons] => WARNING: Weapons�Overheating
 (LINE: 44814)
 
-NEW: [dfm_ui_param_FracKilometres] => %.*f� km
+NEW: [dfm_ui_param_FracKilometres] => %.*f� km
 OLD: [dfm_ui_param_FracKilometres] => %.*f� km
 (LINE: 44841)
 
@@ -5668,7 +5603,7 @@ NEW: [ea_ui_reward_OfflineWarning] => Rewards are disabled in Offline and Custom
 OLD: [ea_ui_reward_OfflineWarning] => Rewards are disabled in Offline Mode.
 (LINE: 45447)
 
-NEW: [elevator_accessing] => ACCESSING CENTRAL�TRANSPORT SYSTEM
+NEW: [elevator_accessing] => ACCESSING CENTRAL�TRANSPORT SYSTEM
 OLD: [elevator_accessing] => ACCESSING CENTRAL�TRANSPORT SYSTEM
 (LINE: 45622)
 
