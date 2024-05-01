@@ -25,324 +25,79 @@
 
 
 
-[CharacterCustomizer_Undo,P] => Undo
-(LINE: 432)
-[ClovusDarneely_RepUI_Area] => Hurston
-(LINE: 468)
-[ClovusDarneely_RepUI_Description] => Clovus Darneely is a clerk at Reclamation & Disposal, Lorville's main salvage yard, with a reputation for being able to procure hard to find items.
-(LINE: 471)
-[ClovusDarneely_RepUI_Focus] => Smuggling, Salvage
-(LINE: 472)
-[ClovusDarneely_RepUI_Founded] => N/A
-(LINE: 473)
-[ClovusDarneely_RepUI_Headquarters] => Lorville, Hurston, Stanton System
-(LINE: 474)
-[ClovusDarneely_RepUI_Leadership] => N/A
-(LINE: 475)
-[ClovusDarneely_RepUI_Name] => Clovus Darneely
-(LINE: 477)
-[Covalex_courier_dc_small_title_001] => Covalex Local Shipment Route
-(LINE: 597)
-[Covalex_courier_fromdc_large_desc_001] => Hello,\n\nWe have a fairly sizeable shipment waiting in the ~mission(Pickup1) at ~mission(Pickup1|Address) that is ready to be delivered.\n\nWith this number of boxes to transport, it would probably be good to have an extra set of hands to help transfer everything on and off your ship.\n\nPACKAGES FOR PICK UP \n     · All Packages in the ~mission(Pickup1) at ~mission(Pickup1|Address)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1|Address)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2|Address)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3|Address)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4|Address)\n     · Package #~mission(item5|serialnumber) to the ~mission(Dropoff5|Address)\n     · Package #~mission(item6|serialnumber) to the ~mission(Dropoff5|Address)\n     · Package #~mission(item7|serialnumber) to the ~mission(Dropoff6|Address)\n     · Package #~mission(item8|serialnumber) to the ~mission(Dropoff6|Address)\n     · Package #~mission(item9|serialnumber) to the ~mission(Dropoff7|Address)\n     · Package #~mission(item10|serialnumber) to the ~mission(Dropoff7|Address)\n     · Package #~mission(item11|serialnumber) to the ~mission(Dropoff8|Address)\n     · Package #~mission(item12|serialnumber) to the ~mission(Dropoff8|Address)\n     · Package #~mission(item13|serialnumber) to the ~mission(Dropoff9|Address)\n     · Package #~mission(item14|serialnumber) to the ~mission(Dropoff9|Address)\n     · Package #~mission(item15|serialnumber) to the ~mission(Dropoff9|Address)\n\nBest of luck,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n\n
-(LINE: 598)
-[Covalex_courier_fromdc_med_desc_001] => Hi,\n\nGot an decent sized order ready for pick up at the ~mission(Pickup1) at ~mission(Pickup1|Address). Just make sure you got a ship big enough to load it all up! \n\nPACKAGES FOR PICK UP \n     · All Packages in the ~mission(Pickup1) at ~mission(Pickup1|Address)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1|Address)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2|Address)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3|Address)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4|Address)\n     · Package #~mission(item5|serialnumber) to the ~mission(Dropoff5|Address)\n     · Package #~mission(item6|serialnumber) to the ~mission(Dropoff5|Address)\n     · Package #~mission(item7|serialnumber) to the ~mission(Dropoff6|Address)\n     · Package #~mission(item8|serialnumber) to the ~mission(Dropoff6|Address)\n     · Package #~mission(item9|serialnumber) to the ~mission(Dropoff7|Address)\n     · Package #~mission(item10|serialnumber) to the ~mission(Dropoff7|Address)\n\nHave a great day,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 599)
-[Covalex_courier_fromdc_small_desc_001] => Hey There!\n\nGot a request in to transfer a few packages from the ~mission(Pickup1) at ~mission(Pickup1|Address). \n\nThought you might like this one since it’s nice to have a simple run to do every once in a while.\n\nPACKAGES FOR PICK UP \n     · All Packages in the ~mission(Pickup1) at ~mission(Pickup1|Address)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1|Address)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2|Address)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3|Address)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4|Address)\n     · Package #~mission(item5|serialnumber) to the ~mission(Dropoff5|Address)\n\nTalk to you soon,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 600)
-[Covalex_courier_todc_large_desc_001] => Hello,\n\nThere is a large shipment of packages that is ready to be brought over to the ~mission(Dropoff1) at ~mission(Dropoff1|Address). With the number of boxes you’ll be moving, it might make sense to bring a friend along to give you a hand.\n\nPACKAGES FOR PICK UP (ANY ORDER) \n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1|Address)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2|Address)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3|Address)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4|Address)\n     · Package #~mission(item5|serialnumber) from the ~mission(Pickup5|Address)\n     · Package #~mission(item6|serialnumber) from the ~mission(Pickup5|Address)\n     · Package #~mission(item7|serialnumber) from the ~mission(Pickup6|Address)\n     · Package #~mission(item8|serialnumber) from the ~mission(Pickup6|Address)\n     · Package #~mission(item9|serialnumber) from the ~mission(Pickup7|Address)\n     · Package #~mission(item10|serialnumber) from the ~mission(Pickup7|Address)\n     · Package #~mission(item11|serialnumber) from the ~mission(Pickup8|Address)\n     · Package #~mission(item12|serialnumber) from the ~mission(Pickup8|Address)\n     · Package #~mission(item13|serialnumber) from the ~mission(Pickup9|Address)\n     · Package #~mission(item14|serialnumber) from the ~mission(Pickup9|Address)\n     · Package #~mission(item15|serialnumber) from the ~mission(Pickup9|Address)\n\nDROP OFF LOCATION\n     · All Packages delivered to the ~mission(Pickup1) at ~mission(Pickup1|Address)\n\nHope everything goes smoothly,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 601)
-[Covalex_courier_todc_med_desc_001] => Hi,\n\nGot an decent sized order that needs to be delivered to the ~mission(Dropoff1) at ~mission(Dropoff1|Address). I would suggest bringing a tractor beam, but you do you!\n\nPACKAGES FOR PICK UP (ANY ORDER) \n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1|Address)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2|Address)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3|Address)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4|Address)\n     · Package #~mission(item5|serialnumber) from the ~mission(Pickup5|Address)\n     · Package #~mission(item6|serialnumber) from the ~mission(Pickup5|Address)\n     · Package #~mission(item7|serialnumber) from the ~mission(Pickup6|Address)\n     · Package #~mission(item8|serialnumber) from the ~mission(Pickup6|Address)\n     · Package #~mission(item9|serialnumber) from the ~mission(Pickup7|Address)\n     · Package #~mission(item10|serialnumber) from the ~mission(Pickup7|Address)\n\nDROP OFF LOCATION\n     · All Packages delivered to the ~mission(Dropoff1) at ~mission(Dropoff1|Address)\n\nThanks so much,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 602)
-[Covalex_courier_todc_small_desc_001] => Hey there!\n\nGot a request in to transfer a few packages over to the ~mission(Dropoff1) at ~mission(Dropoff1|Address). Pretty straightforward as these things go.\n\nPACKAGES FOR PICK UP (ANY ORDER) \n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1|Address)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2|Address)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3|Address)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4|Address)\n     · Package #~mission(item5|serialnumber) from the ~mission(Pickup5|Address)\n\nDROP OFF LOCATION\n     · All Packages delivered to the ~mission(Dropoff1) at ~mission(Dropoff1|Address)\n\nAppreciate you making the time to tackle this one for me, \n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 603)
-[Covalex_internaldelivery_dc_desc_001] => Hi!\n\nI’m in need an extra set of hands at ~mission(Location|Address) to help out moving a few items between some of the storage sites within the facility. When places get this big they need all the logistics help they can get!  \n\nPACKAGES FOR PICK UP (ANY ORDER)\n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2)\n\nBest of luck!\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 604)
-[Covalex_internaldelivery_dc_desc_002] => Hello,\n\nWe’re looking for someone at ~mission(Location|Address) to help organize a couple items by transferring them between the facility’s storage sites.  \n\nPACKAGES FOR PICK UP (ANY ORDER)\n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3)\n\nHope the rest of your day goes well!\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 605)
-[Covalex_internaldelivery_dc_desc_003] => Hi there,\n\nGot a request from ~mission(Location|Address) to help internally relocate a few packages from where they’re currently being stored. Thought you might be willing to tackle it.\n\nPACKAGES FOR PICK UP (ANY ORDER)\n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4)\n\nHave a good one!\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 606)
-[Covalex_internaldelivery_dc_desc_004] => Hello!\n\nA bunch of packages at ~mission(Location|Address) need to be moved between onsite storage locations there if you got the time. Here's the list.\n\nPACKAGES FOR PICK UP (ANY ORDER)\n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4)\n     · Package #~mission(item5|serialnumber) from the ~mission(Pickup5)\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4)\n     · Package #~mission(item5|serialnumber) to the ~mission(Dropoff5)\n\nBest of luck,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 607)
-[Covalex_internaldelivery_dc_desc_005] => Hi,\n\nThere’s a whole heap of packages over at ~mission(Location|address) that need to be carted around the facility to their proper storage place. Would mean a lot if you could personally see to it all getting sorted.\n\nPACKAGES FOR PICK UP (ANY ORDER)\n     · Package #~mission(item1|serialnumber) from the ~mission(Pickup1)\n     · Package #~mission(item2|serialnumber) from the ~mission(Pickup2)\n     · Package #~mission(item3|serialnumber) from the ~mission(Pickup3)\n     · Package #~mission(item4|serialnumber) from the ~mission(Pickup4)\n     · Package #~mission(item5|serialnumber) from the ~mission(Pickup5)\n     · Package #~mission(item6|serialnumber) from the ~mission(Pickup6)\n\n\nDROP OFF LOCATIONS (ANY ORDER)\n     · Package #~mission(item1|serialnumber) to the ~mission(Dropoff1)\n     · Package #~mission(item2|serialnumber) to the ~mission(Dropoff2)\n     · Package #~mission(item3|serialnumber) to the ~mission(Dropoff3)\n     · Package #~mission(item4|serialnumber) to the ~mission(Dropoff4)\n     · Package #~mission(item5|serialnumber) to the ~mission(Dropoff5)\n     · Package #~mission(item6|serialnumber) to the ~mission(Dropoff6)\n\n\nReally appreciate all you do,\n\nChase Hewitt\nJr. Logistics Coordinator\nCovalex Shipping  \n'Anything you need, anywhere you need it.'\n\n\n\n\n\n\n\nCovalex Shipping is a limited liability corporation. By accepting this contract, you are agreeing to all terms and conditions as outlined in our extended 'Independent Workers Supplemental Information Guide v.2948.01.29.' Covalex Shipping is not responsible for any damages that occur while operating as an independent contractor.\n
-(LINE: 608)
-[Covalex_internaldelivery_dc_title_001] => Covalex Package Handler
-(LINE: 609)
-[Crusader_RepUI_Area] => Stanton II, UEE
-(LINE: 747)
-[Crusader_RepUI_Description] => Makers of an extensive fleet of cutting edge vehicles, Crusader Industries is a titan of the aerospace industry. The prominent company purchased a gas giant in the Stanton system to house its current headquarters and is striving to expand its already prolific profile of ships while dedicating itself to numerous charitable works.
-(LINE: 748)
-[Crusader_RepUI_Focus] => Vehicle Manufacturing
-(LINE: 749)
-[Crusader_RepUI_Founded] => 2799
-(LINE: 750)
-[Crusader_RepUI_Headquarters] => Orison, Crusader, Stanton System
-(LINE: 751)
-[Crusader_RepUI_Leadership] => Kelly Caplan, CEO
-(LINE: 752)
-[Crusader_RepUI_Name] => Crusader Industries
-(LINE: 753)
-[DC_room_cargo_lounge] => On-Call Area
-(LINE: 788)
-[DC_room_dead_end] => Staging Point
-(LINE: 789)
-[DC_room_fob] => Security Compound
-(LINE: 790)
-[DC_room_freight_elevator] => Freight Elevator
-(LINE: 791)
-[DC_room_lobby] => Lobby
-(LINE: 792)
-[DC_room_miniroom] => Supply Room
-(LINE: 793)
-[DC_room_refinery] => Exterior Zone 2
-(LINE: 794)
-[DC_room_security] => Security Checkpoint
-(LINE: 795)
-[DC_room_security_01] => Security Checkpoint 01
-(LINE: 796)
-[DC_room_security_02] => Security Checkpoint 02
-(LINE: 797)
-[DC_room_shipping] => Shipping Area
-(LINE: 798)
-[DC_room_strorage] => Storehouse
-(LINE: 799)
-[DC_room_warehouse] => Inventory Center
-(LINE: 800)
-[Debug_Text_MissionGiver,P] => *WIP* Some Mission Giver
-(LINE: 4222)
-[Debug_Text_SellItem_Desc,P] => *WIP* Sell Item Description
-(LINE: 4242)
-[Debug_Text_SellItem_Obj_01_Long,P] => *WIP* Sell item at the marked location
-(LINE: 4243)
-[Debug_Text_SellItem_Obj_01_Short,P] => *WIP* Sell Item
-(LINE: 4244)
-[Debug_Text_SellItem_Title,P] => *WIP* Sell Item Title
-(LINE: 4245)
-[Debug_Text_TravelObjective_Obj_01_Long,P] => *WIP* Go to the Location
-(LINE: 4247)
-[Debug_Text_TravelObjective_Obj_01_Short,P] => *WIP* Go to Location
-(LINE: 4248)
-[DistributionCenter_desc_Covalex_shared] => One of many distribution centres that belong to the vast Covalex shipping network, and a key stop in getting your cargo safely to its final destination.
-(LINE: 4287)
-[DistributionCenter_desc_Criminal_shared] => Private facility. Trespassers will not be tolerated. 
-(LINE: 4288)
-[DistributionCenter_desc_CryAstro_shared] => This processing plant is a vital part of Cry-Astro's fuel network, helping to fuel your future.
-(LINE: 4289)
-[DistributionCenter_desc_Greycat_shared] => At this production complex, skilled Greycat Industrial workers strive to produce the top-of-the-line products that are used by billions across numerous industrial specializations. 
-(LINE: 4290)
-[DistributionCenter_desc_Hurst_shared] => This Hurston Dynamics Production Center is for authorized personnel and affiliates only.
-(LINE: 4291)
-[DistributionCenter_desc_Sakura_shared] => Working to make each day better, this workcenter and its employees are proud to be part of the Sakura Sun family.
-(LINE: 4292)
-[DistributionCenter_desc_microTech_shared] => microTech uses depots like this location to support their large catalogue of consumer electronics.
-(LINE: 4293)
-[Dusters_RepUI_Area] => Stanton System
-(LINE: 7461)
-[Dusters_RepUI_Description] => A criminal gang based in the Stanton System specializing in mining related crimes such as robbing miners and illegally operating on other people's claims.
-(LINE: 7462)
-[Dusters_RepUI_Focus] => Piracy, Mining
-(LINE: 7463)
-[Dusters_RepUI_Founded] => 2936
-(LINE: 7464)
-[Dusters_RepUI_Headquarters] => N/A
-(LINE: 7465)
-[Dusters_RepUI_Leadership] => Flynn "Dusty" Mathis, Founder
-(LINE: 7466)
-[Dusters_RepUI_Name] => Dusters
-(LINE: 7467)
-[EckhartSecurity_RepUI_Area] => UEE
-(LINE: 7583)
-[EckhartSecurity_RepUI_Description] => Founded by Army veteran Miles Eckhart, Eckhart Security offers a wide variety of mercenary services across multiple systems - from security escorts, to defensive outpost deployments, to theft pevention and recovery. With over two decades of experience, Eckhart Security has earned itself a reputation for taking on the jobs that other security firms would shy away from.
-(LINE: 7584)
-[EckhartSecurity_RepUI_Focus] => Private Security Firm
-(LINE: 7585)
-[EckhartSecurity_RepUI_Founded] => 2929
-(LINE: 7586)
-[EckhartSecurity_RepUI_Headquarters] => Lorville, Hurston, Stanton System
-(LINE: 7587)
-[EckhartSecurity_RepUI_Leadership] => Miles Eckhart, CEO
-(LINE: 7588)
-[EckhartSecurity_RepUI_Name] => Eckhart Security
-(LINE: 7589)
-[FreightElevator_1SCU,P] => 1 SCU
-(LINE: 8105)
-[FreightElevator_1SCU_Container,P] => 1 SCU Container
-(LINE: 8106)
-[FreightElevator_4SCU,P] => 4 SCU
-(LINE: 8107)
-[FreightElevator_8SCU,P] => Location:
-(LINE: 8108)
-[FreightElevator_Alert,P] => Alert!
-(LINE: 8109)
-[FreightElevator_AutoArrange,P] => Auto Arrange
-(LINE: 8110)
-[FreightElevator_ClearAll,P] => Clear Filters
-(LINE: 8111)
-[FreightElevator_ContractOrderDescription,P] => Mission will be completed upon lowering the platform.
-(LINE: 8112)
-[FreightElevator_ContractOrderPayout,P] => You will receive
-(LINE: 8113)
-[FreightElevator_DeliverToWarehouse,P] => Deliver To Warehouse
-(LINE: 8114)
-[FreightElevator_DepositItems,P] => Deposit Items
-(LINE: 8115)
-[FreightElevator_EmptyAllContainers,P] => Empty All Containers
-(LINE: 8116)
-[FreightElevator_ExtendItenBankView,P] => Extend Storage
-(LINE: 8117)
-[FreightElevator_ExtendPlatformView,P] => Extend Platform
-(LINE: 8118)
-[FreightElevator_ExtendWarehouseView,P] => Extend Warehouse
-(LINE: 8119)
-[FreightElevator_FetchingData,P] => Fetching Data
-(LINE: 8120)
-[FreightElevator_FilledWithContainers,P] => Filled with containers
-(LINE: 8121)
-[FreightElevator_FreightPlatform,P] => Freight Platform
-(LINE: 8122)
-[FreightElevator_HangarService,P] => Hangar Service
-(LINE: 8123)
-[FreightElevator_InWarehouse,P] => In Warehouse
-(LINE: 8124)
-[FreightElevator_ItemBankService,P] => Gear Storage Service
-(LINE: 8125)
-[FreightElevator_ItemBankTitle,P] => Gear Storage
-(LINE: 8126)
-[FreightElevator_ItemStats,P] => Item Stats
-(LINE: 8127)
-[FreightElevator_KioskInUse,P] => Kiosk in Use
-(LINE: 8128)
-[FreightElevator_LowerThePlatform] => Lower Platform
-(LINE: 8129)
-[FreightElevator_MainTitle,P] => Cargo
-(LINE: 8130)
-[FreightElevator_OfflineForMaintenance,P] => Offline for Maintenance
-(LINE: 8131)
-[FreightElevator_OnPlatform,P] => On Platform
-(LINE: 8132)
-[FreightElevator_PendingCargoSellOrder,P] => Contract Orders
-(LINE: 8133)
-[FreightElevator_Platform,P] => Platform
-(LINE: 8134)
-[FreightElevator_Platform3DView,P] => 3D View
-(LINE: 8135)
-[FreightElevator_PlatformInventory,P] => Platform Item List
-(LINE: 8136)
-[FreightElevator_PlatformIsEmpty] => Platform Empty
-(LINE: 8137)
-[FreightElevator_PlatformIsEmpty_Description] => Please load items onto the platform if you wish to store them in the warehouse. Lower the platform to access the warehouse inventory.
-(LINE: 8138)
-[FreightElevator_PlatformListView,P] => List View
-(LINE: 8139)
-[FreightElevator_PlatformObstructed,P] => Alert! Platform Obstructed
-(LINE: 8140)
-[FreightElevator_Quit] => Quit
-(LINE: 8141)
-[FreightElevator_RemainingSpace,P] => Remaining Space After Transfer
-(LINE: 8142)
-[FreightElevator_RequestItems,P] => Request Items
-(LINE: 8143)
-[FreightElevator_SelectAll,P] => Select All
-(LINE: 8144)
-[FreightElevator_SendToItemBank,P] => Send To Gear Storage
-(LINE: 8145)
-[FreightElevator_SendToPlatform,P] => Send To Platform
-(LINE: 8146)
-[FreightElevator_SendToWarehouse,P] => Send To Warehouse
-(LINE: 8147)
-[FreightElevator_Sort_A-Z,P] => A - Z
-(LINE: 8148)
-[FreightElevator_Sort_Added,P] => Added
-(LINE: 8149)
-[FreightElevator_Sort_First-Last,P] => First - Last
-(LINE: 8150)
-[FreightElevator_Sort_Largest-Smallest,P] => Largest - Smallest
-(LINE: 8151)
-[FreightElevator_Sort_Last-First,P] => Last - First
-(LINE: 8152)
-[FreightElevator_Sort_Name,P] => Name
-(LINE: 8153)
-[FreightElevator_Sort_Size,P] => Size - SCU Value
-(LINE: 8154)
-[FreightElevator_Sort_Smallest-Largest,P] => Smallest - Largest
-(LINE: 8155)
-[FreightElevator_Sort_Z-A,P] => Z - A
-(LINE: 8156)
-[FreightElevator_TogglePlatformView,P] => Toggle View
-(LINE: 8157)
-[FreightElevator_TotalOwnedAtLocation,P] => Total Owned at Location
-(LINE: 8158)
-[FreightElevator_UnableToDeliver,P] => Unable To Deliver
-(LINE: 8159)
-[FreightElevator_UnselectAll,P] => Unselect All
-(LINE: 8160)
-[FreightElevator_UseElevator,P] => Request Platform
-(LINE: 8161)
-[FreightElevator_UserName,P] => User Name
-(LINE: 8162)
-[FreightElevator_ViewControl_Pan,P] => Pan
-(LINE: 8163)
-[FreightElevator_ViewControl_ResetView,P] => Reset View
-(LINE: 8164)
-[FreightElevator_Warehouse,P] => Warehouse
-(LINE: 8165)
-[FreightElevator_WarehouseStorage,P] => Warehouse Storage
-(LINE: 8166)
-[FreightElevator_WelcomeMessage,P] => Please select an option to proceed.
-(LINE: 8167)
-[FreightElevator_WelcomeTitle,P] => Welcome
-(LINE: 8168)
-[FreightElevator_WithdrawItems,P] => Withdraw Items
-(LINE: 8169)
-[Frontend_Popup_PermanentSuspension_CodeOfConduct] => Code of conduct:
-(LINE: 8242)
-[Frontend_Popup_PermanentSuspension_CodeOfConductURL] => https://support.robertsspaceindustries.com/hc/en-us/articles/4409491235351-Rules-of-Conduct
-(LINE: 8243)
-[Frontend_Popup_PermanentSuspension_EA_Message] => Due to gameplay violations confirmed by Cloud Imperium Games, your access to the online game modes of Arena Commander has been permanently suspended.
-(LINE: 8244)
-[Frontend_Popup_PermanentSuspension_PU_Message] => Due to gameplay violations confirmed by Cloud Imperium Games, your access to the Persistent Universe game mode has been permanently suspended.
-(LINE: 8245)
-[Frontend_Popup_PermanentSuspension_Title] => Permanent Suspension
-(LINE: 8246)
-[Frontend_Popup_TemporarySuspension_AccessWillBeRestoredAt] => Your access will be restored in
-(LINE: 8247)
-[Frontend_Popup_TemporarySuspension_CodeOfConduct] => Code of conduct:
-(LINE: 8248)
-[Frontend_Popup_TemporarySuspension_CodeOfConductURL] => https://support.robertsspaceindustries.com/hc/en-us/articles/4409491235351-Rules-of-Conduct
-(LINE: 8249)
-[Frontend_Popup_TemporarySuspension_EA_Message] => Due to gameplay violations confirmed by Cloud Imperium Games, your access to the offline game modes of Arena Commander has been temporarily suspended.
-(LINE: 8250)
-[Frontend_Popup_TemporarySuspension_PU_Message] => Due to gameplay violations confirmed by Cloud Imperium Games, your access to the Persistent Universe game mode has been temporarily suspended.
-(LINE: 8251)
-[Frontend_Popup_TemporarySuspension_Title] => Temporary Suspension
-(LINE: 8252)
-[HUD_Visor_DataDownload_Batch_label,P] => SHIP LOG - 2737SHD
-(LINE: 8401)
-[HUD_Visor_DataDownload_DataPacket_Label,P] => SNNCJ000344989_SJJHHAJ
-(LINE: 8402)
-[HUD_Visor_DataDownload_Process_Status_Complete,P] => Complete
-(LINE: 8403)
-[HUD_Visor_DataDownload_Process_Status_Corrupt,P] => Corrupt
-(LINE: 8404)
-[HUD_Visor_DataDownload_Process_Status_Downloading,P] => Downloading
-(LINE: 8405)
-[HUD_Visor_DataDownload_Widget_label,P] => DATA TRANSFER > LOCAL STORAGE
-(LINE: 8406)
-[HexPenetrator_RewardRecord_Desc] => Thank you for your diligence on this Overdrive Initiative. As promised, we've attributed one of the requisitioned Hornets to your inventory.\n\nIf you already own a F7, this will grant an upgrade to the F7A mk ii. Reset to access the new ship.\n\nIf you don't, you've been cleared for a temporary rental of a F7A mk ii that you can access in your ASOP.
-(LINE: 8541)
-[HexPenetrator_RewardRecord_EndReason] => Ship Transfer Complete
-(LINE: 8542)
-[HexPenetrator_RewardRecord_Long] => CDF is submitting your request to the ship transfer.
-(LINE: 8543)
-[HexPenetrator_RewardRecord_Short] => Processing
-(LINE: 8544)
-[HexPenetrator_RewardRecord_Title] => Overdrive Initiative: Reward
-(LINE: 8545)
-[Hints_DefaultItemActions_AttemptToCustomizeUncustomizable] => This item's actions cannot be customized while being held.
-(LINE: 8657)
-[Hints_DefaultItemActions_AttemptToCustomizeUncustomizable_Title] => Default Actions
-(LINE: 8658)
-[Hurston_RepUI_Area] => Stanton I, UEE
-(LINE: 18172)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Hurston_RepUI_Description] => With a history stretching back over five hundred years, Hurston Dynamics is noteworthy for being not only one of the oldest continuously-operated family businesses in the Empire, but more recently for owning its own planet in the Stanton system. Over the course of fifteen generations of Hurstons, the company made its fortune selling a wide range of weapons to the military and civilians. In addition, Hurston Dynamics produces many of the refined materials and components that other weapon manufacturers rely on.
 (LINE: 18173)
 [Hurston_RepUI_Focus] => Arms Manufacturing
