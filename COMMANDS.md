@@ -19,12 +19,6 @@ php .\Tools\scripts\scLangPatcher.php
 php .\Tools\scripts\encontrarDiferencias.php
 ```
 
-## Encontrar diferecnias con el nuevo .ini
-
-```shell
-php .\Tools\scripts\encontrarNewDiferencias.php
-```
-
 ## Crear una release (pendiente de automazación con github actions)
 
 ```shell
