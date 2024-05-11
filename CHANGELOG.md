@@ -1,4 +1,9 @@
 # CHANGELOG
 
+## v11.0.0
+- Nuevos ATC (Servicios de aterrizaje)
+- Advocacy Y ArCorp (Información de la Facción)
+- Bit Zeroes (Misiones de la Facción)
+
 ## v0.10.3
 - Se ha acortado la línea de `Cuidado del Paciente` a `Paciente` para que quepa en la bahía medica
