@@ -3,7 +3,9 @@
 ## v0.11.3
 
 - Centros de distribucion (Habitaciones)
-- Battle Arena
+- Battle Arena (Lineas suetas que estaban en inglés)
+- Marine (Lineas suetas que estaban en inglés)
+- Sataball (Lineas suetas que estaban en inglés)
 
 ## v0.11.2
 - Clovus Darnelli (Descripción de la Facción)
