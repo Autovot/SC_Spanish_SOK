@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.11.3
+
+- Centros de distribucion (Habitaciones)
+
 ## v0.11.2
 - Clovus Darnelli (Descripción de la Facción)
 - Covalex (Misiones de la Facción)
