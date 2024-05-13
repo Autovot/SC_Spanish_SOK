@@ -4,7 +4,9 @@
 - Clovus Darnelli (Descripción de la Facción)
 - Covalex (Misiones de la Facción)
 - Castra (Descripciónes)
-- Lore Crusader
+- Lore Crusader (Personajes)
+- Crusader Industries (Descripción de la Facción)
+- Crsuader Security (Journal)
 
 ## v0.11.0
 - Nuevos ATC (Servicios de aterrizaje)
