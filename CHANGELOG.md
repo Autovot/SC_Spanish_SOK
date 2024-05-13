@@ -8,8 +8,6 @@
 - Crusader Industries (Descripción de la Facción)
 - Crsuader Security (Journal)
 
--- ((Linea 788 de reparar spieler)) --
-
 ## v0.11.0
 - Nuevos ATC (Servicios de aterrizaje)
 - Advocacy Y ArCorp (Información de la Facción)
