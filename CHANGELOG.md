@@ -4,6 +4,10 @@
 - Nuevos ATC (Servicios de aterrizaje)
 - Advocacy Y ArCorp (Información de la Facción)
 - Bit Zeroes (Misiones de la Facción)
+- Clovus Darnelli (Descripción de la Facción)
+- Covalex (Misiones de la Facción)
+- Castra II (Descripción)
+- Castra (Descripción sistema)
 
 ## v0.10.3
 - Se ha acortado la línea de `Cuidado del Paciente` a `Paciente` para que quepa en la bahía medica
