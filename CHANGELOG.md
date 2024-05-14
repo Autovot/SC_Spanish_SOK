@@ -2,10 +2,14 @@
 
 ## v0.11.3
 
+- Cambiado `Atraque` por `Docking`
+- Cambiado `llamaradas` por `bengalas` del sistema anti-misiles
 - Centros de distribucion (Habitaciones)
-- Battle Arena (Lineas suetas que estaban en inglés)
-- Marine (Lineas suetas que estaban en inglés)
-- Sataball (Lineas suetas que estaban en inglés)
+- Battle Arena (Lineas sueltas que estaban en inglés)
+- Marine (Lineas sueltas que estaban en inglés)
+- Sataball (Lineas sueltas que estaban en inglés)
+- Lineas sueltas OEM de los fabricantes de naves que estaban en inglés
+- Mision Data Dowload (Lienas sueltas que estaban en inglés)
 
 ## v0.11.2
 - Clovus Darnelli (Descripción de la Facción)
