@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.11.4
+
+- Data Heist (Lineas sueltas que estaban en inglés)
+- DataPad (Lineas sueltas que estaban en inglés)
+
 ## v0.11.3
 
 - Cambiado `Atraque` por `Docking`
