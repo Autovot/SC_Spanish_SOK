@@ -8,8 +8,8 @@
 - Battle Arena (Lineas sueltas que estaban en inglés)
 - Marine (Lineas sueltas que estaban en inglés)
 - Sataball (Lineas sueltas que estaban en inglés)
-- Lineas sueltas OEM de los fabricantes de naves que estaban en inglés
-- Mision Data Dowload (Lienas sueltas que estaban en inglés)
+- Líneas sueltas OEM de los fabricantes de naves que estaban en inglés
+- Misión Data Dowload (Lineas  sueltas que estaban en inglés)
 
 ## v0.11.2
 - Clovus Darnelli (Descripción de la Facción)
