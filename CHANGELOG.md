@@ -23,6 +23,7 @@
 - Cambiado `Adriano` por `Hadrian` respecto nombre sistema/planetas
 - Headhounters (Misiones sueltas)
 - HexPenetrator (Misiones sueltas)
+- Consejos
 
 
 ## v0.11.3
