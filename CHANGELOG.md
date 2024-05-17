@@ -19,6 +19,10 @@
 - Notificaciones de suspension de la cuenta
 - Idris war (Lineas sueltas en inglés)
 - Puntos de Salto (Nombres)
+- Visor HUD descarga de datos
+- Cambiado `Adriano` por `Hadrian` respecto nombre sistema/planetas
+- Headhounters (Misiones sueltas)
+- HexPenetrator (Misiones sueltas)
 
 
 ## v0.11.3
