@@ -2,8 +2,24 @@
 
 ## v0.11.4
 
+- Character Customizer (Lineas PlaceHolder)
+- Civil (Descripción de la Facción PlaceHolder)
 - Data Heist (Lineas sueltas que estaban en inglés)
 - DataPad (Lineas sueltas que estaban en inglés)
+- Debug text (Lineas sueltas que estaban en inglés)
+- Centros de distribucion (Descripción general)
+- Dusters (Descripción de la Facción)
+- Seguridad Eckhart (Descripción de la Facción)
+- Seguridad Eckhart (Misiones sueltas)
+- Mision de eliminar matones/Grunts (Encuesta)
+- Ellis 5b (Descripción)
+- Semana de la Flota (Lineas sueltas)
+- Reduccion de Fuerzas (Descripción Mision)
+- Elevadores de Carga
+- Notificaciones de suspension de la cuenta
+- Idris war (Lineas sueltas en inglés)
+- Puntos de Salto (Nombres)
+
 
 ## v0.11.3
 
