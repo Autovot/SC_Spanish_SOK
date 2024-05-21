@@ -6,13 +6,22 @@
 - [ ] Hay que reemplazar librea/livery por diseño
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
 - [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
-- [ ] Cambiar `multiherramienta` por `Multi-Tool`
+- [x] Cambiar `multiherramienta` por `Multi-Tool`
+
+## Crear encuestas en discord
+
+> Hacer una distinccion entre Salvage de chapa y Salvage estructural 
+
+dashboard = tablero -> panel de control
+Quantum drive = Unidad cuantica -> motor cuantico/quantum
+Quantum travel = Viaje cuantico
+Quantum Linking = Enlace/Vinculo cuantico
+Salvage = Salvamento -> verbo desguazar
+imprint = marca de regeneración (registro, marca, huella)
 
 ## Traducir
 
-```text
-item_Desc_clda_env_heavy_unified_01_iae2023_01
-```
+> VOID
 
 ## Revisar las siguientes variables
 
@@ -25,16 +34,13 @@ shop_ui_dropdown_allOptions,P
 shop_ui_dropdown_subLocationHeaderBuy,P
 shop_ui_dropdown_subLocationHeaderSell,P
 ui_pregame_hangar_selfland_history
+port_NameShieldGen
+Hints_ActorStatusBuff_Title
+Hints_MedpenStabBlockedInGreenZone
+Hints_Melee_HeavyHaymaker
+Hints_SalvageBeam_*
 ```
 
 ## Cosas sueltas
 
-```text
-Stanton1_CVLC_UGF_002=Covalex Distribution Center S1DC04
-Stanton1_CVLC_UGF_004=Covalex Distribution Center S1DC10
-Stanton1_CVLC_UGF_005=Covalex Distribution Center S1DC11
-Stanton1_CVLC_UGF_006=Covalex Distribution Center S1DC14
-Stanton1_CVLC_UGF_002=Covalex Distribution Center S1DC06
-Stanton1_CVLX_UGF_001=Covalex Distribution Center S1DC02
-Stanton1_GRIN_UGF_003=Greycat Stanton I Production Complex-C
-```
+> VOID
