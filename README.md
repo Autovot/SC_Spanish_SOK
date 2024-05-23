@@ -1,6 +1,6 @@
 # [Traducción en Español de Star Citizen](https://discord.gg/aggMUUM4Xr)
 
-# ⚠️ Traducción no compatible con la 3.23.1 (En progreso)⚠️
+## ⚠️ Traducción no compatible con la 3.23.1 (En progreso)⚠️
 
 ## Información
 
