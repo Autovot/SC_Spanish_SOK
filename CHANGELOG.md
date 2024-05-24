@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v0.12.0
+## v0.12
 
 - Character Customizer (Lineas PlaceHolder)
 - Civil (Descripción de la Facción PlaceHolder)
