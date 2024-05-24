@@ -18,6 +18,8 @@ Quantum travel = Viaje cuantico
 Quantum Linking = Enlace/Vinculo cuantico
 Salvage = Salvamento -> verbo desguazar
 imprint = marca de regeneración (registro, marca, huella)
+nave espacial = por "nave" a asecas
+Stamina = Aguante o Resistencia
 
 ## Traducir
 

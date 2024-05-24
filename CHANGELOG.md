@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v0.11.4
+## v0.12.0
 
 - Character Customizer (Lineas PlaceHolder)
 - Civil (Descripción de la Facción PlaceHolder)
@@ -21,9 +21,11 @@
 - Puntos de Salto (Nombres)
 - Visor HUD descarga de datos
 - Cambiado `Adriano` por `Hadrian` respecto nombre sistema/planetas
+- Cambiado `Multiherramienta` por `Multi-tool`
 - Headhounters (Misiones sueltas)
 - HexPenetrator (Misiones sueltas)
 - Consejos
+- Revisado Titulos tripulacion
 
 
 ## v0.11.3
