@@ -25,6 +25,7 @@ Stamina = Aguante o Resistencia
 Freight Elevator = elevador de carga (montacargas)
 Datapad = Bloc de datos
 Wildlife = Fauna (Fauna salvaje | Fauna y flora silvestre)
+People's Alliance = Alianza popular
 
 ## Traducir
 
