@@ -26,7 +26,12 @@
 - HexPenetrator (Misiones sueltas)
 - Consejos
 - Revisado Titulos tripulacion
-
+- Crusader (Descripción de la Facción)
+- IAE2951 (Líneas sueltas)
+- Infracciones (Lineas sueltas)
+- Invictus (Lineas sueltas)
+- Objetos (Lineas sueltas)
+- Cambiado lineas sueltas que ponia `Librea` por `Diseño`
 
 ## v0.11.3
 

@@ -10,7 +10,9 @@
 
 ## Crear encuestas en discord
 
-> Hacer una distinccion entre Salvage de chapa y Salvage estructural 
+> Hacer una distinccion entre `Salvage` de chapa y `Salvage` estructural 
+
+> `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
 
 dashboard = tablero -> panel de control
 Quantum drive = Unidad cuantica -> motor cuantico/quantum
