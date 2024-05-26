@@ -3,7 +3,7 @@
 - [ ] Docking
 - [ ] XENOTHREAD
 - [ ] Revisiones de descripciones de naves
-- [ ] Hay que reemplazar librea/livery por diseño
+- [ ] Hay que reemplazar `librea`/`livery` por diseño
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
 - [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
 - [x] Cambiar `multiherramienta` por `Multi-Tool`
