@@ -31,7 +31,8 @@
 - Infracciones (Lineas sueltas)
 - Invictus (Lineas sueltas)
 - Objetos (Lineas sueltas)
-- Cambiado lineas sueltas que ponia `Librea` por `Diseño`
+- Cambiado lineas sueltas que ponian `Librea` por `Diseño`
+- Journal (Lineas sueltas)
 
 ## v0.11.3
 

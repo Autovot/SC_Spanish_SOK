@@ -19,9 +19,12 @@ Quantum drive = Unidad cuantica -> motor cuantico/quantum
 Quantum travel = Viaje cuantico
 Quantum Linking = Enlace/Vinculo cuantico
 Salvage = Salvamento -> verbo desguazar
-imprint = marca de regeneración (registro, marca, huella)
+imprint = marca de regeneración (registro | marca | huella)
 nave espacial = por "nave" a asecas
 Stamina = Aguante o Resistencia
+Freight Elevator = elevador de carga (montacargas)
+Datapad = Bloc de datos
+Wildlife = Fauna (Fauna salvaje | Fauna y flora silvestre)
 
 ## Traducir
 
