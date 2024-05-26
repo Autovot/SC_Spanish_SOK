@@ -33,6 +33,7 @@
 - Objetos (Lineas sueltas)
 - Cambiado lineas sueltas que ponian `Librea` por `Diseño`
 - Journal (Lineas sueltas)
+- Cambiado `Alianza popular` por `People's Alliance` respecto a Facción
 
 ## v0.11.3
 
