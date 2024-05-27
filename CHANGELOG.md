@@ -32,8 +32,9 @@
 - Invictus (Lineas sueltas)
 - Objetos (Lineas sueltas)
 - Cambiado lineas sueltas que ponian `Librea` por `Diseño`
-- Journal (Lineas sueltas)
+- Diario (Lineas sueltas)
 - Cambiado `Alianza popular` por `People's Alliance` respecto a Facción
+- Diario jurisdicciones (Añadido texto faltante)
 
 ## v0.11.3
 
