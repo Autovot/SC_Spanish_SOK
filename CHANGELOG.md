@@ -35,6 +35,8 @@
 - Diario (Lineas sueltas)
 - Cambiado `Alianza popular` por `People's Alliance` respecto a Facción
 - Diario jurisdicciones (Añadido texto faltante)
+- Klesher (Descripción de la Facción)
+- Local Delivery (Lineas sueltas)
 
 ## v0.11.3
 
