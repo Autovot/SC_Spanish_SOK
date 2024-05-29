@@ -24,14 +24,18 @@ nave espacial = por "nave" a asecas
 Stamina = Aguante o Resistencia
 Freight Elevator = elevador de carga (montacargas)
 Datapad = Bloc de datos
-Wildlife = Fauna (Fauna salvaje | Fauna y flora silvestre)
+Wildlife = Fauna salvaje (Fauna y flora silvestre)
 People's Alliance = Alianza popular
+Loadout
+Navy = Armada | Marina
 
 ## Traducir
 
 > VOID
 
 ## Revisar las siguientes variables
+
+> Outlaws = Faccion no traducir
 
 ```text
 scan_data_career
@@ -47,6 +51,10 @@ Hints_ActorStatusBuff_Title
 Hints_MedpenStabBlockedInGreenZone
 Hints_Melee_HeavyHaymaker
 Hints_SalvageBeam_*
+Marker_*
+NB_FactoryLine_*
+item_Desc_*
+murderspree_*
 ```
 
 ## Cosas sueltas

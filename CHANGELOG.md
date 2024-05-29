@@ -37,6 +37,22 @@
 - Diario jurisdicciones (Añadido texto faltante)
 - Klesher (Descripción de la Facción)
 - Local Delivery (Lineas sueltas)
+- MicroTech (Misiones)
+- Magnus 4 (Linea suelta)
+- Mapa
+- Marcadores
+- Miles Eckhart (Lineas sueltas)
+- MicroTech Animales (Misiones)
+- Cambiado `Acceso a equipo de combate` por `Acceso a equipamiento de combate`
+- Cambiado `CALIFICACIONES MÍNIMAS`por `REQUISITOS MINIMOS`
+- Cambiado `CALIFICACIONES PREFERIDAS` por `REQUISITOS REQUERIDOS`
+- Cambiado `CALIFICACIONES` por `REQUISITOS`
+- New Babbage (Lineas sueltas)
+- Fauna salvaje (Nombre)
+- Nine Tails (Descripción de la Facción)
+- Orison Descubrimiento (Lineas sueltas)
+- Outlaws (Descripción de la Facción)
+- Oso (Lineas sueltas)
 
 ## v0.11.3
 
