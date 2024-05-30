@@ -55,6 +55,7 @@ Marker_*
 NB_FactoryLine_*
 item_Desc_*
 murderspree_*
+PU_BARTENDER*
 ```
 
 ## Cosas sueltas

@@ -53,6 +53,10 @@
 - Orison Descubrimiento (Lineas sueltas)
 - Outlaws (Descripción de la Facción)
 - Oso (Lineas sueltas)
+- Admin (Lineas sueltas)
+- Camarero bar (Lineas sueltas)
+- Cargo ATC
+- Miles Eckhart (Lineas Misiones sueltas)
 
 ## v0.11.3
 
