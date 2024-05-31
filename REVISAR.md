@@ -28,6 +28,7 @@ Wildlife = Fauna salvaje (Fauna y flora silvestre)
 People's Alliance = Alianza popular
 Loadout
 Navy = Armada | Marina
+Stores = Almacenado | Guardado (Contexto de hangares coches)
 
 ## Traducir
 

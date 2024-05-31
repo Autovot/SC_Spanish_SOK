@@ -57,6 +57,8 @@
 - Camarero bar (Lineas sueltas)
 - Cargo ATC
 - Miles Eckhart (Lineas Misiones sueltas)
+- Hangares personales
+- Puntos de salto
 
 ## v0.11.3
 
