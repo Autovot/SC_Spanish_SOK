@@ -59,6 +59,9 @@
 - Miles Eckhart (Lineas Misiones sueltas)
 - Hangares personales
 - Puntos de salto
+- Levski (Lineas sueltas)
+- Ruto (Lineas sueltas)
+- Espectadores (Lineas sueltas)
 
 ## v0.11.3
 
