@@ -29,6 +29,7 @@ People's Alliance = Alianza popular
 Loadout
 Navy = Armada | Marina
 Stores = Almacenado | Guardado (Contexto de hangares coches)
+deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
 
 ## Traducir
 

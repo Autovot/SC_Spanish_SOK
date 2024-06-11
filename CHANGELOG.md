@@ -62,6 +62,8 @@
 - Levski (Lineas sueltas)
 - Ruto (Lineas sueltas)
 - Espectadores (Lineas sueltas)
+- Pyro (Servicios de aterrizaje (ATC))
+- UEE (Descripciónes de las Facciónes)
 
 ## v0.11.3
 
