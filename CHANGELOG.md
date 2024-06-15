@@ -2,6 +2,7 @@
 
 ## v0.12
 
+- *Bastantes lineas sueltas*
 - Character Customizer (Lineas PlaceHolder)
 - Civil (Descripción de la Facción PlaceHolder)
 - Data Heist (Lineas sueltas que estaban en inglés)
@@ -64,6 +65,10 @@
 - Espectadores (Lineas sueltas)
 - Pyro (Servicios de aterrizaje (ATC))
 - UEE (Descripciónes de las Facciónes)
+- Pyro (Outposts)
+- RN recuros
+- Ruto (Lineas sueltas misiones)
+- Stanton (Centros de distribucion)
 
 ## v0.11.3
 

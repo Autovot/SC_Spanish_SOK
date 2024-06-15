@@ -30,6 +30,8 @@ Loadout
 Navy = Armada | Marina
 Stores = Almacenado | Guardado (Contexto de hangares coches)
 deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
+Handler = Manejador (Gestor | Manipulador | Repartidor)
+Landing pad = Plataforma de aterrizaje (Pad de aterrizaje)
 
 ## Traducir
 
@@ -59,6 +61,7 @@ item_Desc_*
 murderspree_*
 PU_BARTENDER*
 PU_RUTO_MG_Intro_1stTime_Term_V_WP_D2_B_001_CauseImNot
+*_ReachLocation_*
 ```
 
 ## Cosas sueltas
