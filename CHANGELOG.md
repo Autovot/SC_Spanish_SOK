@@ -69,6 +69,10 @@
 - RN recuros
 - Ruto (Lineas sueltas misiones)
 - Stanton (Centros de distribucion)
+- Puntos de Salto (Lineas sueltas)
+- Tarpits (Misiones)
+- Tayac (Lineas sueltas)
+- Tecia (Descripción de la Facción)
 
 ## v0.11.3
 
