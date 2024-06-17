@@ -73,6 +73,7 @@
 - Tarpits (Misiones)
 - Tayac (Lineas sueltas)
 - Tecia (Descripción de la Facción)
+- Tutorial (Lineas nuevas y modificadas de la 3.23)
 
 ## v0.11.3
 

@@ -10,6 +10,8 @@
 
 ## Crear encuestas en discord
 
+> Sobre nombre de empresas, lugares y obejetos
+
 > Hacer una distinccion entre `Salvage` de chapa y `Salvage` estructural 
 
 > `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
@@ -62,6 +64,7 @@ murderspree_*
 PU_BARTENDER*
 PU_RUTO_MG_Intro_1stTime_Term_V_WP_D2_B_001_CauseImNot
 *_ReachLocation_*
+Tut* (misiones tutorial)
 ```
 
 ## Cosas sueltas
