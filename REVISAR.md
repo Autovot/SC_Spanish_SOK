@@ -35,6 +35,7 @@ deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo
 Handler = Manejador (Gestor | Manipulador | Repartidor)
 Landing pad = Plataforma de aterrizaje (Pad de aterrizaje)
 Delivering the total package = Entregando el paquete completo
+Lead Dispatcher = Despachadora Principal
 
 ## Traducir
 
@@ -66,6 +67,8 @@ PU_BARTENDER*
 PU_RUTO_MG_Intro_1stTime_Term_V_WP_D2_B_001_CauseImNot
 *_ReachLocation_*
 Tut* (misiones tutorial)
+WIP_EmergencyDoorRelease_Run
+area_name_*
 ```
 
 ## Cosas sueltas

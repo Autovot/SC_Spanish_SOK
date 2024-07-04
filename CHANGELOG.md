@@ -75,6 +75,14 @@
 - Tecia (Descripción de la Facción)
 - Tutorial (Lineas nuevas y modificadas de la 3.23)
 - UDM (Lineas misiones deliverys)
+- Rangos UEE
+- Maquinas de venta (Lineas sueltas mision)
+- Virgil (Lineas sueltas)
+- Wallace Klim (Descripción de Facción)
+- BlackBox (Misiones)
+- Localizacion bountys
+- Transporte de cargas (Lineas sueltas)
+- CDF (Lineas mision pyro)
 
 ## v0.11.3
 
