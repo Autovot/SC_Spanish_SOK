@@ -74,6 +74,7 @@
 - Tayac (Lineas sueltas)
 - Tecia (Descripción de la Facción)
 - Tutorial (Lineas nuevas y modificadas de la 3.23)
+- UDM (Lineas misiones deliverys)
 
 ## v0.11.3
 

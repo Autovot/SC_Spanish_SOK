@@ -34,6 +34,7 @@ Stores = Almacenado | Guardado (Contexto de hangares coches)
 deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
 Handler = Manejador (Gestor | Manipulador | Repartidor)
 Landing pad = Plataforma de aterrizaje (Pad de aterrizaje)
+Delivering the total package = Entregando el paquete completo
 
 ## Traducir
 
