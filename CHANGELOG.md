@@ -83,6 +83,7 @@
 - Localizacion bountys
 - Transporte de cargas (Lineas sueltas)
 - CDF (Lineas mision pyro)
+- Misiones confirmar muerte (Lineas medio comidas)
 
 ## v0.11.3
 

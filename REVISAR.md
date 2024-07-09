@@ -3,7 +3,7 @@
 - [ ] Docking
 - [ ] XENOTHREAD
 - [ ] Revisiones de descripciones de naves
-- [ ] Hay que reemplazar `librea`/`livery` por diseño
+- [ ] Hay que reemplazar `librea`/`livery` por `diseño`
 - [ ] Variables `Dlg_SC_bb_bb_factory_*`
 - [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
 - [x] Cambiar `multiherramienta` por `Multi-Tool`
@@ -36,6 +36,11 @@ Handler = Manejador (Gestor | Manipulador | Repartidor)
 Landing pad = Plataforma de aterrizaje (Pad de aterrizaje)
 Delivering the total package = Entregando el paquete completo
 Lead Dispatcher = Despachadora Principal
+Sentries = Centinelas | Torretas
+Comm array = Matriz de comunicaciones
+array = matriz 
+comm = comunicaciones
+Bounty = Recompensa | Objetivo
 
 ## Traducir
 
@@ -69,6 +74,8 @@ PU_RUTO_MG_Intro_1stTime_Term_V_WP_D2_B_001_CauseImNot
 Tut* (misiones tutorial)
 WIP_EmergencyDoorRelease_Run
 area_name_*
+commarray_*
+confirmkill_location_*
 ```
 
 ## Cosas sueltas
