@@ -16,6 +16,7 @@
 
 > `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
 
+```
 dashboard = tablero -> panel de control
 Quantum drive = Unidad cuantica -> motor cuantico/quantum
 Quantum travel = Viaje cuantico
@@ -41,6 +42,7 @@ Comm array = Matriz de comunicaciones
 array = matriz 
 comm = comunicaciones
 Bounty = Recompensa | Objetivo
+```
 
 ## Traducir
 
