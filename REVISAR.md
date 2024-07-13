@@ -12,10 +12,11 @@
 
 > Sobre nombre de empresas, lugares y obejetos
 
-> Hacer una distinccion entre `Salvage` de chapa y `Salvage` estructural 
+> Hacer una distinccion entre `Salvage` de chapa y `Salvage` estructural
 
 > `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
 
+```
 dashboard = tablero -> panel de control
 Quantum drive = Unidad cuantica -> motor cuantico/quantum
 Quantum travel = Viaje cuantico
@@ -38,11 +39,12 @@ Delivering the total package = Entregando el paquete completo
 Lead Dispatcher = Despachadora Principal
 Sentries = Centinelas | Torretas
 Comm array = Matriz de comunicaciones
-array = matriz 
+array = matriz
 comm = comunicaciones
 Bounty = Recompensa | Objetivo
 Liaison = Enlace
 Piggyback
+```
 
 ## Traducir
 
