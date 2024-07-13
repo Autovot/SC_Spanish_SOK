@@ -41,6 +41,8 @@ Comm array = Matriz de comunicaciones
 array = matriz 
 comm = comunicaciones
 Bounty = Recompensa | Objetivo
+Liaison = Enlace
+Piggyback
 
 ## Traducir
 
@@ -49,6 +51,8 @@ Bounty = Recompensa | Objetivo
 ## Revisar las siguientes variables
 
 > Outlaws = Faccion no traducir
+
+> todas las descripciones de misiones `*_desc` y añadirle las mejoras
 
 ```text
 scan_data_career
@@ -76,6 +80,8 @@ WIP_EmergencyDoorRelease_Run
 area_name_*
 commarray_*
 confirmkill_location_*
+crusader_platform_EliminateSpecific_title
+crusader_platform_MultiEliminateSpecific_title
 ```
 
 ## Cosas sueltas
