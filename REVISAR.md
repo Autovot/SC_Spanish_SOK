@@ -44,6 +44,11 @@ comm = comunicaciones
 Bounty = Recompensa | Objetivo
 Liaison = Enlace
 Piggyback
+Kill = Muerte | Baja
+RANKED MATCH = PARTIDA RANKED | PARTIDA CLASIFICATORIA
+Freelook
+flattop = Policia
+lode (deposito de mineral) = veta | filon
 ```
 
 ## Traducir
@@ -84,6 +89,11 @@ commarray_*
 confirmkill_location_*
 crusader_platform_EliminateSpecific_title
 crusader_platform_MultiEliminateSpecific_title
+dfm_ac_ui_
+ea_popup_body_ModeDisclaimer_Resource
+ea_ui_matchmaking_error_
+ea_ui_mode_PirateSwarm
+ea_ui_mode_VanduulSwarm
 ```
 
 ## Cosas sueltas

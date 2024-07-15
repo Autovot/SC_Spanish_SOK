@@ -84,6 +84,8 @@
 - Transporte de cargas (Lineas sueltas)
 - CDF (Lineas mision pyro)
 - Correccion de misiones que tenian la descripción mal
+- Destruir objetos (Mision)
+- UI Arena Comander
 
 ## v0.11.3
 
