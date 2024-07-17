@@ -8,6 +8,14 @@
 - [ ] Variables que contengan `Aft`, `Deck`, `Front`,`Overhead`, `Port`, `Starboard`
 - [x] Cambiar `multiherramienta` por `Multi-Tool`
 
+## Pedir retroalimentacion
+
+- Tema ingeneria mm
+
+## Revisar cada parche
+
+- `ea_ui_patchnotes_version`
+
 ## Crear encuestas en discord
 
 > Sobre nombre de empresas, lugares y obejetos
@@ -29,7 +37,7 @@ Freight Elevator = elevador de carga (montacargas)
 Datapad = Bloc de datos
 Wildlife = Fauna salvaje (Fauna y flora silvestre)
 People's Alliance = Alianza popular
-Loadout
+Loadout = Equipamiento
 Navy = Armada | Marina
 Stores = Almacenado | Guardado (Contexto de hangares coches)
 deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
@@ -49,6 +57,8 @@ RANKED MATCH = PARTIDA RANKED | PARTIDA CLASIFICATORIA
 Freelook
 flattop = Policia
 lode (deposito de mineral) = veta | filon
+Radar Dish = antena parabolica | antena de radar
+Cycle
 ```
 
 ## Traducir
@@ -94,6 +104,8 @@ ea_popup_body_ModeDisclaimer_Resource
 ea_ui_matchmaking_error_
 ea_ui_mode_PirateSwarm
 ea_ui_mode_VanduulSwarm
+ea_ui_msg_gungame_*
+engineering_ui_
 ```
 
 ## Cosas sueltas

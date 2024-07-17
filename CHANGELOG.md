@@ -86,6 +86,7 @@
 - Correccion de misiones que tenian la descripción mal
 - Destruir objetos (Mision)
 - UI Arena Comander
+- UI Ingeneria
 
 ## v0.11.3
 
