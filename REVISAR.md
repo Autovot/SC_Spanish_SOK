@@ -59,6 +59,10 @@ flattop = Policia
 lode (deposito de mineral) = veta | filon
 Radar Dish = antena parabolica | antena de radar
 Cycle
+FRIO
+items = obejetos | articulos
+SHIELDS DOWN = Escudos caidos|abatidos|desactivados|apagados (abajo no)
+Quantum 
 ```
 
 ## Traducir
@@ -106,6 +110,13 @@ ea_ui_mode_PirateSwarm
 ea_ui_mode_VanduulSwarm
 ea_ui_msg_gungame_*
 engineering_ui_
+*ShieldsDown
+hud_TutorialLand*
+hud_comms_label
+hud_criminal_death_lvl*
+input_key_
+iae2953_sign_mining_infoscreen03_body
+interiormap_common*
 ```
 
 ## Cosas sueltas

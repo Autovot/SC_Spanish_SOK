@@ -87,6 +87,9 @@
 - Destruir objetos (Mision)
 - UI Arena Comander
 - UI Ingeneria
+- HUD (Lineas sueltas)
+- iae2953 (Lineas sueltas)
+- Mapa interior
 
 ## v0.11.3
 
