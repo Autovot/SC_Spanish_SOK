@@ -25,6 +25,7 @@
 > `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
 
 ```
+Livery = diseño (Estilo | Pintura)
 dashboard = tablero -> panel de control
 Quantum drive = Unidad cuantica -> motor cuantico/quantum
 Quantum travel = Viaje cuantico
@@ -62,7 +63,9 @@ Cycle
 FRIO
 items = obejetos | articulos
 SHIELDS DOWN = Escudos caidos|abatidos|desactivados|apagados (abajo no)
-Quantum 
+Quantum
+seeking missiles = misiles guiados
+noise (contramedida misiles) = ruido 
 ```
 
 ## Traducir
@@ -117,6 +120,8 @@ hud_criminal_death_lvl*
 input_key_
 iae2953_sign_mining_infoscreen03_body
 interiormap_common*
+_LoadoutKit*
+*_Paint_*
 ```
 
 ## Cosas sueltas
