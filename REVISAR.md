@@ -66,6 +66,7 @@ SHIELDS DOWN = Escudos caidos|abatidos|desactivados|apagados (abajo no)
 Quantum
 seeking missiles = misiles guiados
 noise (contramedida misiles) = ruido 
+armor = blindaje (me decanto por esta para naves) | armadura (para jugadores)
 ```
 
 ## Traducir
@@ -77,6 +78,8 @@ noise (contramedida misiles) = ruido
 > Outlaws = Faccion no traducir
 
 > todas las descripciones de misiones `*_desc` y añadirle las mejoras
+
+> Cambiar `su nave` por `tu nave` donde haga falta
 
 ```text
 scan_data_career

@@ -6029,6 +6029,16 @@
 					"label": ""
 				}
 			]
+		},
+		{
+			"path": "data/Localization/spanish_(spain)/global.ini",
+			"bookmarks": [
+				{
+					"line": 48588,
+					"column": 0,
+					"label": ""
+				}
+			]
 		}
 	]
 }
