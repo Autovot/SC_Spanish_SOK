@@ -67,6 +67,10 @@ Quantum
 seeking missiles = misiles guiados
 noise (contramedida misiles) = ruido 
 armor = blindaje (me decanto por esta para naves) | armadura (para jugadores)
+newest batch = nueva tanda
+crystal cycle firing mechanism = mecanismo de disparo de ciclo cristalino
+Cooler = Enfriador | Disipador | Refrigerador
+the Deck the Hull
 ```
 
 ## Traducir
@@ -80,6 +84,8 @@ armor = blindaje (me decanto por esta para naves) | armadura (para jugadores)
 > todas las descripciones de misiones `*_desc` y añadirle las mejoras
 
 > Cambiar `su nave` por `tu nave` donde haga falta
+
+> "la decoracion" con referencia a pintura de nave
 
 ```text
 scan_data_career
@@ -125,8 +131,11 @@ iae2953_sign_mining_infoscreen03_body
 interiormap_common*
 _LoadoutKit*
 *_Paint_*
+item_DescGATS_
 ```
 
 ## Cosas sueltas
 
 > VOID
+
+
