@@ -29,5 +29,5 @@ Informacion sobre las releases y la traduccion en [nuestro discord](https://disc
 
 ## Traducciones amigas
 
-  * Jota_be & Doncasta: [Traducción Murciano Edition](https://github.com/Doncasta1996/Star-Citizen-Spanish)
-  * 0zzyt0 [Traducción de 0zzyt0](https://cdn.discordapp.com/attachments/937341804725039134/1273653466614599711/Traduccion_Ozzy_150824.rar?ex=66bf65b9&is=66be1439&hm=baea144c98f9872cb39dd0cfc9c56b061fc531c77aab27936420ef55ff8d7663&)
+  * [Traducción Murciano Edition by Jota_be & Doncasta](https://github.com/Doncasta1996/Star-Citizen-Spanish)
+  * [Traducción by 0zzyt0](https://cdn.discordapp.com/attachments/937341804725039134/1273653466614599711/Traduccion_Ozzy_150824.rar?ex=66bf65b9&is=66be1439&hm=baea144c98f9872cb39dd0cfc9c56b061fc531c77aab27936420ef55ff8d7663&)
