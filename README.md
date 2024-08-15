@@ -1,16 +1,17 @@
 # [Traducción en Español de Star Citizen](https://discord.gg/aggMUUM4Xr)
 
-## ⚠️ Traducción no compatible con la 3.23.1 (En progreso)⚠️
+> [!CAUTION]
+> ⚠️ Traducción no compatible con la 3.23.1 (En progreso)⚠️
 
-## Información
-
-Esta traducción para evitar problemas con las fuentes de texto, se ha decidido no usar acentos ni caracteres especiales.
+> [!NOTE]
+> Esta traducción para evitar problemas con las fuentes de texto, se ha decidido no usar acentos ni caracteres especiales.
 
 ## Guia basica
 
-1) Descargar la [ultima version](https://github.com/Autovot/SC_Spanish_SOK/releases)
-2) Descomprimir
-3) Colocar en carpeta de instalación del juego CARPETA LIVE (Ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`)
+> [!IMPORTANT]
+> 1) Descargar la [ultima version](https://github.com/Autovot/SC_Spanish_SOK/releases)
+> 2) Descomprimir
+> 3) Colocar en carpeta de instalación del juego CARPETA LIVE (Ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`)
 
 ## Colaboradores actuales
 
