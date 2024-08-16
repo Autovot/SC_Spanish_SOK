@@ -71,6 +71,7 @@ newest batch = nueva tanda
 crystal cycle firing mechanism = mecanismo de disparo de ciclo cristalino
 Cooler = Enfriador | Disipador | Refrigerador
 the Deck the Hull
+pod (cohetes) = pod | contenedor | capsulas
 ```
 
 ## Traducir
