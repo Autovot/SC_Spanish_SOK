@@ -72,6 +72,7 @@ crystal cycle firing mechanism = mecanismo de disparo de ciclo cristalino
 Cooler = Enfriador | Disipador | Refrigerador
 the Deck the Hull
 pod (cohetes) = pod | contenedor | capsulas
+mauler = devastadora | destructor 
 ```
 
 ## Traducir
@@ -133,6 +134,9 @@ interiormap_common*
 _LoadoutKit*
 *_Paint_*
 item_DescGATS_
+item_DescMISC_XiTech_Pro_Joint_S3_Q3
+*_hair_*
+
 ```
 
 ## Cosas sueltas
