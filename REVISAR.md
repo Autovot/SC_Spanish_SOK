@@ -22,7 +22,9 @@
 
 > Hacer una distinccion entre `Salvage` de chapa y `Salvage` estructural
 
-> `Item_NameSTOR_opencontainer_`, Hacer mas corto o no la Variable
+> `Item_NameSTOR_opencontainer_*`, Hacer mas corto o no la Variable
+
+> `item_Name*` Dejarlo en ingles o traducir ciertas partes (preguntar)
 
 ```
 Livery = diseño (Estilo | Pintura)
@@ -39,7 +41,7 @@ Datapad = Bloc de datos
 Wildlife = Fauna salvaje (Fauna y flora silvestre)
 People's Alliance = Alianza popular
 Loadout = Equipamiento
-Navy = Armada | Marina
+Navy = Armada | Marina (Minuscula Mayuscula)
 Stores = Almacenado | Guardado (Contexto de hangares coches)
 deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
 Handler = Manejador (Gestor | Manipulador | Repartidor)
@@ -74,6 +76,8 @@ the Deck the Hull
 pod (cohetes) = pod | contenedor | capsulas
 mauler = devastadora | destructor
 Power plant = Generador | Planta de energia 
+Joint Thruster = Propulsor conjunto
+Retro Thruster = Retro propulsor | Retropropulsor
 ```
 
 ## Traducir
@@ -137,6 +141,8 @@ _LoadoutKit*
 item_DescGATS_
 item_DescMISC_XiTech_Pro_Joint_S3_Q3
 *_hair_*
+item_DescARMR_*
+item_NameVNCL_*
 
 ```
 
