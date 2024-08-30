@@ -78,6 +78,7 @@ mauler = devastadora | destructor
 Power plant = Generador | Planta de energia 
 Joint Thruster = Propulsor conjunto
 Retro Thruster = Retro propulsor | Retropropulsor
+Holster = Enfundar
 ```
 
 ## Traducir
@@ -93,6 +94,8 @@ Retro Thruster = Retro propulsor | Retropropulsor
 > Cambiar `su nave` por `tu nave` donde haga falta
 
 > "la decoracion" con referencia a pintura de nave
+
+> `refueling_HUD_Beacon_offer` revisar si se puede poner la variable de la tecla, toca investigar
 
 ```text
 scan_data_career
@@ -143,6 +146,9 @@ item_DescMISC_XiTech_Pro_Joint_S3_Q3
 *_hair_*
 item_DescARMR_*
 item_NameVNCL_*
+item_DescDRAK_Fixed_Mount_S4
+item_DescDRAK_Dual_S1
+ui_CIToggleLandingSystem_Undock
 
 ```
 
