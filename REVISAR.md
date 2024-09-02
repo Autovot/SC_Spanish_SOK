@@ -29,7 +29,7 @@
 ```
 Livery = diseño (Estilo | Pintura)
 dashboard = tablero -> panel de control
-Quantum drive = Unidad cuantica -> motor cuantico/quantum
+Quantum drive = Unidad cuantica -> motor cuantico/quantum (Revisar tipo de articulo)
 Quantum travel = Viaje cuantico
 Quantum Linking = Enlace/Vinculo cuantico
 Salvage = Salvamento -> verbo desguazar
