@@ -149,6 +149,7 @@ item_NameVNCL_*
 item_DescDRAK_Fixed_Mount_S4
 item_DescDRAK_Dual_S1
 ui_CIToggleLandingSystem_Undock
+PU_GENPILOT5_CV_Escort_
 
 ```
 
