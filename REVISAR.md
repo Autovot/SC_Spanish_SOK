@@ -79,6 +79,7 @@ Power plant = Generador | Planta de energia
 Joint Thruster = Propulsor conjunto
 Retro Thruster = Retro propulsor | Retropropulsor
 Holster = Enfundar
+gemstone = piedra preciosa | gema
 ```
 
 ## Traducir
@@ -149,7 +150,10 @@ item_NameVNCL_*
 item_DescDRAK_Fixed_Mount_S4
 item_DescDRAK_Dual_S1
 ui_CIToggleLandingSystem_Undock
-PU_GENPILOT5_CV_Escort_
+PU_GENPILOT5_CV_Escort_*
+*RedFestival_Red_Gold
+*_Paint_Lovestruck_*
+*_Fleetweek_Level2_Camo
 
 ```
 
