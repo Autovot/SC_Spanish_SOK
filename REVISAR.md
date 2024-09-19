@@ -80,6 +80,11 @@ Joint Thruster = Propulsor conjunto
 Retro Thruster = Retro propulsor | Retropropulsor
 Holster = Enfundar
 gemstone = piedra preciosa | gema
+Rate Of Fire = Velocidad de disparo (actual) | Cadencia de fuego | Cadencia de disparo | Cadencia de tiro
+rpm (round per minunte) = dpm (disparos por minuto)
+Underbarrel = Bajo el cañon | Debajo del cañon (Actual)
+stylized graphic = grafico estilizado | diseño estilizado
+Computer = Computadora | Ordenador
 ```
 
 ## Traducir
@@ -97,6 +102,10 @@ gemstone = piedra preciosa | gema
 > "la decoracion" con referencia a pintura de nave
 
 > `refueling_HUD_Beacon_offer` revisar si se puede poner la variable de la tecla, toca investigar
+
+> `una clave cryptokey` revisarlo | `Crypto-Llave`
+
+> `Targeting Computer` | Ordenador de orientacion
 
 ```text
 scan_data_career
@@ -154,6 +163,7 @@ PU_GENPILOT5_CV_Escort_*
 *RedFestival_Red_Gold
 *_Paint_Lovestruck_*
 *_Fleetweek_Level2_Camo
+tem_Descnvtc_ubarrel_flsh_*
 
 ```
 

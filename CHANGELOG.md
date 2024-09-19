@@ -91,6 +91,7 @@
 - iae2953 (Lineas sueltas)
 - Mapa interior
 - Descripción objetos (Skins, Componentes, Ropa, Armas, ETC)
+- Cambiado `Computadora` por `Ordenador`
 
 ## v0.11.3
 
