@@ -71,7 +71,7 @@ noise (contramedida misiles) = ruido
 armor = blindaje (me decanto por esta para naves) | armadura (para jugadores)
 newest batch = nueva tanda
 crystal cycle firing mechanism = mecanismo de disparo de ciclo cristalino
-Cooler = Enfriador | Disipador | Refrigerador
+Cooler (Actual) = Radiador | Enfriador | Disipador | Refrigerador
 the Deck the Hull
 pod (cohetes) = pod | contenedor | capsulas
 mauler = devastadora | destructor
@@ -85,6 +85,7 @@ rpm (round per minunte) = dpm (disparos por minuto)
 Underbarrel = Bajo el cañon | Debajo del cañon (Actual)
 stylized graphic = grafico estilizado | diseño estilizado
 Computer = Computadora | Ordenador
+disperse the heat of battle = dispersar el fragor de la batalla | dispersar el calor de la batalla
 ```
 
 ## Traducir
