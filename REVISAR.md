@@ -26,6 +26,8 @@
 
 > `item_Name*` Dejarlo en ingles o traducir ciertas partes (preguntar)
 
+> `huella de calor`
+
 ```
 Livery = diseño (Estilo | Pintura)
 dashboard = tablero -> panel de control
@@ -41,7 +43,7 @@ Datapad = Bloc de datos
 Wildlife = Fauna salvaje (Fauna y flora silvestre)
 People's Alliance = Alianza popular
 Loadout = Equipamiento
-Navy = Armada | Marina (Minuscula Mayuscula)
+Navy = Armada | Marina (Minuscula Mayuscula, `de la Marina/Armada`)
 Stores = Almacenado | Guardado (Contexto de hangares coches)
 deck (cargo) = cubierta (muelle) (Contexto relacionado con el cargo, `deck_Cargo`)
 Handler = Manejador (Gestor | Manipulador | Repartidor)
@@ -75,7 +77,7 @@ Cooler (Actual) = Radiador | Enfriador | Disipador | Refrigerador
 the Deck the Hull
 pod (cohetes) = pod | contenedor | capsulas
 mauler = devastadora | destructor
-Power plant = Generador | Planta de energia 
+Power plant = Generador de energia | Planta de energia | central electrica
 Joint Thruster = Propulsor conjunto
 Retro Thruster = Retro propulsor | Retropropulsor
 Holster = Enfundar
@@ -86,6 +88,9 @@ Underbarrel = Bajo el cañon | Debajo del cañon (Actual)
 stylized graphic = grafico estilizado | diseño estilizado
 Computer = Computadora | Ordenador
 disperse the heat of battle = dispersar el fragor de la batalla | dispersar el calor de la batalla
+coat = abrigo | chaqueta | chaqueton | capa (actual)
+Core = Peto | Pechera | Nucleo (actual)
+top-of-the-line = tope de linea | primera linea (actual) | tope de gama
 ```
 
 ## Traducir
