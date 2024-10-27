@@ -91,6 +91,7 @@ disperse the heat of battle = dispersar el fragor de la batalla | dispersar el c
 coat = abrigo | chaqueta | chaqueton | capa (actual)
 Core = Peto | Pechera | Nucleo (actual)
 top-of-the-line = tope de linea | primera linea (actual) | tope de gama
+Stealth = Sigiloso | Sigilo | Furtivo 
 ```
 
 ## Traducir
@@ -170,7 +171,7 @@ PU_GENPILOT5_CV_Escort_*
 *_Paint_Lovestruck_*
 *_Fleetweek_Level2_Camo
 tem_Descnvtc_ubarrel_flsh_*
-
+item_Desc_SCU_jacket_03_01_centurion
 ```
 
 ## Cosas sueltas
