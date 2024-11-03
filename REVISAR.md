@@ -92,6 +92,8 @@ coat = abrigo | chaqueta | chaqueton | capa (actual)
 Core = Peto | Pechera | Nucleo (actual)
 top-of-the-line = tope de linea | primera linea (actual) | tope de gama
 Stealth = Sigiloso | Sigilo | Furtivo 
+courier goods 
+Temperatura. Clasificacion
 ```
 
 ## Traducir
@@ -113,6 +115,10 @@ Stealth = Sigiloso | Sigilo | Furtivo
 > `una clave cryptokey` revisarlo | `Crypto-Llave`
 
 > `Targeting Computer` | Ordenador de orientacion
+
+> `Generador de escudos` dejarlo en singular
+
+> `Reduccion de daños` dejarlo en singular
 
 ```text
 scan_data_career
