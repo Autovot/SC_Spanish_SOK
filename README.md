@@ -37,5 +37,5 @@ Informacion sobre las releases y la traduccion en [nuestro discord](https://disc
 
 | Versión | Creador/es         | Enlace                                                                                  |
 |---------|--------------------|-----------------------------------------------------------------------------------------|
-| 3.24.0  | Jota_be & Doncasta | [Traducción Murciano](https://github.com/Doncasta1996/Star-Citizen-Spanish)             |
-| 3.23.1  | 0zzyt0             | [Traducción](https://mega.nz/file/FstgxY7b#GqnTukIp7WiKMPnJo_oNukHv5DAzQsG5SUR5xakBImA) |
+| 3.24.3  | Jota_be & Doncasta | [Traducción Murciano](https://github.com/Doncasta1996/Star-Citizen-Spanish)             |
+| 3.24.3  | 0zzyt0             | [Traducción](https://mega.nz/file/TNVkCbgb#u-9CnJ-BJOpvKPI2yV1Q_eLAvUwTWwY2UdrAmuachos) |
