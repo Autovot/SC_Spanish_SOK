@@ -1,7 +1,7 @@
 # [Traducción en Español de Star Citizen](https://discord.gg/aggMUUM4Xr)
 
 > [!CAUTION]
-> ⚠️ Traducción no compatible con la 3.24 (En progreso)⚠️
+> ⚠️ Traducción no compatible con la 4.0 (En progreso)⚠️
 >
 >  [Traducciones amigas que pueden ser compatibles con la 3.24](#traducciones-amigas)
 
