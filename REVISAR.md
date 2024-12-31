@@ -30,7 +30,7 @@
 
 > "sealed face mask"
 
-> "battlefield stalwart" > incondicional en el campo de batalla | baluarte en el campo de batalla
+> "battlefield stalwart"
 
 
 ```
@@ -111,6 +111,8 @@ attachment = Fijacion | Anclajes
 
 > item_Desc_hdtc_utility_light_backpack_01 > Meter alguna referencia a argovot
 
+> item_Descapar_special_ballistic_01 > mejorar
+
 > Outlaws = Faccion no traducir
 
 > todas las descripciones de misiones `*_desc` y añadirle las mejoras
@@ -135,7 +137,7 @@ attachment = Fijacion | Anclajes
 
 > el ADP original es la piedra de toque del blindaje pesado de grado militar. -> la ADP original es el referente en blindaje pesado de grado militar
 
-> cosas que contengan "softshell
+> cosas que contengan "softshell""
 
 ```text
 scan_data_career
