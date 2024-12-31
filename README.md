@@ -38,4 +38,4 @@ Informacion sobre las releases y la traduccion en [nuestro discord](https://disc
 | Versión | Creador/es         | Enlace                                                                                  |
 |---------|--------------------|-----------------------------------------------------------------------------------------|
 | 4.0  | Jota_be & Doncasta | [Traducción Murciano](https://github.com/Doncasta1996/Star-Citizen-Spanish)             |
-| 4.0  | 0zzyt0 (Estado: Preview 82% )            | [Traducción](https://drive.google.com/file/d/1-LEmauHyw8HNq0LnMg9_EKa7Nib6i27e/view?usp=sharing) |
+| 4.0  | 0zzyt0 (Estado: Preview 82%)            | [Traducción](https://drive.google.com/file/d/1-LEmauHyw8HNq0LnMg9_EKa7Nib6i27e/view?usp=sharing) |

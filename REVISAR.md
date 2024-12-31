@@ -28,6 +28,11 @@
 
 > `huella de calor`
 
+> "sealed face mask"
+
+> "battlefield stalwart" > incondicional en el campo de batalla | baluarte en el campo de batalla
+
+
 ```
 Livery = diseño (Estilo | Pintura)
 dashboard = tablero -> panel de control
@@ -104,6 +109,8 @@ attachment = Fijacion | Anclajes
 
 ## Revisar las siguientes variables
 
+> item_Desc_hdtc_utility_light_backpack_01 > Meter alguna referencia a argovot
+
 > Outlaws = Faccion no traducir
 
 > todas las descripciones de misiones `*_desc` y añadirle las mejoras
@@ -127,6 +134,8 @@ attachment = Fijacion | Anclajes
 > Temp. Clasificacion
 
 > el ADP original es la piedra de toque del blindaje pesado de grado militar. -> la ADP original es el referente en blindaje pesado de grado militar
+
+> cosas que contengan "softshell
 
 ```text
 scan_data_career
@@ -189,6 +198,7 @@ item_Desc_SCU_jacket_03_01_centurion
 item_Desc_cba_surgeon_mask_01
 PU_IAEANN02_F_LPA_Announce_GeneralInfo_IG_001_WhetherItsInnovative
 *_cds_legacy_armor_*
+item_Desc_oct_pants_01_Shared
 ```
 
 ## Cosas sueltas
