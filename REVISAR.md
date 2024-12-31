@@ -93,7 +93,9 @@ Core = Peto | Pechera | Nucleo (actual)
 top-of-the-line = tope de linea | primera linea (actual) | tope de gama
 Stealth = Sigiloso | Sigilo | Furtivo 
 courier goods 
-Temperatura. Clasificacion
+Temp. Rating = Temperatura. Clasificacion | Rango de temperatura
+Item type = Tipo de articulo | Tipo de objeto | Categoria
+attachment = Fijacion | Anclajes
 ```
 
 ## Traducir
@@ -119,6 +121,12 @@ Temperatura. Clasificacion
 > `Generador de escudos` dejarlo en singular
 
 > `Reduccion de daños` dejarlo en singular
+
+> "Exposicion Aeroespacial Intergalactica"
+
+> Temp. Clasificacion
+
+> el ADP original es la piedra de toque del blindaje pesado de grado militar. -> la ADP original es el referente en blindaje pesado de grado militar
 
 ```text
 scan_data_career
@@ -178,10 +186,11 @@ PU_GENPILOT5_CV_Escort_*
 *_Fleetweek_Level2_Camo
 tem_Descnvtc_ubarrel_flsh_*
 item_Desc_SCU_jacket_03_01_centurion
+item_Desc_cba_surgeon_mask_01
+PU_IAEANN02_F_LPA_Announce_GeneralInfo_IG_001_WhetherItsInnovative
+*_cds_legacy_armor_*
 ```
 
 ## Cosas sueltas
 
 > VOID
-
-
