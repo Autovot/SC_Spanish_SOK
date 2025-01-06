@@ -143,6 +143,10 @@ scraper = raspador
 
 > cosas que contengan "softshell""
 
+> ~serviceBeacon(ContractType) < hay que revisarlo ingame
+
+> revisar como funciona las variables para ver si se puede poner con las teclas "refueling_HUD_Beacon_offer"
+
 ```text
 scan_data_career
 scan_data_carrying
@@ -207,6 +211,7 @@ PU_IAEANN02_F_LPA_Announce_GeneralInfo_IG_001_WhetherItsInnovative
 item_Desc_oct_pants_01_Shared
 *_Deschdgw_*
 *_Desclbco_pistol_*
+roughready_claimsweep_title_*
 ```
 
 ## Cosas sueltas
