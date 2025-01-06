@@ -12,6 +12,8 @@
 
 - Tema ingeneria mm
 
+- bletted
+
 ## Revisar cada parche
 
 - `ea_ui_patchnotes_version`
@@ -101,6 +103,8 @@ courier goods
 Temp. Rating = Temperatura. Clasificacion | Rango de temperatura
 Item type = Tipo de articulo | Tipo de objeto | Categoria
 attachment = Fijacion | Anclajes
+spool (referente al motor cuantico) = activacion | calentamiento
+scraper = raspador
 ```
 
 ## Traducir
@@ -201,6 +205,8 @@ item_Desc_cba_surgeon_mask_01
 PU_IAEANN02_F_LPA_Announce_GeneralInfo_IG_001_WhetherItsInnovative
 *_cds_legacy_armor_*
 item_Desc_oct_pants_01_Shared
+*_Deschdgw_*
+*_Desclbco_pistol_*
 ```
 
 ## Cosas sueltas
