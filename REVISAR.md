@@ -34,6 +34,8 @@
 
 > "battlefield stalwart"
 
+> "antimatter ordinance"
+
 
 ```
 Livery = diseño (Estilo | Pintura)
@@ -212,6 +214,8 @@ item_Desc_oct_pants_01_Shared
 *_Deschdgw_*
 *_Desclbco_pistol_*
 roughready_claimsweep_title_*
+mg_ruto_confirmkill_desc_0001
+mg_ruto_spacecargo_illegal_desc_0006
 ```
 
 ## Cosas sueltas
