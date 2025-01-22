@@ -107,6 +107,7 @@ Item type = Tipo de articulo | Tipo de objeto | Categoria
 attachment = Fijacion | Anclajes
 spool (referente al motor cuantico) = activacion | calentamiento
 scraper = raspador
+skimmers
 ```
 
 ## Traducir
@@ -216,6 +217,17 @@ item_Desc_oct_pants_01_Shared
 roughready_claimsweep_title_*
 mg_ruto_confirmkill_desc_0001
 mg_ruto_spacecargo_illegal_desc_0006
+*ARMR_VNCL_Blade,P
+*ARMR_VNCL_Glaive,P
+*ARMR_VNCL_Scythe,P
+*ARMR_VNCL_Stinger,P
+*ARMR_VNCL_Void,P
+*ARMR_XIAN_Scout,P
+planetcollect_drug_desc_0010
+mg_battaglia_search_crew_desc_0001
+mg_battaglia_blackbox_desc_0001
+spacecargo_illegal_desc_0003
+vehicle_DescDRAK_Cutlass_Steel < Categoria de nave incorrecta
 ```
 
 ## Cosas sueltas
