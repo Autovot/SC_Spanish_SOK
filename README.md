@@ -1,7 +1,7 @@
 # [Traducción en Español de Star Citizen](https://discord.gg/aggMUUM4Xr)
 
 > [!CAUTION]
-> ⚠️ Traducción no compatible con la 4.0.1 (En progreso)⚠️
+> ⚠️ Traducción no compatible con la 4.1.1 (En progreso)⚠️
 >
 >  [Traducciones amigas que pueden ser compatibles con la 4.0](#traducciones-amigas)
 
@@ -37,5 +37,5 @@ Informacion sobre las releases y la traduccion en [nuestro discord](https://disc
 
 | Versión | Creador/es         | Enlace                                                                                  |
 |---------|--------------------|-----------------------------------------------------------------------------------------|
-| 4.0.1  | Jota_be & Doncasta | [Traducción Murciano](https://github.com/Doncasta1996/Star-Citizen-Spanish)             |
+| 4.1.1  | Jota_be & Doncasta | [Traducción Murciano](https://github.com/Doncasta1996/Star-Citizen-Spanish)             |
 | 4.0.1  | 0zzyt0             | [Traducción](https://drive.google.com/file/d/1Df8xWuuC_WbTjyzCcePdwQEm9Pwn5jgN/view) |
